@@ -1,0 +1,15 @@
+.card {
+  max-width: 150px;
+}
+
+.cardContainer {
+  display: inline-block;
+  outline: none;
+}
+
+.react-draggable-transparent-selection *::-moz-selection {all: inherit;}
+.react-draggable-transparent-selection *::selection {all: inherit;}
+
+.react-draggable, .cursor {
+  cursor: move;
+}
