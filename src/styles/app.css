@@ -1,10 +1,14 @@
-.card {
-  max-width: 150px;
-}
-
 .cardContainer {
   display: inline-block;
   outline: none;
+}
+
+.card {
+  max-width: 125px;
+}
+
+.cardContainer:focus > .card {
+  outline: auto;
 }
 
 .react-draggable-transparent-selection *::-moz-selection {all: inherit;}
