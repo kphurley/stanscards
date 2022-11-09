@@ -1,6 +1,7 @@
 .cardContainer {
   display: inline-block;
   outline: none;
+  z-index: 1;
 }
 
 .card {
@@ -11,9 +12,118 @@
   outline: auto;
 }
 
+.contentPane {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 36px);
+}
+
+.mainContainer {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.heroRows {
+  background: #BCD5F0;
+  height: 75%;
+}
+
+.playerDiscardZone {
+  color: #BCD5F0;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 4px;
+  background: #4F6D7A;
+  height: 210px;
+  width: 140px;
+}
+
+.playerDeckZone {
+  color: #BCD5F0;
+  position: absolute;
+  bottom: 20px;
+  right: 180px;
+  border-radius: 4px;
+  background: #4F6D7A;
+  height: 210px;
+  width: 140px;
+}
+
+.playerHandZone {
+  color: #BCD5F0;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  border-radius: 4px;
+  background: #4F6D7A;
+  height: 210px;
+  width: 800px;
+}
+
+.playerHeroCardZone {
+  color: #BCD5F0;
+  position: absolute;
+  bottom: 240px;
+  left: 20px;
+  border-radius: 4px;
+  background: #4F6D7A;
+  height: 210px;
+  width: 140px;
+}
+
 .react-draggable-transparent-selection *::-moz-selection {all: inherit;}
 .react-draggable-transparent-selection *::selection {all: inherit;}
 
 .react-draggable, .cursor {
   cursor: move;
+}
+
+.villainCardZone {
+  border-radius: 4px;
+  background: #E5625E;
+  height: 200px;
+  width: 140px;
+}
+
+.villainHealth {
+  color: #BCD5F0;
+  border-radius: 36px;
+  background: #E5625E;
+  height: 120px;
+  width: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.villainHealthCount {
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+  border-radius: 36px;
+  background: #BCD5F0;
+  height: 40px;
+  width: 50px;
+  text-align: center;
+}
+
+.villainHealthItem {
+  margin: 8px;
+}
+
+.villainHorizontalCardZone {
+  border-radius: 4px;
+  background: #E5625E;
+  height: 160px;
+  width: 220px;
+}
+
+.villainRow {
+  background: #FFDEC2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25%
 }

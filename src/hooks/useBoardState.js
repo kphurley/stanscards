@@ -10,6 +10,7 @@ const initialState = {
   // Special state for the hero, includes exhausted, flipped
   // Definitely will need stuff to capture multiple hero cards (Ironheart) or triple cards (Ant-Man, Wasp)
   hero: {},
+  packs: [],
   playerBoard: [],
   playerDeck: [],
   playerDiscard: [],
@@ -41,9 +42,14 @@ function boardStateReducer(state, action) {
       updatedBoard.push(drawnCard);
 
       return { ...state, playerDeck: updatedDeck, playerBoard: updatedBoard };
+    case "SET_PACKS":
+      return { ...state, packs: action.payload };
     case "UPDATE_DECK":
       const { heroCard, cards } = action.payload
       return { ...state, hero: { card: heroCard, exhausted: false, alterEgo: true }, playerDeck: cards };
+    case "UPDATE_HERO":
+      const { obligation, nemesisSet } = action.payload;
+      return { ...state, hero: { ...state.hero, obligation, nemesisSet }};
     case "FLIP_HERO":
       return { ...state, hero: { ...state.hero, alterEgo: action.payload }};
     default:
