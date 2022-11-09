@@ -24,6 +24,7 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
+    "array-shuffle": "^3.0.0",
     "fast-xml-parser": "^4.0.11",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

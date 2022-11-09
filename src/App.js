@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect } from 'react';
-import { Container, Content, Header, Nav } from 'rsuite';
+import { Container, Content, Header, Nav, Popover, Whisper } from 'rsuite';
 import Draggable from 'react-draggable';
 import { useFilePicker } from 'use-file-picker';
 
@@ -63,6 +63,14 @@ const App = () => {
   // }, [boardState.hero])
 
   const handleKeyPress = useCallback(createKeyHandler(boardState, dispatch), [boardState, dispatch]);
+
+  const playerDeckContextMenu = (
+    <Popover arrow={false}>
+      <Nav>
+        <Nav.Item onClick={() => dispatch({ type: "SHUFFLE_DECK", payload: "playerDeck" })}>Shuffle</Nav.Item>
+      </Nav>
+    </Popover>
+  )
   
   return (
     <div className="mainContainer">
@@ -102,23 +110,25 @@ const App = () => {
           </div>
 
           <div className="heroRows">
-            <div className="playerDeckZone">
-              Player Deck
-              {/* <-- player deck --> */}
-              {
-                boardState?.playerDeck?.length > 0 && (
-                  <Draggable>
-                    <div data-id="playerDeck" tabIndex="-1" className="cardContainer" onKeyPress={handleKeyPress}>
-                      <img
-                        className="card"
-                        src="/images/marvel-player-back.png"
-                        draggable="false"
-                      />
-                    </div>
-                  </Draggable>
-                )
-              }
-            </div>
+            <Whisper trigger="contextMenu" speaker={playerDeckContextMenu}>
+              <div className="playerDeckZone">
+                Player Deck
+                {/* <-- player deck --> */}
+                {
+                  boardState?.playerDeck?.length > 0 && (
+                    <Draggable>
+                      <div data-id="playerDeck" tabIndex="-1" className="cardContainer" onKeyPress={handleKeyPress}>
+                        <img
+                          className="card"
+                          src="/images/marvel-player-back.png"
+                          draggable="false"
+                        />
+                      </div>
+                    </Draggable>
+                  )
+                }
+              </div>
+            </Whisper>
             <div className="playerDiscardZone">
               Player Discard
             </div>
