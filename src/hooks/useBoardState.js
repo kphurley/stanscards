@@ -1,4 +1,5 @@
 import { useReducer } from "react";
+import arrayShuffle from 'array-shuffle';
 
 // Each of these contains zero or more cards, each card having the following shape:
 // { id: uuid, name: string }
@@ -44,6 +45,9 @@ function boardStateReducer(state, action) {
       return { ...state, playerDeck: updatedDeck, playerBoard: updatedBoard };
     case "SET_PACKS":
       return { ...state, packs: action.payload };
+    case "SHUFFLE_DECK":
+      const shuffledDeck = arrayShuffle(state[action.payload])
+      return { ...state, [action.payload]: shuffledDeck };
     case "UPDATE_DECK":
       const { heroCard, cards } = action.payload
       return { ...state, hero: { card: heroCard, exhausted: false, alterEgo: true }, playerDeck: cards };
