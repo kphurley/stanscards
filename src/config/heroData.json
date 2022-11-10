@@ -1,0 +1,1274 @@
+{
+  "18ae183c-de26-4369-8a41-424d58f01631": {
+    "hero": {
+      "id": "18ae183c-de26-4369-8a41-424d58f01631",
+      "name": "Spider-Man"
+    },
+    "obligation": {
+      "octgn_id": "6c403e3d-bcb9-43f0-9928-498c958d22c3",
+      "name": "Eviction Notice"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "1cee2430-914d-42c0-9d3e-ea583ca73ba2",
+        "name": "Highway Robbery",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "5981e1e8-87ee-40cc-be89-4459648d6bcc",
+        "name": "Vulture",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "10d0ab81-6ebd-418e-8d2c-1d7b47976b37",
+        "name": "Sweeping Swoop",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "5d7b24ab-140b-4b61-a4fb-7a4061f778d4",
+        "name": "The Vulture's Plans",
+        "quantity": 1
+      }
+    ]
+  },
+  "78343f41-6bfd-456d-965a-d6456a01a581": {
+    "hero": {
+      "id": "78343f41-6bfd-456d-965a-d6456a01a581",
+      "name": "Captain Marvel"
+    },
+    "obligation": {
+      "octgn_id": "00c2957b-8a7e-40f9-9f52-62f4c3c175e9",
+      "name": "Family Emergency"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "78ea09d6-bdd6-4133-b1b4-446ae53a68f6",
+        "name": "The Psych-Magnitron",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "75e5f8a6-ebe3-40b9-b067-79749c37f0e8",
+        "name": "Yon-Rogg",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "f540bb02-6391-40df-b836-29d9c74b31b2",
+        "name": "Kree Manipulator",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "efd4b194-0f9e-4c6d-a860-10023f226338",
+        "name": "Yon-Rogg's Treason",
+        "quantity": 1
+      }
+    ]
+  },
+  "d46d5e03-c8b7-4ff5-8633-3941c0561812": {
+    "hero": {
+      "id": "d46d5e03-c8b7-4ff5-8633-3941c0561812",
+      "name": "She-Hulk"
+    },
+    "obligation": {
+      "octgn_id": "215756dd-e34d-4d10-be2e-7d972ade0e36",
+      "name": "Legal Work"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "c2071209-7ce4-4794-9013-08d38d1b260e",
+        "name": "Personal Challenge",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "1eda50fe-f3a7-4751-a68c-3f0093278b08",
+        "name": "Titania",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "e40d1f4b-3c64-4452-8b75-4900f023d2eb",
+        "name": "Genetically Enhanced",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "bb04e1f3-9c1a-40b7-a8a9-78781abc2523",
+        "name": "Titania's Fury",
+        "quantity": 2
+      }
+    ]
+  },
+  "9780ba79-44e4-4530-b865-5983a60372b0": {
+    "hero": {
+      "id": "9780ba79-44e4-4530-b865-5983a60372b0",
+      "name": "Iron Man"
+    },
+    "obligation": {
+      "octgn_id": "59094ad5-afba-45c9-bad8-0881549e1f03",
+      "name": "Business Problems"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "61ad993f-1263-47d8-81f2-eb4ce6abf6a2",
+        "name": "Imminent Overload",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "e5cbdf73-a226-4720-a43a-af700f5140ef",
+        "name": "Whiplash",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "c72e742d-b695-47aa-b35e-4634b87fe69c",
+        "name": "Electric Whip Attack",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "14ba1590-2611-4a16-a7b0-c3eb2e71b2e9",
+        "name": "Electromagnetic Backlash",
+        "quantity": 1
+      }
+    ]
+  },
+  "ced52353-61f7-4ed1-8469-01d396904d61": {
+    "hero": {
+      "id": "ced52353-61f7-4ed1-8469-01d396904d61",
+      "name": "Black Panther"
+    },
+    "obligation": {
+      "octgn_id": "8dc9fe9d-5174-4e7d-933a-cabe2b08cdae",
+      "name": "Affairs of State"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "24ec5d3e-e0e1-4a7a-b290-ebaefe854f63",
+        "name": "Usurp The Throne",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "5a468cd0-b1c1-45e9-80d6-864640934d08",
+        "name": "Killmonger",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "5c73fbb6-fc58-4c4e-ae6a-b28af5a8ddf5",
+        "name": "Heart-Shaped Herb",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "a52a8c6e-abb8-47bd-9aad-0135ce99dee8",
+        "name": "Ritual Combat",
+        "quantity": 2
+      }
+    ]
+  },
+  "cc51a04c-6cfa-4cbd-b04f-12b4f2ef0de1": {
+    "hero": {
+      "id": "cc51a04c-6cfa-4cbd-b04f-12b4f2ef0de1",
+      "name": "Captain America"
+    },
+    "obligation": {
+      "octgn_id": "cf2e5562-75f6-481c-bb68-9f267e3bdeab",
+      "name": "Man Out of Time"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "2a035a6f-a2de-49a4-b5db-5e87d0ce058c",
+        "name": "Hit Squad",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "9a43ea1c-e866-4910-845e-597d4445f4d1",
+        "name": "Baron Zemo",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "a5954dcf-c1e2-45ba-b43b-003d9c41ed39",
+        "name": "Hydra Soldier",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "d70ae198-09ba-4298-b677-6c215f3a956a",
+        "name": "Hail Hydra!",
+        "quantity": 1
+      }
+    ]
+  },
+  "be1d47ec-ba38-40d4-94cd-e37cc045cd50": {
+    "hero": {
+      "id": "be1d47ec-ba38-40d4-94cd-e37cc045cd50",
+      "name": "Ms. Marvel"
+    },
+    "obligation": {
+      "octgn_id": "92a98561-d1aa-400d-ba04-967f0bf71c99",
+      "name": "Home by Dawn"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "ad942e7e-f8fd-48f3-9916-3c2118262860",
+        "name": "Generation Why?",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "d41f3613-c800-4b77-8196-9fea702bf043",
+        "name": "Thomas Edison",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "13212762-7d4e-4a86-923e-5614b383c472",
+        "name": "Edison's Giant Robot",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "7223e811-3413-4340-9a3d-19706021edfe",
+        "name": "Harvest",
+        "quantity": 2
+      }
+    ]
+  },
+  "e4f1243a-c2de-4275-98d0-3e848f3c755c": {
+    "hero": {
+      "id": "e4f1243a-c2de-4275-98d0-3e848f3c755c",
+      "name": "Thor"
+    },
+    "obligation": {
+      "octgn_id": "7942a389-fe5a-4e8e-9e9e-41c72afb2e41",
+      "name": "Odin's Anger"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "10f91524-ab08-4b7c-9f57-3140ea828c74",
+        "name": "Family Feud",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "3e5874c5-0dc1-453c-a3a1-a34a22d22044",
+        "name": "Loki",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "9f10b81e-53f1-430e-b884-2da425c9dfbb",
+        "name": "Frost Giant",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "b015fae0-53c1-4f69-9907-e0e027cd6dd2",
+        "name": "Trickster",
+        "quantity": 1
+      }
+    ]
+  },
+  "9fccccbb-73c6-4f54-8a07-5c25836452c7": {
+    "hero": {
+      "id": "9fccccbb-73c6-4f54-8a07-5c25836452c7",
+      "name": "Black Widow"
+    },
+    "obligation": {
+      "octgn_id": "f44661c7-4a6f-45d9-a9e0-80eb573eaecf",
+      "name": "Burn Notice"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "536feaab-a3d3-481d-aa62-c9a7127bd49a",
+        "name": "Taskmaster",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "04340d08-0736-467b-930f-611b9fb4afa9",
+        "name": "Killer for Hire",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "15ba03c8-6c06-43df-bdbb-da5787ec3718",
+        "name": "Hydra Mercenary",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "0ea07f41-a32e-4fcb-a698-3eeac21571f7",
+        "name": "Deadly Shot",
+        "quantity": 1
+      }
+    ]
+  },
+  "81d1cf04-43ab-4817-8746-18995bc7ddca": {
+    "hero": {
+      "id": "81d1cf04-43ab-4817-8746-18995bc7ddca",
+      "name": "Doctor Strange"
+    },
+    "obligation": {
+      "octgn_id": "a3f7ee13-c540-445b-b7d2-aad25d05a241",
+      "name": "Physical Toll"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "b252f44b-3bf0-483d-8775-02c0b090117b",
+        "name": "Baron Mordo",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "98f64f7b-1fdd-4975-bd29-fc22d38abdd2",
+        "name": "Open the Dark Dimension",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "96162082-c6e2-403f-bb95-8717f019288f",
+        "name": "Counterspell",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "3ec62369-c299-4bf6-80ed-b4e479cebd38",
+        "name": "Thoughtcasting",
+        "quantity": 1
+      }
+    ]
+  },
+  "284080a3-1621-4c08-a9ae-7bc131f70559": {
+    "hero": {
+      "id": "284080a3-1621-4c08-a9ae-7bc131f70559",
+      "name": "Hulk"
+    },
+    "obligation": {
+      "octgn_id": "01b75dd0-6b94-4ce7-908b-d6a4ba7a8001",
+      "name": "Inner Demons"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "6f0ef4c3-feb4-4204-9e35-f962412cc233",
+        "name": "Abomination",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "1b86c01a-1b23-4727-af53-275c7288ca65",
+        "name": "Total Destruction",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "4d765917-1dca-492c-a4b1-612430025563",
+        "name": "Clash Of The Titans",
+        "quantity": 3
+      }
+    ]
+  },
+  "2f74b331-1b9f-4766-ac0f-476ef3870da5": {
+    "hero": {
+      "id": "2f74b331-1b9f-4766-ac0f-476ef3870da5",
+      "name": "Hawkeye"
+    },
+    "obligation": {
+      "octgn_id": "429dbd5b-a5c4-48a6-8986-3051f317d095",
+      "name": "Criminal Past"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "d022c3bb-e1b2-4b42-bb9b-a242e765a9c8",
+        "name": "Crossfire",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "4313a7ed-eee0-4866-a67c-08bb0960432b",
+        "name": "Marked for Death",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "ef3e301d-1e9b-4bc2-867d-597ca5edb971",
+        "name": "Crossfire's Rifle",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "c455075d-0b69-487a-8e57-e20f7402b25b",
+        "name": "Sniper Shot",
+        "quantity": 2
+      }
+    ]
+  },
+  "21221f88-db06-4c5b-8208-483e75fb2577": {
+    "hero": {
+      "id": "21221f88-db06-4c5b-8208-483e75fb2577",
+      "name": "Spider-Woman"
+    },
+    "obligation": {
+      "octgn_id": "01444174-f1af-473c-b118-ff8c59126e65",
+      "name": "Uncertain Loyalties"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "74989191-9926-4a74-a8ea-c5f365491bea",
+        "name": "The Viper",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "6989eabc-7186-4a36-a8f9-581361472c64",
+        "name": "The Viper's Ambition",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "29398d62-8647-41a4-b0c9-17f4526b81d1",
+        "name": "Hydra Regular",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "57f7cb6f-05b3-4b8e-80dc-b37d52e34c9d",
+        "name": "Hail Hydra!",
+        "quantity": 1
+      }
+    ]
+  },
+  "b768a53b-cb8c-47c5-9b65-f20ed2d89837": {
+    "hero": {
+      "id": "b768a53b-cb8c-47c5-9b65-f20ed2d89837",
+      "name": "Ant-Man"
+    },
+    "obligation": {
+      "octgn_id": "a36104d0-84d0-471a-9f9d-768deeb191b8",
+      "name": "Care for Cassie"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "da33efbe-44cb-40c0-abae-ad2b5183318c",
+        "name": "Tech Theft",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "a53b016e-3cdd-4133-88f5-95a24af88203",
+        "name": "Yellowjacket",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "7fd5f22f-d057-451e-8a7a-59b58cf217a6",
+        "name": "Size Increase",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "451aa3cc-4ce1-4a38-9699-7863e04c226d",
+        "name": "Yellowjacket's Plan",
+        "quantity": 1
+      }
+    ]
+  },
+  "8f023a00-d5d2-4ae6-ade7-3418e0b6f160": {
+    "hero": {
+      "id": "8f023a00-d5d2-4ae6-ade7-3418e0b6f160",
+      "name": "Wasp"
+    },
+    "obligation": {
+      "octgn_id": "d8b34ff7-287f-4f76-aaf9-ae727f2415f9",
+      "name": "Red Dreams"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "76a14303-9ba7-40ce-b10a-086eee956a72",
+        "name": "Mother's Orders",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "507d3bc3-11c5-4a4e-9460-20007005565c",
+        "name": "Beetle",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "f4755d26-c6d5-4203-941c-004549217648",
+        "name": "Beetle Armor MK IV",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "c7235d7f-9232-4ead-ad36-4b6f756b0570",
+        "name": "Beetle Mania",
+        "quantity": 2
+      }
+    ]
+  },
+  "49fd630a-a3a2-4ca9-9f2e-e35740836630": {
+    "hero": {
+      "id": "49fd630a-a3a2-4ca9-9f2e-e35740836630",
+      "name": "Quicksilver"
+    },
+    "obligation": {
+      "octgn_id": "aff0b0f9-895a-47c0-b6a8-c09f30d3aedd",
+      "name": "Need for Speed"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "56d74d51-dff1-4bf7-8e95-03b70fc7abdf",
+        "name": "Extortion of Seismic Proportion",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "8e7f04f2-7d76-401e-b95d-ca87cb421004",
+        "name": "Avalanche",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "18509294-70a1-4302-a821-fdba01606479",
+        "name": "Vibration Resistance",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "f3f34d13-7b0d-4b56-9609-cb8e8e35c1d1",
+        "name": "Earthquake",
+        "quantity": 2
+      }
+    ]
+  },
+  "4cef9fbe-20b2-432f-af05-066cb82c450a": {
+    "hero": {
+      "id": "4cef9fbe-20b2-432f-af05-066cb82c450a",
+      "name": "Scarlet Witch"
+    },
+    "obligation": {
+      "octgn_id": "8688a489-ff05-4c09-a53e-9a91a578dca5",
+      "name": "Slipping Sanity"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "81193c72-0943-4ae3-98c8-4cb0ba0952a6",
+        "name": "The Next Evolution",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "90df3c95-937a-4f53-9da4-91c59fdd3a0c",
+        "name": "Luminous",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "9d18727d-0664-4f17-82a6-33b48925f934",
+        "name": "Magical Suspension",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "3c3b6637-6338-48b6-a80a-cfc5b66b1992",
+        "name": "Chaos Manipulation",
+        "quantity": 1
+      }
+    ]
+  },
+  "67701e4e-cd05-4a55-82fe-651fd951d136": {
+    "hero": {
+      "id": "67701e4e-cd05-4a55-82fe-651fd951d136",
+      "name": "Groot"
+    },
+    "obligation": {
+      "octgn_id": "cafea9fc-4041-448d-8964-de24f00da4a9",
+      "name": "Wilt"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "d5f1e9f8-e0ea-49d2-8445-4f0e68efb306",
+        "name": "Blazing Inferno",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "4dabbbdd-89d5-4ff4-8ad3-6d7a582a710e",
+        "name": "Furnax",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "deebe0b5-0e91-4c35-a7d3-2326f8364632",
+        "name": "Fan the Flames",
+        "quantity": 3
+      }
+    ]
+  },
+  "fb6aef48-cc6f-41cb-9237-2326b72f83f2": {
+    "hero": {
+      "id": "fb6aef48-cc6f-41cb-9237-2326b72f83f2",
+      "name": "Rocket Raccoon"
+    },
+    "obligation": {
+      "octgn_id": "732e258e-14d5-4589-a42d-fdc405b22e07",
+      "name": "Crisis on Halfworld"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "0a0dbe64-2e99-45f5-b797-8c29cce9d8eb",
+        "name": "Vendetta",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "cd742faa-d4f3-414f-b2ef-d3bf2b97ce4f",
+        "name": "Blackjack O'Hare",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "b02462d3-cbce-45f9-86a7-c7760a28b8a2",
+        "name": "Blackjack's Bazooka",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "f9b20163-6368-41f7-9585-2f4f5e28f469",
+        "name": "Planetary Invasion",
+        "quantity": 2
+      }
+    ]
+  },
+  "19271db2-323b-4d18-ac6a-f756a7039120": {
+    "hero": {
+      "id": "19271db2-323b-4d18-ac6a-f756a7039120",
+      "name": "Star-Lord"
+    },
+    "obligation": {
+      "octgn_id": "14ce213e-e044-42fa-b542-14f4c881cb2e",
+      "name": "Banishment"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "fe0e48a2-090d-4b7e-a998-f46bf9cd7e84",
+        "name": "Budding Crime Syndicate",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "6b5653b3-8b04-4d8c-97ff-940783a806d6",
+        "name": "Mister Knife",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "718f4bec-cbd1-46b4-9590-dd8a7be8581e",
+        "name": "Spartoi Cunning",
+        "quantity": 3
+      }
+    ]
+  },
+  "01a06058-c829-49f3-abf3-feccab737d0a": {
+    "hero": {
+      "id": "01a06058-c829-49f3-abf3-feccab737d0a",
+      "name": "Gamora"
+    },
+    "obligation": {
+      "octgn_id": "58891aa7-4beb-47ed-a42a-7b7d428a8eff",
+      "name": "Unfulfilled Destiny"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "e2731e0a-3b34-469e-b277-3e9b8f675db4",
+        "name": "Sibling Rivalry",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "14b3e039-3024-44ec-bf63-649701bc68bf",
+        "name": "Nebula",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "1558fbcd-a85d-4798-bacc-ae85ae505344",
+        "name": "In A Bind",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "3f79b00b-6cb5-4c2c-95f7-3cb25461b9b3",
+        "name": "Waylay",
+        "quantity": 2
+      }
+    ]
+  },
+  "d12250e0-b484-4902-aa87-8692f8132136": {
+    "hero": {
+      "id": "d12250e0-b484-4902-aa87-8692f8132136",
+      "name": "Drax"
+    },
+    "obligation": {
+      "octgn_id": "aabaedae-664e-4c8e-809d-5c26f5dc803a",
+      "name": "Memories of Another Life"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "f3f8f970-4b5a-4678-9d08-4629cda5471f",
+        "name": "Cull the Weak",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "63dce391-2898-42f4-8388-4533111ff4e4",
+        "name": "Yotat the Destroyer",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "9f443269-ff87-4324-bd69-9cc68eff7b41",
+        "name": "Challenge Accepted",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "0b0c706f-20d9-424c-b300-33781bb74dcd",
+        "name": "\"I Will Destroy You!\"",
+        "quantity": 2
+      }
+    ]
+  },
+  "2d31dfce-8cf5-41b2-8ada-8158a363d320": {
+    "hero": {
+      "id": "2d31dfce-8cf5-41b2-8ada-8158a363d320",
+      "name": "Venom"
+    },
+    "obligation": {
+      "octgn_id": "f269a59a-4bc6-476f-9c36-20586a3de340",
+      "name": "Struggle for Control"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "a0444c6e-31f1-4de9-91ff-25b2de655cf2",
+        "name": "Klyntar Frenzy",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "cdc9410c-6315-4c1c-a92e-4069c71ed2d8",
+        "name": "Enraged Symbiote",
+        "quantity": 4
+      }
+    ]
+  },
+  "a43deb5e-355b-4308-9c07-d7ff6366cd8a": {
+    "hero": {
+      "id": "a43deb5e-355b-4308-9c07-d7ff6366cd8a",
+      "name": "Spectrum"
+    },
+    "obligation": {
+      "octgn_id": "709e69e1-e406-408a-8ff7-594c1a75c3b1",
+      "name": "Loss of Control"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "3df37185-31d8-45c8-bab5-f61b5a5a2c96",
+        "name": "Radioactive Man",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "776dc6c9-5bc3-4e23-8263-a3c217eef117",
+        "name": "Reactor Meltdown",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "3050051e-a486-4c0c-8569-cf26ffb969de",
+        "name": "Sap Power",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "97222825-1335-494d-b4c2-9692b72806e3",
+        "name": "Radioactive Blast",
+        "quantity": 1
+      }
+    ]
+  },
+  "5fbbd328-5283-4a1f-9215-77f28ac8c493": {
+    "hero": {
+      "id": "5fbbd328-5283-4a1f-9215-77f28ac8c493",
+      "name": "Adam Warlock"
+    },
+    "obligation": {
+      "octgn_id": "18bbfdfd-05b9-409e-bc07-c9c72ebb3d42",
+      "name": "Regeneration Cycle"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "0dee272a-56df-4355-825a-ca198985c9fd",
+        "name": "The Magus",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "c9201da6-2d34-49f0-8241-26d6efb2b0b7",
+        "name": "Universal Church of Truth",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "1c5e678e-9214-4b41-afb5-b6a1764fd2d5",
+        "name": "Zealot of thuth",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "19ccb76a-4a95-4b15-82af-c1ddfdc67dd3",
+        "name": "Cosmic Inquisition",
+        "quantity": 1
+      }
+    ]
+  },
+  "8158b421-c571-4891-89ac-5fe20ded8774": {
+    "hero": {
+      "id": "8158b421-c571-4891-89ac-5fe20ded8774",
+      "name": "Nebula"
+    },
+    "obligation": {
+      "octgn_id": "5788b461-e889-4f99-81bb-c933ddcc1683",
+      "name": "Inferiority Complex"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "a66d111b-b57d-4bab-8522-5fefb3acb715",
+        "name": "Gamora",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "3e81bc35-a400-42c7-8661-7ce5589ba283",
+        "name": "Self-Preservation",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "655fe44e-a31e-4a25-9123-a9601fe2c679",
+        "name": "Lethal Weapon",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "45b359b3-6cd6-40b3-9267-4a73c7a5040c",
+        "name": "Old Rivals",
+        "quantity": 2
+      }
+    ]
+  },
+  "5ffd29cc-de0f-41f0-87a6-571042058191": {
+    "hero": {
+      "id": "5ffd29cc-de0f-41f0-87a6-571042058191",
+      "name": "War Machine"
+    },
+    "obligation": {
+      "octgn_id": "e9278bba-45de-4a4a-a621-4a4910b7d757",
+      "name": "Equipment Malfunction"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "f4c57903-84f5-4630-a0d5-054b8a26cf74",
+        "name": "Living Laser",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "b1de5a4a-b03a-4c74-8481-03c6271deecc",
+        "name": "Deadly Light Show",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "f51ae0a0-db5a-4c27-8e3b-0d9f8c68aee2",
+        "name": "Laser Strike",
+        "quantity": 3
+      }
+    ]
+  },
+  "dad11c1e-86ec-49ac-9509-2df1c575239b": {
+    "hero": {
+      "id": "dad11c1e-86ec-49ac-9509-2df1c575239b",
+      "name": "Valkyrie"
+    },
+    "obligation": {
+      "octgn_id": "03da2c8d-61d9-4868-b583-d6545291bfbf",
+      "name": "Trouble in Otherworld"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "4ba163e7-c2ae-46a5-8b9b-9fd35f0f4bc5",
+        "name": "Enchantress",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "c5cf7bc4-2886-4ed5-a883-437a3d2b8356",
+        "name": "Powerful Enchantments",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "02c9e2d3-39c2-4b1c-9dbf-d4b2cfeb2b87",
+        "name": "Beguiled",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "8da4ccf1-c623-4430-a6a9-54106e82bfbc",
+        "name": "Seduced",
+        "quantity": 2
+      }
+    ]
+  },
+  "4141ca7b-ffda-42ed-8432-c2772ca13495": {
+    "hero": {
+      "id": "4141ca7b-ffda-42ed-8432-c2772ca13495",
+      "name": "Vision"
+    },
+    "obligation": {
+      "octgn_id": "4e80c73e-4f2b-4c24-8cc4-328816ebd076",
+      "name": "Corrupted Programming"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "3e5419e8-da40-4861-b3e3-575989ac294b",
+        "name": "Ultron",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "9124c689-6c22-45ef-8f0d-d32c103b20fc",
+        "name": "Ultron Unleashed",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "a73204ff-122a-4a2b-bb4b-cae3c7e8b7b0",
+        "name": "Ultron Drones",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "4c589296-7bd4-42de-91f9-be1db820fd72",
+        "name": "Relentless Android",
+        "quantity": 2
+      }
+    ]
+  },
+  "38d5ddfb-5061-45eb-bd80-086f13997a58": {
+    "hero": {
+      "id": "38d5ddfb-5061-45eb-bd80-086f13997a58",
+      "name": "Ghost-Spider"
+    },
+    "obligation": {
+      "octgn_id": "03cf5ddd-09c8-46cb-b506-8cd7e22e5392",
+      "name": "Worried Father"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "9f2a2446-89a3-49cc-88c8-b3e449701923",
+        "name": "Regenerative Research",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "474f435f-b489-40b3-aa06-40ca5b3d17b8",
+        "name": "The Lizard",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "e01a8dd8-3132-4001-bbf8-b97d396126cb",
+        "name": "Experimental Injection",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "e1af91a1-1775-4b5c-a02a-ec9eae2c5259",
+        "name": "In Cold Blood",
+        "quantity": 2
+      }
+    ]
+  },
+  "b675bf6a-8cf5-422c-90dd-f3f64765a7f0": {
+    "hero": {
+      "id": "b675bf6a-8cf5-422c-90dd-f3f64765a7f0",
+      "name": "Spider-Man"
+    },
+    "obligation": {
+      "octgn_id": "42f1725b-2160-4545-8eaa-91cc9aac1ec3",
+      "name": "Keeping Secrets"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "1bfbbe55-3f2e-4aec-ac8a-f0bc5d4d8f8c",
+        "name": "Tracking Prey",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "1e003cc2-5d7f-48f8-a316-ff6fdd29df78",
+        "name": "Prowler",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "a189f7d0-3481-4002-bdac-0b42137236e1",
+        "name": "Razor Claws",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "2af9824b-13a1-444a-817d-f2da36d48aae",
+        "name": "Slice and Dice",
+        "quantity": 2
+      }
+    ]
+  },
+  "b13b2622-5a3d-4945-9c21-dcb23ce93f33": {
+    "hero": {
+      "id": "b13b2622-5a3d-4945-9c21-dcb23ce93f33",
+      "name": "Nova"
+    },
+    "obligation": {
+      "octgn_id": "fb5ecb64-ca4e-4937-90be-047427c1685d",
+      "name": "Weight of the World"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "10072bd5-da5a-47d0-a1ba-82eea6f0e8bf",
+        "name": "\"Bring the War!\"",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "e77d65c8-27dd-4a71-9ba2-dae6c88a3779",
+        "name": "Warbringer",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "c697f1a7-6e4b-4672-bdbe-4a32032e29d9",
+        "name": "War Delivery",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "69c3f715-8f4b-454a-9c9f-8965f604b313",
+        "name": "\"The War's Been Brought\"",
+        "quantity": 1
+      }
+    ]
+  },
+  "fbfbc0f3-bfa6-48f6-a2b7-9a99b8bc6bce": {
+    "hero": {
+      "id": "fbfbc0f3-bfa6-48f6-a2b7-9a99b8bc6bce",
+      "name": "Ironheart"
+    },
+    "obligation": {
+      "octgn_id": "a2a02747-7bb6-4cc6-b1ea-736207e88fb1",
+      "name": "A Minor Setback"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "4adfadaf-26f1-462c-a104-4785d9f7aa7a",
+        "name": "Rule by Force",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "647a92ef-1614-4be9-b6a3-182f5058822b",
+        "name": "Lucia von Bardas",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "2a32105c-7878-4f46-8c6f-2f4cd7e81629",
+        "name": "Cyborg Tech",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "8d6bfd8b-498d-4c78-958f-b566de2cc45d",
+        "name": "Political Retribution",
+        "quantity": 2
+      }
+    ]
+  },
+  "82e28243-edbd-439d-b5e6-5841ab87db96": {
+    "hero": {
+      "id": "82e28243-edbd-439d-b5e6-5841ab87db96",
+      "name": "Ironheart"
+    },
+    "obligation": {
+      "octgn_id": "a2a02747-7bb6-4cc6-b1ea-736207e88fb1",
+      "name": "A Minor Setback"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "4adfadaf-26f1-462c-a104-4785d9f7aa7a",
+        "name": "Rule by Force",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "647a92ef-1614-4be9-b6a3-182f5058822b",
+        "name": "Lucia von Bardas",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "2a32105c-7878-4f46-8c6f-2f4cd7e81629",
+        "name": "Cyborg Tech",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "8d6bfd8b-498d-4c78-958f-b566de2cc45d",
+        "name": "Political Retribution",
+        "quantity": 2
+      }
+    ]
+  },
+  "a24f1149-87bf-4eef-90f8-992b22b2039b": {
+    "hero": {
+      "id": "a24f1149-87bf-4eef-90f8-992b22b2039b",
+      "name": "Ironheart"
+    },
+    "obligation": {
+      "octgn_id": "a2a02747-7bb6-4cc6-b1ea-736207e88fb1",
+      "name": "A Minor Setback"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "4adfadaf-26f1-462c-a104-4785d9f7aa7a",
+        "name": "Rule by Force",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "647a92ef-1614-4be9-b6a3-182f5058822b",
+        "name": "Lucia von Bardas",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "2a32105c-7878-4f46-8c6f-2f4cd7e81629",
+        "name": "Cyborg Tech",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "8d6bfd8b-498d-4c78-958f-b566de2cc45d",
+        "name": "Political Retribution",
+        "quantity": 2
+      }
+    ]
+  },
+  "5f189d1d-2352-41cc-b285-a4c687030001": {
+    "hero": {
+      "id": "5f189d1d-2352-41cc-b285-a4c687030001",
+      "name": "Spider-Ham"
+    },
+    "obligation": {
+      "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030024",
+      "name": "\"I Really Want a Hot Dog!\""
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030025",
+        "name": "Nefarious Trap",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030026",
+        "name": "The Green Gobbler",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030027",
+        "name": "Gobbler Glider",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030028",
+        "name": "\"Feast on This!\"",
+        "quantity": 2
+      }
+    ]
+  },
+  "5b7da011-412e-452a-9edd-24618a031001": {
+    "hero": {
+      "id": "5b7da011-412e-452a-9edd-24618a031001",
+      "name": "SP//dr Suit"
+    },
+    "obligation": {
+      "octgn_id": "5b7da011-412e-452a-9edd-24618a031025",
+      "name": "Inherited Burden"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031026",
+        "name": "Giant Monster Attack",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031027",
+        "name": "M.O.R.B.I.U.S.",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031028",
+        "name": "Energy Drain",
+        "quantity": 3
+      }
+    ]
+  },
+  "47d34c5d-5319-45a9-a2d6-1fb975032001": {
+    "hero": {
+      "id": "47d34c5d-5319-45a9-a2d6-1fb975032001",
+      "name": "Colossus"
+    },
+    "obligation": {
+      "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032025",
+      "name": "Homesick"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032026",
+        "name": "Juggernaut",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032027",
+        "name": "Rampaging Juggernaut",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032028",
+        "name": "Unstoppable",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032029",
+        "name": "Slammed",
+        "quantity": 1
+      }
+    ]
+  },
+  "47d34c5d-5319-45a9-a2d6-1fb975032030": {
+    "hero": {
+      "id": "47d34c5d-5319-45a9-a2d6-1fb975032030",
+      "name": "Shadowcat"
+    },
+    "obligation": {
+      "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032055",
+      "name": "Permanently Phased"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032056",
+        "name": "White Queen",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032057",
+        "name": "The Hellfire Club",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032058",
+        "name": "Hellfire Pawn",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032059",
+        "name": "Telepathic Restraint",
+        "quantity": 1
+      }
+    ]
+  },
+  "7da2a29c-3abd-4e3b-b36e-9f140c033001": {
+    "hero": {
+      "id": "7da2a29c-3abd-4e3b-b36e-9f140c033001",
+      "name": "Cyclops"
+    },
+    "obligation": {
+      "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033027",
+      "name": "Lost Visor"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033028",
+        "name": "Mister Sinister",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033029",
+        "name": "Genetic Manipulation",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033030",
+        "name": "Gene Therapy",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "7da2a29c-3abd-4e3b-b36e-9f140c033031",
+        "name": "Concussive Force",
+        "quantity": 1
+      }
+    ]
+  },
+  "9b407333-e221-495f-a145-e5a9b4034001": {
+    "hero": {
+      "id": "9b407333-e221-495f-a145-e5a9b4034001",
+      "name": "Phoenix"
+    },
+    "obligation": {
+      "octgn_id": "9b407333-e221-495f-a145-e5a9b4034028",
+      "name": "Burning Hunger"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "9b407333-e221-495f-a145-e5a9b4034029",
+        "name": "Dark Phoenix",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "9b407333-e221-495f-a145-e5a9b4034030",
+        "name": "Consume the World",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "9b407333-e221-495f-a145-e5a9b4034031",
+        "name": "Fiery Rage",
+        "quantity": 3
+      }
+    ]
+  }
+}
