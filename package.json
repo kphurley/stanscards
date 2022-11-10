@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "config:heroCards": "node ./scripts/getHeroData.js",
     "proxy": "lcp --proxyUrl https://marvelcdb.com",
     "start": "webpack serve --config ./webpack.config.js --mode development",
     "test": "echo \"No test specified\" && exit 0"
@@ -16,8 +17,10 @@
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "babel-loader": "^8.2.3",
+    "bluebird": "^3.7.2",
     "css-loader": "^6.7.1",
     "local-cors-proxy": "^1.1.0",
+    "node-fetch": "^2.6.7",
     "style-loader": "^3.3.1",
     "webpack": "^5.68.0",
     "webpack-cli": "^4.9.2",
@@ -26,6 +29,7 @@
   "dependencies": {
     "array-shuffle": "^3.0.0",
     "fast-xml-parser": "^4.0.11",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-draggable": "^4.4.5",
