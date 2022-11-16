@@ -1,0 +1,5251 @@
+{
+  "modularSets": {
+    "bomb_scare": {
+      "8cb351f4-cb5a-4407-8f01-1a6d61c8eb13": {
+        "octgn_id": "8cb351f4-cb5a-4407-8f01-1a6d61c8eb13",
+        "name": "Bomb Scare",
+        "quantity": 1
+      },
+      "f9d67621-2ef5-4c6c-9b78-c4459b87f31f": {
+        "octgn_id": "f9d67621-2ef5-4c6c-9b78-c4459b87f31f",
+        "name": "Hydra Bomber",
+        "quantity": 2
+      },
+      "e953af97-c075-42bf-96a8-c757c4b86688": {
+        "octgn_id": "e953af97-c075-42bf-96a8-c757c4b86688",
+        "name": "Explosion",
+        "quantity": 1
+      },
+      "5de00438-e4fb-4c43-83ba-a0926fd59caf": {
+        "octgn_id": "5de00438-e4fb-4c43-83ba-a0926fd59caf",
+        "name": "False Alarm",
+        "quantity": 2
+      }
+    },
+    "masters_of_evil": {
+      "22965792-2301-4332-8c4a-f72e919c7eeb": {
+        "octgn_id": "22965792-2301-4332-8c4a-f72e919c7eeb",
+        "name": "The Masters of Evil",
+        "quantity": 1
+      },
+      "2253b91e-9e08-4918-9691-ff51934a8dc6": {
+        "octgn_id": "2253b91e-9e08-4918-9691-ff51934a8dc6",
+        "name": "Radioactive Man",
+        "quantity": 1
+      },
+      "85e19139-8c69-4349-9d3f-67124cf5ba02": {
+        "octgn_id": "85e19139-8c69-4349-9d3f-67124cf5ba02",
+        "name": "Whirlwind",
+        "quantity": 1
+      },
+      "83ab88e5-838b-4423-bf59-706e510815fe": {
+        "octgn_id": "83ab88e5-838b-4423-bf59-706e510815fe",
+        "name": "Tiger Shark",
+        "quantity": 1
+      },
+      "416d65b5-034f-4e4f-b2ee-6e60508a15d4": {
+        "octgn_id": "416d65b5-034f-4e4f-b2ee-6e60508a15d4",
+        "name": "Melter",
+        "quantity": 1
+      },
+      "3ae32f65-cd98-4f75-9756-fc4752d45fd3": {
+        "octgn_id": "3ae32f65-cd98-4f75-9756-fc4752d45fd3",
+        "name": "Masters of Mayhem",
+        "quantity": 2
+      }
+    },
+    "under_attack": {
+      "80edf5ec-f722-49b9-b0d9-66765d66f82e": {
+        "octgn_id": "80edf5ec-f722-49b9-b0d9-66765d66f82e",
+        "name": "Under Attack",
+        "quantity": 1
+      },
+      "151dc38f-38b3-4c71-b07c-a9a1767931d6": {
+        "octgn_id": "151dc38f-38b3-4c71-b07c-a9a1767931d6",
+        "name": "Vibranium Armor",
+        "quantity": 1
+      },
+      "1605113e-4ad8-467a-ab1d-de1c5947d6b3": {
+        "octgn_id": "1605113e-4ad8-467a-ab1d-de1c5947d6b3",
+        "name": "Concussion Blasters",
+        "quantity": 1
+      },
+      "806aec31-76c4-45e5-9cf2-8862a21499dc": {
+        "octgn_id": "806aec31-76c4-45e5-9cf2-8862a21499dc",
+        "name": "Concussive Blast",
+        "quantity": 2
+      }
+    },
+    "legions_of_hydra": {
+      "70027835-0959-4317-b4ec-0a013c1d2022": {
+        "octgn_id": "70027835-0959-4317-b4ec-0a013c1d2022",
+        "name": "Legions of Hydra",
+        "quantity": 2
+      },
+      "fac6bbcf-23cc-4af3-8ea6-6f9a8ff1cd3f": {
+        "octgn_id": "fac6bbcf-23cc-4af3-8ea6-6f9a8ff1cd3f",
+        "name": "Madame Hydra",
+        "quantity": 1
+      },
+      "20e70c3c-11b3-46c9-ba8e-d67b950d2e93": {
+        "octgn_id": "20e70c3c-11b3-46c9-ba8e-d67b950d2e93",
+        "name": "Hydra Soldier",
+        "quantity": 3
+      }
+    },
+    "the_doomsday_chair": {
+      "272b5a87-d602-454a-8fe1-2afc9a21c677": {
+        "octgn_id": "272b5a87-d602-454a-8fe1-2afc9a21c677",
+        "name": "The Doomsday Chair",
+        "quantity": 2
+      },
+      "420f27a2-85a3-40be-9a72-e8f326723485": {
+        "octgn_id": "420f27a2-85a3-40be-9a72-e8f326723485",
+        "name": "MODOK",
+        "quantity": 1
+      },
+      "15bc3048-9fc3-4a15-96ab-63a2b11ae533": {
+        "octgn_id": "15bc3048-9fc3-4a15-96ab-63a2b11ae533",
+        "name": "Biomechanical Upgrades",
+        "quantity": 3
+      }
+    },
+    "goblin_gimmicks": {
+      "6e5a5c16-ebe8-4021-bf47-6d79929b8bdf": {
+        "octgn_id": "6e5a5c16-ebe8-4021-bf47-6d79929b8bdf",
+        "name": "Goblin Glider",
+        "quantity": 2
+      },
+      "48c8eb1e-4fca-4b72-a7c0-c19019c493ea": {
+        "octgn_id": "48c8eb1e-4fca-4b72-a7c0-c19019c493ea",
+        "name": "Pumpkin Bombs",
+        "quantity": 2
+      },
+      "b7e11b63-34cf-42d4-869d-e7ba19d2958c": {
+        "octgn_id": "b7e11b63-34cf-42d4-869d-e7ba19d2958c",
+        "name": "Intimidation",
+        "quantity": 2
+      },
+      "9c310f56-5321-42ef-9df5-006f9445f4ae": {
+        "octgn_id": "9c310f56-5321-42ef-9df5-006f9445f4ae",
+        "name": "Regenerative Healing",
+        "quantity": 2
+      }
+    },
+    "a_mess_of_things": {
+      "97ffcbb1-e7c3-4ab8-8f2c-9f826974caa8": {
+        "octgn_id": "97ffcbb1-e7c3-4ab8-8f2c-9f826974caa8",
+        "name": "A Mess of Things",
+        "quantity": 1
+      },
+      "e61e79c3-282f-44d1-a4d0-dd66bc7f7417": {
+        "octgn_id": "e61e79c3-282f-44d1-a4d0-dd66bc7f7417",
+        "name": "Scorpion",
+        "quantity": 1
+      },
+      "a0510501-8ccf-480e-ab80-faf7e2e32e07": {
+        "octgn_id": "a0510501-8ccf-480e-ab80-faf7e2e32e07",
+        "name": "Gang-Up",
+        "quantity": 1
+      },
+      "a2c28983-deb3-4fed-8095-e9f7b8e1a7bf": {
+        "octgn_id": "a2c28983-deb3-4fed-8095-e9f7b8e1a7bf",
+        "name": "Tail Sweep",
+        "quantity": 2
+      }
+    },
+    "power_drain": {
+      "282c59df-9ad6-4950-936e-2a1c01f9f854": {
+        "octgn_id": "282c59df-9ad6-4950-936e-2a1c01f9f854",
+        "name": "Power Drain",
+        "quantity": 1
+      },
+      "8823f68e-224f-4fd1-a990-8e7073d093a6": {
+        "octgn_id": "8823f68e-224f-4fd1-a990-8e7073d093a6",
+        "name": "Electro",
+        "quantity": 1
+      },
+      "b9bb656f-32f0-4309-a89a-69a99ee55d26": {
+        "octgn_id": "b9bb656f-32f0-4309-a89a-69a99ee55d26",
+        "name": "Electromagnetic Pulse",
+        "quantity": 1
+      },
+      "21c56241-3b27-48a5-80d8-7cdf72d1c9fc": {
+        "octgn_id": "21c56241-3b27-48a5-80d8-7cdf72d1c9fc",
+        "name": "Lightning Bolt",
+        "quantity": 1
+      },
+      "52bae663-a537-4269-afb7-9d6e78b0efc2": {
+        "octgn_id": "52bae663-a537-4269-afb7-9d6e78b0efc2",
+        "name": "Shock Therapy",
+        "quantity": 1
+      }
+    },
+    "running_interference": {
+      "2f8390b6-380b-416c-8182-79824c153626": {
+        "octgn_id": "2f8390b6-380b-416c-8182-79824c153626",
+        "name": "Running Interference",
+        "quantity": 1
+      },
+      "977e6249-7e52-4cfd-a163-9271ce26d509": {
+        "octgn_id": "977e6249-7e52-4cfd-a163-9271ce26d509",
+        "name": "Tombstone",
+        "quantity": 1
+      },
+      "b9342276-93a9-4221-a12b-5e8f2e262e6d": {
+        "octgn_id": "b9342276-93a9-4221-a12b-5e8f2e262e6d",
+        "name": "All Tied Up",
+        "quantity": 1
+      },
+      "c89326ed-34a4-4a9d-90c4-5c538e87dc75": {
+        "octgn_id": "c89326ed-34a4-4a9d-90c4-5c538e87dc75",
+        "name": "Media Coverage",
+        "quantity": 2
+      }
+    },
+    "kree_fanatic": {
+      "9130b449-c282-4ab3-8a68-a69f34aaa70a": {
+        "octgn_id": "9130b449-c282-4ab3-8a68-a69f34aaa70a",
+        "name": "Ronan the Accuser",
+        "quantity": 1
+      },
+      "2dd98a74-b376-43ec-85ad-b1959fecbb22": {
+        "octgn_id": "2dd98a74-b376-43ec-85ad-b1959fecbb22",
+        "name": "Judge, Jury, Executioner",
+        "quantity": 1
+      },
+      "75295671-820f-4614-8569-f3f3c1de9a6e": {
+        "octgn_id": "75295671-820f-4614-8569-f3f3c1de9a6e",
+        "name": "The Accused",
+        "quantity": 1
+      },
+      "6bac6cf5-8deb-4e80-bebf-424dd51dd7aa": {
+        "octgn_id": "6bac6cf5-8deb-4e80-bebf-424dd51dd7aa",
+        "name": "Bring the Hammer Down",
+        "quantity": 2
+      },
+      "a35c490d-6b40-46d8-b09f-d6c9a561366f": {
+        "octgn_id": "a35c490d-6b40-46d8-b09f-d6c9a561366f",
+        "name": "You Dare Oppose Me?",
+        "quantity": 2
+      }
+    },
+    "exper_weapon": {
+      "015203cc-5e6f-43d9-8e03-fdb278a25517": {
+        "octgn_id": "015203cc-5e6f-43d9-8e03-fdb278a25517",
+        "name": "Laser Rifle",
+        "quantity": 1
+      },
+      "5a4e46f5-94bb-426a-b2e8-ba00e32b346a": {
+        "octgn_id": "5a4e46f5-94bb-426a-b2e8-ba00e32b346a",
+        "name": "Energy Shield",
+        "quantity": 1
+      },
+      "c781b1f1-1ba1-4474-bb16-bb78812e9ebf": {
+        "octgn_id": "c781b1f1-1ba1-4474-bb16-bb78812e9ebf",
+        "name": "Power Gauntlets",
+        "quantity": 1
+      },
+      "0ebfab93-f3ac-4044-bf27-1c8139a6d2d2": {
+        "octgn_id": "0ebfab93-f3ac-4044-bf27-1c8139a6d2d2",
+        "name": "Exo-Suit",
+        "quantity": 1
+      }
+    },
+    "hydra_assault": {
+      "4ec26a41-8ea3-4f67-8f89-c89fa5ce5741": {
+        "octgn_id": "4ec26a41-8ea3-4f67-8f89-c89fa5ce5741",
+        "name": "Hydra Flame-Soldier",
+        "quantity": 3
+      },
+      "e45231ea-85ce-4e11-8353-3866d27ca061": {
+        "octgn_id": "e45231ea-85ce-4e11-8353-3866d27ca061",
+        "name": "Hydra Jet-Trooper",
+        "quantity": 2
+      },
+      "f8dc79a0-e9c8-4d1c-810b-0a5ed92aa5b7": {
+        "octgn_id": "f8dc79a0-e9c8-4d1c-810b-0a5ed92aa5b7",
+        "name": "Hail Hydra!",
+        "quantity": 1
+      }
+    },
+    "weap_master": {
+      "706f474a-6a99-4166-902f-7e3caa1c5bfd": {
+        "octgn_id": "706f474a-6a99-4166-902f-7e3caa1c5bfd",
+        "name": "Combat Knife",
+        "quantity": 1
+      },
+      "e013db71-0e03-4c24-bea3-5452637ed19c": {
+        "octgn_id": "e013db71-0e03-4c24-bea3-5452637ed19c",
+        "name": "Hydra Sidearm",
+        "quantity": 1
+      },
+      "1c0762da-038a-42e6-a1d7-0bfc02225a31": {
+        "octgn_id": "1c0762da-038a-42e6-a1d7-0bfc02225a31",
+        "name": "Weapon Master",
+        "quantity": 2
+      },
+      "6083396f-5638-4018-9c02-dea3d3d0aa59": {
+        "octgn_id": "6083396f-5638-4018-9c02-dea3d3d0aa59",
+        "name": "Concussion Grenade",
+        "quantity": 1
+      }
+    },
+    "hydra_patrol": {
+      "873bde6b-7537-4443-85ab-4e091dd18752": {
+        "octgn_id": "873bde6b-7537-4443-85ab-4e091dd18752",
+        "name": "Hydra Regular",
+        "quantity": 2
+      },
+      "4af39e7f-2d7f-4c9e-976a-6b770cb3c0a6": {
+        "octgn_id": "4af39e7f-2d7f-4c9e-976a-6b770cb3c0a6",
+        "name": "Hydra Soldier",
+        "quantity": 3
+      },
+      "e3d3e6a8-fa71-4f32-8590-f6e515101b65": {
+        "octgn_id": "e3d3e6a8-fa71-4f32-8590-f6e515101b65",
+        "name": "Hydra Patrol",
+        "quantity": 1
+      }
+    },
+    "hydra_camp": {
+      "6d64fb73-7866-432e-aca5-23550e09541e": {
+        "octgn_id": "6d64fb73-7866-432e-aca5-23550e09541e",
+        "name": "Adrenal Stims",
+        "quantity": 1
+      },
+      "ddfa379f-7c47-4433-9275-63a99e12b58a": {
+        "octgn_id": "ddfa379f-7c47-4433-9275-63a99e12b58a",
+        "name": "Tactical Scanner",
+        "quantity": 1
+      },
+      "0fe543b3-89fb-43b4-9c2a-1b612f2ee071": {
+        "octgn_id": "0fe543b3-89fb-43b4-9c2a-1b612f2ee071",
+        "name": "Emergency Teleporter",
+        "quantity": 1
+      },
+      "46c0e643-71f6-4f3b-98d8-c4bb5bf47c7e": {
+        "octgn_id": "46c0e643-71f6-4f3b-98d8-c4bb5bf47c7e",
+        "name": "Laser Cannon",
+        "quantity": 1
+      },
+      "467f77bb-50a7-49a9-ab52-5d1022eacd1a": {
+        "octgn_id": "467f77bb-50a7-49a9-ab52-5d1022eacd1a",
+        "name": "Basic Thwart Upgrade",
+        "quantity": 1
+      },
+      "e0356e45-bd56-4581-919a-6078b4360e2e": {
+        "octgn_id": "e0356e45-bd56-4581-919a-6078b4360e2e",
+        "name": "Basic Attack Upgrade",
+        "quantity": 1
+      },
+      "b21d6e83-97bb-4ee4-9dfb-450103ba877a": {
+        "octgn_id": "b21d6e83-97bb-4ee4-9dfb-450103ba877a",
+        "name": "Basic Defense Upgrade",
+        "quantity": 1
+      },
+      "0ec83227-02c7-4b63-8de2-e9a10bf0fa05": {
+        "octgn_id": "0ec83227-02c7-4b63-8de2-e9a10bf0fa05",
+        "name": "Basic Recovery Upgrade",
+        "quantity": 1
+      }
+    },
+    "expcamp": {
+      "f4523729-9345-4631-9eb1-336792215768": {
+        "octgn_id": "f4523729-9345-4631-9eb1-336792215768",
+        "name": "Zola's Algorithm",
+        "quantity": 4
+      },
+      "1eae5e27-e2c0-4744-812d-8e71238f3c90": {
+        "octgn_id": "1eae5e27-e2c0-4744-812d-8e71238f3c90",
+        "name": "Medical Emergency",
+        "quantity": 4
+      },
+      "c6cbf34a-889e-4f70-919f-a21e691b4efa": {
+        "octgn_id": "c6cbf34a-889e-4f70-919f-a21e691b4efa",
+        "name": "Martial Law",
+        "quantity": 4
+      },
+      "74c5f483-6f2a-4215-bcd6-4dea93cf8e3f": {
+        "octgn_id": "74c5f483-6f2a-4215-bcd6-4dea93cf8e3f",
+        "name": "Anti-Hero Propaganda",
+        "quantity": 4
+      }
+    },
+    "temporal": {
+      "2a242153-7655-418b-a631-f0851d106814": {
+        "octgn_id": "2a242153-7655-418b-a631-f0851d106814",
+        "name": "Ancient Warrior",
+        "quantity": 3
+      },
+      "3fb52b01-ac9b-4eda-8b18-e48aa03bbf1f": {
+        "octgn_id": "3fb52b01-ac9b-4eda-8b18-e48aa03bbf1f",
+        "name": "Chitauri Soldier",
+        "quantity": 2
+      },
+      "d546fd26-7c19-498f-875c-246d6e0d585b": {
+        "octgn_id": "d546fd26-7c19-498f-875c-246d6e0d585b",
+        "name": "Tyrannosaurus Rex",
+        "quantity": 1
+      },
+      "7bd2c0a5-d6a2-43b1-ae42-eb80744c76d6": {
+        "octgn_id": "7bd2c0a5-d6a2-43b1-ae42-eb80744c76d6",
+        "name": "Time Portal",
+        "quantity": 1
+      }
+    },
+    "exp_kang": {
+      "eca37664-cb24-4977-b3db-24a12d1724d0": {
+        "octgn_id": "eca37664-cb24-4977-b3db-24a12d1724d0",
+        "name": "Kang (The Conqueror)",
+        "quantity": 1
+      },
+      "267ad5c0-bc6b-4f18-b814-0bd9f2919552": {
+        "octgn_id": "267ad5c0-bc6b-4f18-b814-0bd9f2919552",
+        "name": "Kang (Immortus)",
+        "quantity": 1
+      },
+      "12240e18-46cc-4f02-acdc-660e5eb885fa": {
+        "octgn_id": "12240e18-46cc-4f02-acdc-660e5eb885fa",
+        "name": "Kang (Iron Lad)",
+        "quantity": 1
+      },
+      "12bccf22-658c-4768-b7d3-62a8912cba86": {
+        "octgn_id": "12bccf22-658c-4768-b7d3-62a8912cba86",
+        "name": "Kang (Rama-Tut)",
+        "quantity": 1
+      },
+      "c2024441-98dd-4d4e-8314-2d07a35ff549": {
+        "octgn_id": "c2024441-98dd-4d4e-8314-2d07a35ff549",
+        "name": "Kang (Scarlet Centurion)",
+        "quantity": 1
+      },
+      "ada8bd7e-8508-472c-870d-b32ec0fed825": {
+        "octgn_id": "ada8bd7e-8508-472c-870d-b32ec0fed825",
+        "name": "Kang (The Conqueror)",
+        "quantity": 1
+      }
+    },
+    "anachronauts": {
+      "6e2161f4-cef1-4154-bdbc-05ccfa02c080": {
+        "octgn_id": "6e2161f4-cef1-4154-bdbc-05ccfa02c080",
+        "name": "Apocryphus",
+        "quantity": 1
+      },
+      "31bb5277-1db7-497e-b322-143b6adff541": {
+        "octgn_id": "31bb5277-1db7-497e-b322-143b6adff541",
+        "name": "Deathunt 9000",
+        "quantity": 1
+      },
+      "9dd42ff8-7163-46b1-aa89-5790f8a45a73": {
+        "octgn_id": "9dd42ff8-7163-46b1-aa89-5790f8a45a73",
+        "name": "Sir Raston",
+        "quantity": 1
+      },
+      "8d88ae29-4487-4899-bad7-812a8e51d1b9": {
+        "octgn_id": "8d88ae29-4487-4899-bad7-812a8e51d1b9",
+        "name": "Terminatrix",
+        "quantity": 1
+      },
+      "66a1a613-10e2-414d-a8f3-68ff2e63b342": {
+        "octgn_id": "66a1a613-10e2-414d-a8f3-68ff2e63b342",
+        "name": "Wildrun",
+        "quantity": 1
+      },
+      "2bce9b17-77a0-4f3f-8f34-4b5d37dd818d": {
+        "octgn_id": "2bce9b17-77a0-4f3f-8f34-4b5d37dd818d",
+        "name": "The Anachronauts",
+        "quantity": 2
+      },
+      "8ab0156d-39a0-45d1-804b-5ce1890c8113": {
+        "octgn_id": "8ab0156d-39a0-45d1-804b-5ce1890c8113",
+        "name": "Kang's Chosen",
+        "quantity": 2
+      }
+    },
+    "mot": {
+      "527c515a-f440-4200-85d6-89060ab9287e": {
+        "octgn_id": "527c515a-f440-4200-85d6-89060ab9287e",
+        "name": "Kang (Master of Time)",
+        "quantity": 1
+      },
+      "912aaee2-d3da-4d19-ab98-732866085686": {
+        "octgn_id": "912aaee2-d3da-4d19-ab98-732866085686",
+        "name": "Time-Displaced Soldier",
+        "quantity": 2
+      },
+      "2a0eadd5-5ee5-49f9-899a-ce5b14a3a321": {
+        "octgn_id": "2a0eadd5-5ee5-49f9-899a-ce5b14a3a321",
+        "name": "Fear of Kang",
+        "quantity": 2
+      },
+      "3b66fc2d-2cae-441c-ad01-fc527ad203bb": {
+        "octgn_id": "3b66fc2d-2cae-441c-ad01-fc527ad203bb",
+        "name": "Light of Centuries Sphere",
+        "quantity": 1
+      },
+      "a375b550-ddd0-43f0-8a60-0d7ca57e35d1": {
+        "octgn_id": "a375b550-ddd0-43f0-8a60-0d7ca57e35d1",
+        "name": "Ancient Grudge",
+        "quantity": 2
+      }
+    },
+    "brotherhood_of_badoon": {
+      "8e57926c-6b28-44e1-9f71-480a5e36bcba": {
+        "octgn_id": "8e57926c-6b28-44e1-9f71-480a5e36bcba",
+        "name": "Drang",
+        "quantity": 1
+      },
+      "a2f28b76-fcb5-43c3-a84b-c50f2d4c67ca": {
+        "octgn_id": "a2f28b76-fcb5-43c3-a84b-c50f2d4c67ca",
+        "name": "Drang",
+        "quantity": 1
+      },
+      "9d4527dd-f177-4fbd-8849-1c4be4f10b2d": {
+        "octgn_id": "9d4527dd-f177-4fbd-8849-1c4be4f10b2d",
+        "name": "Drang",
+        "quantity": 1
+      },
+      "5dbf6ac5-893e-4a05-9e21-f0c61eb02fff": {
+        "octgn_id": "5dbf6ac5-893e-4a05-9e21-f0c61eb02fff",
+        "name": "Terrestrial Invasion",
+        "quantity": 1
+      },
+      "7cf8b2b1-cd92-428b-ab4a-9a53f35964d5": {
+        "octgn_id": "7cf8b2b1-cd92-428b-ab4a-9a53f35964d5",
+        "name": "Protect the Planet",
+        "quantity": 1
+      },
+      "52b61a7d-8483-4e59-90d9-9064d0aac8fa": {
+        "octgn_id": "52b61a7d-8483-4e59-90d9-9064d0aac8fa",
+        "name": "Badoon Ship",
+        "quantity": 1
+      },
+      "37af4d54-6c28-463c-a3e0-d7e332ee5d1d": {
+        "octgn_id": "37af4d54-6c28-463c-a3e0-d7e332ee5d1d",
+        "name": "Drang's Spear",
+        "quantity": 1
+      },
+      "7ea9bfba-1880-4547-a31c-ca620d47ce07": {
+        "octgn_id": "7ea9bfba-1880-4547-a31c-ca620d47ce07",
+        "name": "Badoon Engineer",
+        "quantity": 2
+      },
+      "98569272-fc93-4db4-bfba-d50c309ceada": {
+        "octgn_id": "98569272-fc93-4db4-bfba-d50c309ceada",
+        "name": "Blockade",
+        "quantity": 1
+      },
+      "424240f0-056e-4077-a5e8-647cec3cda97": {
+        "octgn_id": "424240f0-056e-4077-a5e8-647cec3cda97",
+        "name": "Bombardment",
+        "quantity": 1
+      },
+      "6d37b06f-d33e-4e26-917d-6e1e01cbddb5": {
+        "octgn_id": "6d37b06f-d33e-4e26-917d-6e1e01cbddb5",
+        "name": "Oppressive Armada",
+        "quantity": 1
+      },
+      "a022d28c-da39-40ff-86ac-545ac716782a": {
+        "octgn_id": "a022d28c-da39-40ff-86ac-545ac716782a",
+        "name": "Spatial Positioning",
+        "quantity": 1
+      }
+    },
+    "band_of_badoon": {
+      "7fa3e620-0475-4bed-9e93-174fc07fe0d1": {
+        "octgn_id": "7fa3e620-0475-4bed-9e93-174fc07fe0d1",
+        "name": "Badoon Assassin",
+        "quantity": 2
+      },
+      "7051a474-e86e-4658-817a-2c002baf0d42": {
+        "octgn_id": "7051a474-e86e-4658-817a-2c002baf0d42",
+        "name": "Badoon Grunt",
+        "quantity": 3
+      },
+      "6852e1b0-549d-4daa-8ae7-6e3e4c148d40": {
+        "octgn_id": "6852e1b0-549d-4daa-8ae7-6e3e4c148d40",
+        "name": "Badoon Lieutenant",
+        "quantity": 1
+      },
+      "9f651946-ef49-488b-9806-80f3d9b81bd0": {
+        "octgn_id": "9f651946-ef49-488b-9806-80f3d9b81bd0",
+        "name": "Badoon Sentry",
+        "quantity": 2
+      },
+      "632e3244-74f1-4f6e-8305-f16cd0670100": {
+        "octgn_id": "632e3244-74f1-4f6e-8305-f16cd0670100",
+        "name": "Badoon Warlord",
+        "quantity": 2
+      }
+    },
+    "galactic_artifacts": {
+      "23273bad-6eaa-46c3-9bbc-9a50c0d3f1b5": {
+        "octgn_id": "23273bad-6eaa-46c3-9bbc-9a50c0d3f1b5",
+        "name": "Cloak of Hercules",
+        "quantity": 1
+      },
+      "04ff2583-46e3-4910-a9da-e2ef5f4822f2": {
+        "octgn_id": "04ff2583-46e3-4910-a9da-e2ef5f4822f2",
+        "name": "Obedience Potion",
+        "quantity": 1
+      },
+      "7b899d4f-ae28-4037-b330-2cb47241c492": {
+        "octgn_id": "7b899d4f-ae28-4037-b330-2cb47241c492",
+        "name": "The Beyonder's Blazer",
+        "quantity": 1
+      },
+      "04a662f5-6b00-4f2a-8c10-a6889a4c368f": {
+        "octgn_id": "04a662f5-6b00-4f2a-8c10-a6889a4c368f",
+        "name": "The Poison",
+        "quantity": 1
+      },
+      "ab51fa7d-b74c-46a2-928b-395942fc2a94": {
+        "octgn_id": "ab51fa7d-b74c-46a2-928b-395942fc2a94",
+        "name": "Vandarian Power Stone",
+        "quantity": 1
+      },
+      "b28a4776-f124-40ce-93e6-4017ccce0f6b": {
+        "octgn_id": "b28a4776-f124-40ce-93e6-4017ccce0f6b",
+        "name": "Hujahdarian Monarch Egg",
+        "quantity": 1
+      },
+      "c21c18a5-dde4-41f2-afb8-b1ab51b5bd7d": {
+        "octgn_id": "c21c18a5-dde4-41f2-afb8-b1ab51b5bd7d",
+        "name": "Magical Teapot",
+        "quantity": 1
+      },
+      "3ea51179-f1dc-4609-92b9-e063917a1e71": {
+        "octgn_id": "3ea51179-f1dc-4609-92b9-e063917a1e71",
+        "name": "Philosopher's Stone",
+        "quantity": 1
+      },
+      "75623411-8d94-4546-a107-456b5fd5cbcb": {
+        "octgn_id": "75623411-8d94-4546-a107-456b5fd5cbcb",
+        "name": "Crystal Ball",
+        "quantity": 1
+      }
+    },
+    "kree_militant": {
+      "bbdecfaa-1776-4572-aa24-34c455a39c97": {
+        "octgn_id": "bbdecfaa-1776-4572-aa24-34c455a39c97",
+        "name": "Kree Combat Armor",
+        "quantity": 1
+      },
+      "4fc3ffe7-a134-4c7e-9b45-2720c313dbd1": {
+        "octgn_id": "4fc3ffe7-a134-4c7e-9b45-2720c313dbd1",
+        "name": "Kree Commando",
+        "quantity": 3
+      },
+      "ed8d8b90-934e-47c5-8694-eab66c45985c": {
+        "octgn_id": "ed8d8b90-934e-47c5-8694-eab66c45985c",
+        "name": "Kree Lieutenant",
+        "quantity": 2
+      },
+      "f7a7c8d2-3ead-4491-8cce-8bafd208f7d0": {
+        "octgn_id": "f7a7c8d2-3ead-4491-8cce-8bafd208f7d0",
+        "name": "Kree Private",
+        "quantity": 3
+      }
+    },
+    "menagerie_medley": {
+      "ac3533fa-5970-4c1f-b3f9-9a2260e60b1c": {
+        "octgn_id": "ac3533fa-5970-4c1f-b3f9-9a2260e60b1c",
+        "name": "Psionic Ghost",
+        "quantity": 4
+      },
+      "1bf95d8d-768a-4d70-99d7-03583a108199": {
+        "octgn_id": "1bf95d8d-768a-4d70-99d7-03583a108199",
+        "name": "Servant Bot",
+        "quantity": 3
+      },
+      "b68aeecf-f688-4895-86c2-067e61e905f0": {
+        "octgn_id": "b68aeecf-f688-4895-86c2-067e61e905f0",
+        "name": "Starshark",
+        "quantity": 2
+      }
+    },
+    "space_pirates": {
+      "831de99b-d3b8-4543-bb14-0303451c404c": {
+        "octgn_id": "831de99b-d3b8-4543-bb14-0303451c404c",
+        "name": "Pirate Commander",
+        "quantity": 1
+      },
+      "911ca664-eb08-4b6d-9dc1-c0afe11397ef": {
+        "octgn_id": "911ca664-eb08-4b6d-9dc1-c0afe11397ef",
+        "name": "Pirate Lackey",
+        "quantity": 4
+      },
+      "849adb01-90f1-4dd6-978d-ef3608cad346": {
+        "octgn_id": "849adb01-90f1-4dd6-978d-ef3608cad346",
+        "name": "Sound the Alarms",
+        "quantity": 1
+      },
+      "f636492f-8a84-4b55-88d9-c82b7c03b25d": {
+        "octgn_id": "f636492f-8a84-4b55-88d9-c82b7c03b25d",
+        "name": "Honor Among Thieves",
+        "quantity": 2
+      }
+    },
+    "ship_command": {
+      "9605100e-7f01-436a-85aa-4788d53aff5e": {
+        "octgn_id": "9605100e-7f01-436a-85aa-4788d53aff5e",
+        "name": "Milano",
+        "quantity": 1
+      },
+      "e585c397-d79e-4d5a-b07a-dc83176d6d55": {
+        "octgn_id": "e585c397-d79e-4d5a-b07a-dc83176d6d55",
+        "name": "Rogue Vessel",
+        "quantity": 1
+      },
+      "f9efee87-721e-47a1-ab24-dfe7b796445d": {
+        "octgn_id": "f9efee87-721e-47a1-ab24-dfe7b796445d",
+        "name": "Cannonade",
+        "quantity": 1
+      },
+      "439d3b57-2377-4c41-8274-97e499255975": {
+        "octgn_id": "439d3b57-2377-4c41-8274-97e499255975",
+        "name": "Blind Side",
+        "quantity": 1
+      },
+      "5de8e20c-f67a-4e3c-af4c-ecfed54bfb49": {
+        "octgn_id": "5de8e20c-f67a-4e3c-af4c-ecfed54bfb49",
+        "name": "Hull Breach",
+        "quantity": 1
+      },
+      "10360d48-a10b-4ba0-8cd5-6029b480dc96": {
+        "octgn_id": "10360d48-a10b-4ba0-8cd5-6029b480dc96",
+        "name": "Power Siphon",
+        "quantity": 1
+      },
+      "08569e74-7df9-4437-8722-1d6ab8959c6a": {
+        "octgn_id": "08569e74-7df9-4437-8722-1d6ab8959c6a",
+        "name": "Special Delivery",
+        "quantity": 1
+      }
+    },
+    "power_stone": {
+      "1096714d-9f63-4056-a63a-9fa4c5f722de": {
+        "octgn_id": "1096714d-9f63-4056-a63a-9fa4c5f722de",
+        "name": "Power Stone",
+        "quantity": 1
+      }
+    },
+    "the_market": {
+      "7b46fa2d-c6cc-475b-b1f7-1e3ca9f636c9": {
+        "octgn_id": "7b46fa2d-c6cc-475b-b1f7-1e3ca9f636c9",
+        "name": "Brainstorm",
+        "quantity": 1
+      },
+      "9cfd8bb4-3289-4929-98ee-85e74fa34e58": {
+        "octgn_id": "9cfd8bb4-3289-4929-98ee-85e74fa34e58",
+        "name": "By Any Means",
+        "quantity": 1
+      },
+      "574108e8-2e25-4462-aeee-d64161a326a6": {
+        "octgn_id": "574108e8-2e25-4462-aeee-d64161a326a6",
+        "name": "Contingency Plan",
+        "quantity": 1
+      },
+      "a4928ac3-5a08-4e46-aea2-cd2c688152aa": {
+        "octgn_id": "a4928ac3-5a08-4e46-aea2-cd2c688152aa",
+        "name": "In Defiance",
+        "quantity": 1
+      },
+      "ef88302e-911e-4d38-9241-f96b9a91f0a3": {
+        "octgn_id": "ef88302e-911e-4d38-9241-f96b9a91f0a3",
+        "name": "Calculate the Odds",
+        "quantity": 1
+      },
+      "f0c1e265-0fc9-4cf9-937a-1a1e52290fe8": {
+        "octgn_id": "f0c1e265-0fc9-4cf9-937a-1a1e52290fe8",
+        "name": "Creative Solution",
+        "quantity": 1
+      },
+      "9ba526be-b4ab-4650-9d12-eb33554dc0b7": {
+        "octgn_id": "9ba526be-b4ab-4650-9d12-eb33554dc0b7",
+        "name": "Grapple",
+        "quantity": 1
+      },
+      "6c326a06-502c-424f-b785-b71c0160008c": {
+        "octgn_id": "6c326a06-502c-424f-b785-b71c0160008c",
+        "name": "Wing It",
+        "quantity": 1
+      },
+      "9fee1a0d-4600-46ae-8ecf-95610d86e607": {
+        "octgn_id": "9fee1a0d-4600-46ae-8ecf-95610d86e607",
+        "name": "Close Call",
+        "quantity": 1
+      },
+      "ea82010a-1aa2-4ec8-90b4-e0519253f046": {
+        "octgn_id": "ea82010a-1aa2-4ec8-90b4-e0519253f046",
+        "name": "Defy Danger",
+        "quantity": 1
+      },
+      "547f4eec-3d2e-4e97-96ad-23d556819c51": {
+        "octgn_id": "547f4eec-3d2e-4e97-96ad-23d556819c51",
+        "name": "In Harm's Way",
+        "quantity": 1
+      },
+      "a51f9032-e924-45d3-b12a-2623d797b65f": {
+        "octgn_id": "a51f9032-e924-45d3-b12a-2623d797b65f",
+        "name": "Take the Fight to Them",
+        "quantity": 1
+      },
+      "4124f90a-c425-4094-9a70-ec0b97040d12": {
+        "octgn_id": "4124f90a-c425-4094-9a70-ec0b97040d12",
+        "name": "Armor Plating",
+        "quantity": 1
+      },
+      "9f8705d2-0420-4a02-b070-88d53956f9ae": {
+        "octgn_id": "9f8705d2-0420-4a02-b070-88d53956f9ae",
+        "name": "Heavy Cannon",
+        "quantity": 1
+      },
+      "5d0cb7b9-6034-4a79-9a04-d8e54f53f20a": {
+        "octgn_id": "5d0cb7b9-6034-4a79-9a04-d8e54f53f20a",
+        "name": "Hyper Thrusters",
+        "quantity": 1
+      },
+      "450b8933-e9da-4946-8833-c36d9928043c": {
+        "octgn_id": "450b8933-e9da-4946-8833-c36d9928043c",
+        "name": "Reactor Core",
+        "quantity": 1
+      },
+      "a3dca9fc-75d9-4d3a-b9cb-a8015b3d6b62": {
+        "octgn_id": "a3dca9fc-75d9-4d3a-b9cb-a8015b3d6b62",
+        "name": "Ardent Resolve",
+        "quantity": 1
+      },
+      "20ec6d9d-ccad-4083-9b36-de21cea5410e": {
+        "octgn_id": "20ec6d9d-ccad-4083-9b36-de21cea5410e",
+        "name": "Onrush",
+        "quantity": 1
+      },
+      "0c9f34ec-745d-4f5d-99db-4e00b671f1d3": {
+        "octgn_id": "0c9f34ec-745d-4f5d-99db-4e00b671f1d3",
+        "name": "Safeguard",
+        "quantity": 1
+      },
+      "d0b3f887-729c-42fa-b740-f56158a3db24": {
+        "octgn_id": "d0b3f887-729c-42fa-b740-f56158a3db24",
+        "name": "Sure Gamble",
+        "quantity": 1
+      },
+      "655df100-7201-4877-9337-35e895c1415a": {
+        "octgn_id": "655df100-7201-4877-9337-35e895c1415a",
+        "name": "Cargo Hold",
+        "quantity": 1
+      },
+      "fe27f34f-1655-42d4-8c3c-c32a637f6fca": {
+        "octgn_id": "fe27f34f-1655-42d4-8c3c-c32a637f6fca",
+        "name": "Mounted Laser",
+        "quantity": 1
+      },
+      "2d989785-27f6-4ff5-b28c-1697e047cd3f": {
+        "octgn_id": "2d989785-27f6-4ff5-b28c-1697e047cd3f",
+        "name": "Navigation Column",
+        "quantity": 1
+      },
+      "ea086da5-0a48-4f95-a9f4-f94fada1e611": {
+        "octgn_id": "ea086da5-0a48-4f95-a9f4-f94fada1e611",
+        "name": "Targeting Screen",
+        "quantity": 1
+      },
+      "43f20977-1471-45e6-ab03-d250a86fc43e": {
+        "octgn_id": "43f20977-1471-45e6-ab03-d250a86fc43e",
+        "name": "Grand Strategy",
+        "quantity": 1
+      },
+      "ebb6add0-8dc7-4b7c-b5a9-71018d17a7cd": {
+        "octgn_id": "ebb6add0-8dc7-4b7c-b5a9-71018d17a7cd",
+        "name": "Power Unleashed",
+        "quantity": 1
+      },
+      "79611628-417d-4346-af64-7d7ab24235b9": {
+        "octgn_id": "79611628-417d-4346-af64-7d7ab24235b9",
+        "name": "Tried and True",
+        "quantity": 1
+      },
+      "606fb0c1-f857-4f2c-a4da-6c28838629fd": {
+        "octgn_id": "606fb0c1-f857-4f2c-a4da-6c28838629fd",
+        "name": "Triple Threat",
+        "quantity": 1
+      }
+    },
+    "challenge": {
+      "edc17513-17b4-4fa0-89b0-663c8dcd3d8f": {
+        "octgn_id": "edc17513-17b4-4fa0-89b0-663c8dcd3d8f",
+        "name": "Badoon Blitz",
+        "quantity": 1
+      },
+      "5b69e7a1-30db-4510-9cf9-2f73792ebc92": {
+        "octgn_id": "5b69e7a1-30db-4510-9cf9-2f73792ebc92",
+        "name": "Gallery of Splendor",
+        "quantity": 1
+      },
+      "17b21e22-a7a3-4e17-9424-50abf8c13292": {
+        "octgn_id": "17b21e22-a7a3-4e17-9424-50abf8c13292",
+        "name": "\"There is No Escape\"",
+        "quantity": 1
+      },
+      "bb57f32d-68dc-4ef7-b840-1d94ef2c4830": {
+        "octgn_id": "bb57f32d-68dc-4ef7-b840-1d94ef2c4830",
+        "name": "Guerrilla Tactics",
+        "quantity": 1
+      },
+      "ca86cb27-3777-4498-96df-45c0772b79ea": {
+        "octgn_id": "ca86cb27-3777-4498-96df-45c0772b79ea",
+        "name": "Kree Supremacy",
+        "quantity": 1
+      }
+    },
+    "badoon_headhunter": {
+      "4b58fa91-6add-4cd1-a585-b325d9e5c883": {
+        "octgn_id": "4b58fa91-6add-4cd1-a585-b325d9e5c883",
+        "name": "Badoon Headhunter",
+        "quantity": 1
+      },
+      "ae01075c-da48-413c-9bfc-0588983a8bd8": {
+        "octgn_id": "ae01075c-da48-413c-9bfc-0588983a8bd8",
+        "name": "On the Hunt",
+        "quantity": 1
+      },
+      "c6f38aa9-d315-4e9f-acb2-8a5d71e72170": {
+        "octgn_id": "c6f38aa9-d315-4e9f-acb2-8a5d71e72170",
+        "name": "Dead to Rights",
+        "quantity": 1
+      },
+      "9f551569-2827-4d7e-b75f-f4f829d788af": {
+        "octgn_id": "9f551569-2827-4d7e-b75f-f4f829d788af",
+        "name": "Headhunter's Henchman",
+        "quantity": 1
+      },
+      "8c8feb01-4614-4c85-8c68-cb4682ca672a": {
+        "octgn_id": "8c8feb01-4614-4c85-8c68-cb4682ca672a",
+        "name": "Fugitive Recovery",
+        "quantity": 1
+      }
+    },
+    "black_order": {
+      "dcb44a4c-d8cb-4833-9ec2-b20f36c9f68a": {
+        "octgn_id": "dcb44a4c-d8cb-4833-9ec2-b20f36c9f68a",
+        "name": "Black Dwarf",
+        "quantity": 1
+      },
+      "9f126935-0308-4d54-820c-f27eaf02bcab": {
+        "octgn_id": "9f126935-0308-4d54-820c-f27eaf02bcab",
+        "name": "Supergiant",
+        "quantity": 1
+      },
+      "7fbfa36b-c625-4711-afc9-db1403d0bf34": {
+        "octgn_id": "7fbfa36b-c625-4711-afc9-db1403d0bf34",
+        "name": "The Black Order",
+        "quantity": 1
+      },
+      "6e56f0fc-c515-4e82-8081-9b35bd5c362a": {
+        "octgn_id": "6e56f0fc-c515-4e82-8081-9b35bd5c362a",
+        "name": "Blood to Spare",
+        "quantity": 1
+      }
+    },
+    "armies_of_titan": {
+      "447abe71-0ef7-441d-9177-e25eb22eff8c": {
+        "octgn_id": "447abe71-0ef7-441d-9177-e25eb22eff8c",
+        "name": "Black Order Infantry",
+        "quantity": 2
+      },
+      "2b038f77-4aab-4910-a05b-ca24c53bb08d": {
+        "octgn_id": "2b038f77-4aab-4910-a05b-ca24c53bb08d",
+        "name": "Outrider",
+        "quantity": 2
+      },
+      "a7a8a678-bb80-46f9-8b5c-ccbc2d129ae5": {
+        "octgn_id": "a7a8a678-bb80-46f9-8b5c-ccbc2d129ae5",
+        "name": "Landing Craft",
+        "quantity": 2
+      }
+    },
+    "children_of_thanos": {
+      "a651d9c2-33f8-4368-95ae-6aa08437aecf": {
+        "octgn_id": "a651d9c2-33f8-4368-95ae-6aa08437aecf",
+        "name": "Corvus Glaive",
+        "quantity": 1
+      },
+      "d3315712-05f4-44d3-93bc-be741c48fdbf": {
+        "octgn_id": "d3315712-05f4-44d3-93bc-be741c48fdbf",
+        "name": "Proxima Midnight",
+        "quantity": 1
+      },
+      "7b94bee3-75ae-4255-9db3-de5ebd239b81": {
+        "octgn_id": "7b94bee3-75ae-4255-9db3-de5ebd239b81",
+        "name": "Ebony Maw",
+        "quantity": 1
+      },
+      "6899d51d-dc58-4ff4-80af-7a08c2545732": {
+        "octgn_id": "6899d51d-dc58-4ff4-80af-7a08c2545732",
+        "name": "Tribute",
+        "quantity": 2
+      }
+    },
+    "infinity_gauntlet": {
+      "b81de592-aacf-45d9-b664-b4a2df40caaa": {
+        "octgn_id": "b81de592-aacf-45d9-b664-b4a2df40caaa",
+        "name": "Infinity Gauntlet",
+        "quantity": 1
+      },
+      "d271d72f-7509-450f-aa0f-69223e140c64": {
+        "octgn_id": "d271d72f-7509-450f-aa0f-69223e140c64",
+        "name": "Mind Stone",
+        "quantity": 1
+      },
+      "4e93aad4-b374-4c62-91ce-5d3e2d5a0e83": {
+        "octgn_id": "4e93aad4-b374-4c62-91ce-5d3e2d5a0e83",
+        "name": "Power Stone",
+        "quantity": 1
+      },
+      "86f034de-4522-43e5-9696-4a006994dc18": {
+        "octgn_id": "86f034de-4522-43e5-9696-4a006994dc18",
+        "name": "Reality Stone",
+        "quantity": 1
+      },
+      "bfb05d27-8050-4390-8a88-367c28d5c353": {
+        "octgn_id": "bfb05d27-8050-4390-8a88-367c28d5c353",
+        "name": "Soul Stone",
+        "quantity": 1
+      },
+      "5037091e-ec9e-4e1a-b160-ff43a8947378": {
+        "octgn_id": "5037091e-ec9e-4e1a-b160-ff43a8947378",
+        "name": "Space Stone",
+        "quantity": 1
+      },
+      "c1de9c61-303c-4043-a9c4-04bf14ff5960": {
+        "octgn_id": "c1de9c61-303c-4043-a9c4-04bf14ff5960",
+        "name": "Time Stone",
+        "quantity": 1
+      }
+    },
+    "legions_of_hel": {
+      "39bbd2d5-1ab8-4568-b0be-5e4e9b837912": {
+        "octgn_id": "39bbd2d5-1ab8-4568-b0be-5e4e9b837912",
+        "name": "Draugr",
+        "quantity": 2
+      },
+      "1ce9c993-5758-40d9-9d5f-bf0df9110dd5": {
+        "octgn_id": "1ce9c993-5758-40d9-9d5f-bf0df9110dd5",
+        "name": "Fallen Warrior",
+        "quantity": 2
+      },
+      "daa145f0-835f-4961-b01c-5fb874d60da8": {
+        "octgn_id": "daa145f0-835f-4961-b01c-5fb874d60da8",
+        "name": "No Place for the Living",
+        "quantity": 1
+      },
+      "b59baf3c-d858-4fc4-8045-4bbfb7011ccb": {
+        "octgn_id": "b59baf3c-d858-4fc4-8045-4bbfb7011ccb",
+        "name": "Legions of Hel",
+        "quantity": 2
+      }
+    },
+    "frost_giants": {
+      "cc4bd48d-0ac6-464a-bd26-32b6fa7ee477": {
+        "octgn_id": "cc4bd48d-0ac6-464a-bd26-32b6fa7ee477",
+        "name": "Laufey",
+        "quantity": 1
+      },
+      "9dd1cde6-95ed-4796-a404-a6ee83b7af6f": {
+        "octgn_id": "9dd1cde6-95ed-4796-a404-a6ee83b7af6f",
+        "name": "Frost Giant",
+        "quantity": 2
+      },
+      "7a621b16-e240-427a-8197-6bdf7c39f223": {
+        "octgn_id": "7a621b16-e240-427a-8197-6bdf7c39f223",
+        "name": "Frozen",
+        "quantity": 2
+      },
+      "d910511f-f370-470d-b27d-cfc21dc35e3c": {
+        "octgn_id": "d910511f-f370-470d-b27d-cfc21dc35e3c",
+        "name": "Unnatural Storm",
+        "quantity": 1
+      }
+    },
+    "enchantress": {
+      "fdff62e0-4b0b-4c34-9182-d1ccf2606d46": {
+        "octgn_id": "fdff62e0-4b0b-4c34-9182-d1ccf2606d46",
+        "name": "Enchantress",
+        "quantity": 1
+      },
+      "e75618ad-722d-4ff8-8475-a6e99ec61ffa": {
+        "octgn_id": "e75618ad-722d-4ff8-8475-a6e99ec61ffa",
+        "name": "Beguiled",
+        "quantity": 2
+      },
+      "33e8f90b-c6e8-4675-bd1f-d32e6ee99ce5": {
+        "octgn_id": "33e8f90b-c6e8-4675-bd1f-d32e6ee99ce5",
+        "name": "Seduced",
+        "quantity": 2
+      }
+    },
+    "mts_campaign": {
+      "075dd8d0-7264-4c11-8540-f5c5f22ebeb3": {
+        "octgn_id": "075dd8d0-7264-4c11-8540-f5c5f22ebeb3",
+        "name": "Secure the Landing Pad",
+        "quantity": 1
+      },
+      "a8836673-9e0b-405f-b15f-49511e879809": {
+        "octgn_id": "a8836673-9e0b-405f-b15f-49511e879809",
+        "name": "Security Breach",
+        "quantity": 1
+      },
+      "784b24f8-ab69-446f-a709-33ea06645ebf": {
+        "octgn_id": "784b24f8-ab69-446f-a709-33ea06645ebf",
+        "name": "Save the Shawarma Place",
+        "quantity": 1
+      },
+      "c9fe2c83-ea8b-479d-a5b2-da837f497576": {
+        "octgn_id": "c9fe2c83-ea8b-479d-a5b2-da837f497576",
+        "name": "Shawarma",
+        "quantity": 4
+      },
+      "714fb29e-5753-47e5-bf53-c0df1ef10957": {
+        "octgn_id": "714fb29e-5753-47e5-bf53-c0df1ef10957",
+        "name": "Hack Sanctuary's Computer",
+        "quantity": 1
+      },
+      "29211890-776b-4af4-adbd-bc10acd45762": {
+        "octgn_id": "29211890-776b-4af4-adbd-bc10acd45762",
+        "name": "System Shock",
+        "quantity": 4
+      },
+      "3fc97389-95a5-4dcc-ab8f-3aa95497ed21": {
+        "octgn_id": "3fc97389-95a5-4dcc-ab8f-3aa95497ed21",
+        "name": "Retrieve Odin's Armor",
+        "quantity": 1
+      },
+      "0084b4da-a938-4abd-9d2f-b91ed84f95e6": {
+        "octgn_id": "0084b4da-a938-4abd-9d2f-b91ed84f95e6",
+        "name": "Norn Stone",
+        "quantity": 4
+      },
+      "987e00ab-a948-47e5-99d6-1530de2b1f77": {
+        "octgn_id": "987e00ab-a948-47e5-99d6-1530de2b1f77",
+        "name": "Summoned Back",
+        "quantity": 1
+      },
+      "a146df6c-ad1e-47e4-be61-d3afe281e6a5": {
+        "octgn_id": "a146df6c-ad1e-47e4-be61-d3afe281e6a5",
+        "name": "Open the Dungeons",
+        "quantity": 1
+      },
+      "fe77df83-8a7b-4276-a731-a0a86432cdd9": {
+        "octgn_id": "fe77df83-8a7b-4276-a731-a0a86432cdd9",
+        "name": "Lady Sif",
+        "quantity": 1
+      },
+      "5dc03f9b-b1d3-49a6-9f00-7ea867084676": {
+        "octgn_id": "5dc03f9b-b1d3-49a6-9f00-7ea867084676",
+        "name": "Fandral",
+        "quantity": 1
+      },
+      "8b9a9fd3-e243-4443-969f-eb5769874bb5": {
+        "octgn_id": "8b9a9fd3-e243-4443-969f-eb5769874bb5",
+        "name": "Hogun",
+        "quantity": 1
+      },
+      "c66be24b-5558-45b2-9c9a-f0cfc883dcd4": {
+        "octgn_id": "c66be24b-5558-45b2-9c9a-f0cfc883dcd4",
+        "name": "Volstagg",
+        "quantity": 1
+      }
+    },
+    "beasty_boys": {
+      "ae7f6bad-79b9-4278-9cdc-c9ed4e258f98": {
+        "octgn_id": "ae7f6bad-79b9-4278-9cdc-c9ed4e258f98",
+        "name": "Beast Mode",
+        "quantity": 1
+      },
+      "c46c7e01-58bb-4787-85e6-cbe7eac76cee": {
+        "octgn_id": "c46c7e01-58bb-4787-85e6-cbe7eac76cee",
+        "name": "Griffin",
+        "quantity": 1
+      },
+      "e1cd93ce-e97c-47a0-9d71-dfb7cf097e25": {
+        "octgn_id": "e1cd93ce-e97c-47a0-9d71-dfb7cf097e25",
+        "name": "Mandrill",
+        "quantity": 1
+      },
+      "eca1a0e9-c4c4-4eb8-8ef9-8b9abbc765d4": {
+        "octgn_id": "eca1a0e9-c4c4-4eb8-8ef9-8b9abbc765d4",
+        "name": "Double Trouble",
+        "quantity": 1
+      }
+    },
+    "brothers_grimm": {
+      "2a6dcbcd-c8a0-4b06-8213-c20b66a2b337": {
+        "octgn_id": "2a6dcbcd-c8a0-4b06-8213-c20b66a2b337",
+        "name": "Brothers Grimm",
+        "quantity": 1
+      },
+      "4d2e4a0a-4148-4e40-9eae-a46c394f0ba1": {
+        "octgn_id": "4d2e4a0a-4148-4e40-9eae-a46c394f0ba1",
+        "name": "Blackbird Pellets",
+        "quantity": 1
+      },
+      "d4300180-9e71-43ad-b0c3-8390edf5c380": {
+        "octgn_id": "d4300180-9e71-43ad-b0c3-8390edf5c380",
+        "name": "Corrosive Egg Bomb",
+        "quantity": 1
+      },
+      "a389a765-3e40-4a66-b78f-83d53d34eb3a": {
+        "octgn_id": "a389a765-3e40-4a66-b78f-83d53d34eb3a",
+        "name": "Paralytic Stardust",
+        "quantity": 1
+      },
+      "c5c3480c-967d-4e52-885f-004da7048053": {
+        "octgn_id": "c5c3480c-967d-4e52-885f-004da7048053",
+        "name": "Unbreakable Thread",
+        "quantity": 1
+      }
+    },
+    "crossfire_crew": {
+      "8cbaf154-a53a-423e-82b1-96ea43efea9e": {
+        "octgn_id": "8cbaf154-a53a-423e-82b1-96ea43efea9e",
+        "name": "Out for Blood",
+        "quantity": 1
+      },
+      "d1f190a1-3c27-4bb6-9c8d-8d85f9fc66c3": {
+        "octgn_id": "d1f190a1-3c27-4bb6-9c8d-8d85f9fc66c3",
+        "name": "Controller",
+        "quantity": 1
+      },
+      "60a8a2e6-05fb-4b57-a961-1649638a1819": {
+        "octgn_id": "60a8a2e6-05fb-4b57-a961-1649638a1819",
+        "name": "Corruptor",
+        "quantity": 1
+      },
+      "01f7dcf9-55dc-4509-a5ec-268e168d3c7d": {
+        "octgn_id": "01f7dcf9-55dc-4509-a5ec-268e168d3c7d",
+        "name": "Crossfire",
+        "quantity": 1
+      },
+      "5c1a6df8-c178-4d99-b147-66a40b7c8d3b": {
+        "octgn_id": "5c1a6df8-c178-4d99-b147-66a40b7c8d3b",
+        "name": "Mister Fear",
+        "quantity": 1
+      },
+      "77d71c72-8491-4e93-9e36-6a7dcbf19027": {
+        "octgn_id": "77d71c72-8491-4e93-9e36-6a7dcbf19027",
+        "name": "Caught in the Crossfire",
+        "quantity": 1
+      }
+    },
+    "expert_ii": {
+      "a8ad0128-af79-4b6e-becf-f1d9752d27ee": {
+        "octgn_id": "a8ad0128-af79-4b6e-becf-f1d9752d27ee",
+        "name": "Cruel Intentions",
+        "quantity": 1
+      },
+      "de93b412-c5e2-432e-aa0a-5b2d9af7ab68": {
+        "octgn_id": "de93b412-c5e2-432e-aa0a-5b2d9af7ab68",
+        "name": "Ruination",
+        "quantity": 1
+      },
+      "899568a6-ee33-4092-80a1-eddf09965bbe": {
+        "octgn_id": "899568a6-ee33-4092-80a1-eddf09965bbe",
+        "name": "Seek and Destroy",
+        "quantity": 1
+      },
+      "8563780b-b865-43d1-9e58-9e8b8e1bd188": {
+        "octgn_id": "8563780b-b865-43d1-9e58-9e8b8e1bd188",
+        "name": "Slug It Out",
+        "quantity": 1
+      }
+    },
+    "mister_hyde": {
+      "90c71037-be0f-4304-93ad-79e89eb342bc": {
+        "octgn_id": "90c71037-be0f-4304-93ad-79e89eb342bc",
+        "name": "Self-Experimentation",
+        "quantity": 1
+      },
+      "5af3d445-9c22-497f-982d-36fd05e7a5ff": {
+        "octgn_id": "5af3d445-9c22-497f-982d-36fd05e7a5ff",
+        "name": "Calvin Zabo",
+        "quantity": 1
+      },
+      "3d2b621c-f80a-4a36-82d6-2174a2d39078": {
+        "octgn_id": "3d2b621c-f80a-4a36-82d6-2174a2d39078",
+        "name": "Mister Hyde",
+        "quantity": 1
+      },
+      "e9237c2e-4509-449d-ad5a-cfe219f16ac6": {
+        "octgn_id": "e9237c2e-4509-449d-ad5a-cfe219f16ac6",
+        "name": "Hyde Formula",
+        "quantity": 1
+      }
+    },
+    "ransacked_armory": {
+      "4fc3d9ad-15f4-4992-b0e2-d8cbeb5664b3": {
+        "octgn_id": "4fc3d9ad-15f4-4992-b0e2-d8cbeb5664b3",
+        "name": "Flamethrower",
+        "quantity": 1
+      },
+      "2aa0584f-d04b-4b6c-8d1d-a6cf29bdac4a": {
+        "octgn_id": "2aa0584f-d04b-4b6c-8d1d-a6cf29bdac4a",
+        "name": "Holoshield Generator",
+        "quantity": 1
+      },
+      "83344536-ce80-4f24-84e6-bbb1cd090879": {
+        "octgn_id": "83344536-ce80-4f24-84e6-bbb1cd090879",
+        "name": "Jetpack",
+        "quantity": 2
+      },
+      "34fdd8ae-436f-4e4c-9b7b-f321eac43b6d": {
+        "octgn_id": "34fdd8ae-436f-4e4c-9b7b-f321eac43b6d",
+        "name": "Tech Gauntlets",
+        "quantity": 1
+      },
+      "7deb3b63-831d-42ef-b765-d6c11ae7a479": {
+        "octgn_id": "7deb3b63-831d-42ef-b765-d6c11ae7a479",
+        "name": "Armored Guard",
+        "quantity": 2
+      }
+    },
+    "sinister_syndicate": {
+      "52fed6ef-5fb4-4510-b9f9-575cc5a8d53e": {
+        "octgn_id": "52fed6ef-5fb4-4510-b9f9-575cc5a8d53e",
+        "name": "Crime Pays",
+        "quantity": 1
+      },
+      "81f2bafd-4fe9-443e-9bd1-3f3eb0a240c7": {
+        "octgn_id": "81f2bafd-4fe9-443e-9bd1-3f3eb0a240c7",
+        "name": "Beetle",
+        "quantity": 1
+      },
+      "45eb89d2-8c95-4c86-bdb0-8235dd25caf5": {
+        "octgn_id": "45eb89d2-8c95-4c86-bdb0-8235dd25caf5",
+        "name": "Boomerang",
+        "quantity": 1
+      },
+      "f152b45c-5d33-45c1-954c-87bafab65d91": {
+        "octgn_id": "f152b45c-5d33-45c1-954c-87bafab65d91",
+        "name": "Shocker",
+        "quantity": 1
+      },
+      "59a8f5e6-4e2b-42e8-b7ca-704a1eded905": {
+        "octgn_id": "59a8f5e6-4e2b-42e8-b7ca-704a1eded905",
+        "name": "Speed Demon",
+        "quantity": 1
+      },
+      "db9f7a63-4a5a-456e-82fc-f84f5665228c": {
+        "octgn_id": "db9f7a63-4a5a-456e-82fc-f84f5665228c",
+        "name": "White Rabbit",
+        "quantity": 1
+      },
+      "98179f55-2ceb-43fe-8956-4f4f862fa37a": {
+        "octgn_id": "98179f55-2ceb-43fe-8956-4f4f862fa37a",
+        "name": "Sinister Onslaught",
+        "quantity": 1
+      }
+    },
+    "standard_ii": {
+      "9d1cc110-1771-49b6-807f-c414f8483e6e": {
+        "octgn_id": "9d1cc110-1771-49b6-807f-c414f8483e6e",
+        "name": "Formidable Foe",
+        "quantity": 1
+      },
+      "5379069c-b94b-4211-847b-9ad0e5da8e81": {
+        "octgn_id": "5379069c-b94b-4211-847b-9ad0e5da8e81",
+        "name": "Dark Dealings",
+        "quantity": 2
+      },
+      "98bb4975-fdb7-42f0-b6e4-6c411ba87891": {
+        "octgn_id": "98bb4975-fdb7-42f0-b6e4-6c411ba87891",
+        "name": "Mob Mentality",
+        "quantity": 1
+      },
+      "bfc8fe55-bf8f-4643-b965-bc2cdc683cc7": {
+        "octgn_id": "bfc8fe55-bf8f-4643-b965-bc2cdc683cc7",
+        "name": "Overwhelming Force",
+        "quantity": 1
+      },
+      "98435f84-db7d-429f-93c9-e2824bbc722f": {
+        "octgn_id": "98435f84-db7d-429f-93c9-e2824bbc722f",
+        "name": "Shadow of the Past",
+        "quantity": 1
+      },
+      "666699f7-3f01-4907-90d6-37c621388f2e": {
+        "octgn_id": "666699f7-3f01-4907-90d6-37c621388f2e",
+        "name": "Total Annihilation",
+        "quantity": 2
+      }
+    },
+    "state_of_emergency": {
+      "6f479ba0-24f6-423e-8d97-79a614150649": {
+        "octgn_id": "6f479ba0-24f6-423e-8d97-79a614150649",
+        "name": "Feisty Heist",
+        "quantity": 1
+      },
+      "5dac1386-3be2-42e6-bf91-fa8d64b878eb": {
+        "octgn_id": "5dac1386-3be2-42e6-bf91-fa8d64b878eb",
+        "name": "Disaster at the Docks",
+        "quantity": 1
+      },
+      "5899dba3-043d-4f6a-b3e6-5404fc151cf3": {
+        "octgn_id": "5899dba3-043d-4f6a-b3e6-5404fc151cf3",
+        "name": "Offshore Inferno",
+        "quantity": 1
+      },
+      "1b4a4c79-85a1-494f-889a-acde69c93c23": {
+        "octgn_id": "1b4a4c79-85a1-494f-889a-acde69c93c23",
+        "name": "Hot Pursuit",
+        "quantity": 1
+      },
+      "c2c551f3-04cd-4f00-96b7-961c25bca69e": {
+        "octgn_id": "c2c551f3-04cd-4f00-96b7-961c25bca69e",
+        "name": "Citywide Crisis",
+        "quantity": 2
+      }
+    },
+    "streets_of_mayhem": {
+      "6f18cf13-fc69-43d1-b3ee-bddaedee2e31": {
+        "octgn_id": "6f18cf13-fc69-43d1-b3ee-bddaedee2e31",
+        "name": "Back-Alley Enclave",
+        "quantity": 1
+      },
+      "a98ca710-9a7d-49d5-8dff-0735142604cf": {
+        "octgn_id": "a98ca710-9a7d-49d5-8dff-0735142604cf",
+        "name": "Secret Lair",
+        "quantity": 1
+      },
+      "ffc5f096-63ac-4c6f-bbdc-29ce42f3a4a2": {
+        "octgn_id": "ffc5f096-63ac-4c6f-bbdc-29ce42f3a4a2",
+        "name": "Sewer Tunnels",
+        "quantity": 1
+      },
+      "1e90a8ef-4a41-4644-ba2d-da32d13f2885": {
+        "octgn_id": "1e90a8ef-4a41-4644-ba2d-da32d13f2885",
+        "name": "Warehouse District",
+        "quantity": 1
+      }
+    },
+    "wrecking_crew_modular": {
+      "8ebcb82c-6821-422b-9593-cf7b845a4d5b": {
+        "octgn_id": "8ebcb82c-6821-422b-9593-cf7b845a4d5b",
+        "name": "Top Talent",
+        "quantity": 1
+      },
+      "9b0bfde9-ee72-4d81-954f-5e55a2c5a12c": {
+        "octgn_id": "9b0bfde9-ee72-4d81-954f-5e55a2c5a12c",
+        "name": "Wrecker",
+        "quantity": 1
+      },
+      "eff60741-35d3-4fa9-af92-80ae0ab0b449": {
+        "octgn_id": "eff60741-35d3-4fa9-af92-80ae0ab0b449",
+        "name": "Bulldozer",
+        "quantity": 1
+      },
+      "147e7ddd-d07d-459f-bf66-fd0872be505b": {
+        "octgn_id": "147e7ddd-d07d-459f-bf66-fd0872be505b",
+        "name": "Piledriver",
+        "quantity": 1
+      },
+      "e0d73acf-2569-4be8-9f6d-6ceb2783fd77": {
+        "octgn_id": "e0d73acf-2569-4be8-9f6d-6ceb2783fd77",
+        "name": "Thunderball",
+        "quantity": 1
+      },
+      "0a2bfc45-6460-41ba-8ed7-c87345fd692a": {
+        "octgn_id": "0a2bfc45-6460-41ba-8ed7-c87345fd692a",
+        "name": "Combined Effort",
+        "quantity": 1
+      },
+      "4c82e60e-b9af-497d-8983-0dc7e6e5aa2e": {
+        "octgn_id": "4c82e60e-b9af-497d-8983-0dc7e6e5aa2e",
+        "name": "Magic Muscle",
+        "quantity": 1
+      }
+    },
+    "city_in_chaos": {
+      "fdbe68eb-5d42-468d-a266-ccb252ea671a": {
+        "octgn_id": "fdbe68eb-5d42-468d-a266-ccb252ea671a",
+        "name": "Panic in the Streets",
+        "quantity": 1
+      },
+      "62f6f5b6-339e-4d20-9f13-c423f4a59811": {
+        "octgn_id": "62f6f5b6-339e-4d20-9f13-c423f4a59811",
+        "name": "Rhino",
+        "quantity": 1
+      },
+      "846d5414-7fd7-44b9-a1a2-8ebca55f1834": {
+        "octgn_id": "846d5414-7fd7-44b9-a1a2-8ebca55f1834",
+        "name": "Calling in Favors",
+        "quantity": 1
+      },
+      "4d3e032a-20b4-4970-87bc-d280959e488e": {
+        "octgn_id": "4d3e032a-20b4-4970-87bc-d280959e488e",
+        "name": "Now or Never",
+        "quantity": 2
+      }
+    },
+    "down_to_earth": {
+      "9d7fd921-5872-47b0-a794-50342aabab62": {
+        "octgn_id": "9d7fd921-5872-47b0-a794-50342aabab62",
+        "name": "Common Criminal",
+        "quantity": 3
+      },
+      "298ed976-344b-4dcf-bc6c-29efc88c81f7": {
+        "octgn_id": "298ed976-344b-4dcf-bc6c-29efc88c81f7",
+        "name": "Friends and Family",
+        "quantity": 1
+      },
+      "cff3d499-b97a-4d02-9e3b-50ee5ab397cd": {
+        "octgn_id": "cff3d499-b97a-4d02-9e3b-50ee5ab397cd",
+        "name": "Volunteer Work",
+        "quantity": 1
+      },
+      "0921f5e1-a2d2-4944-b32c-76fe636c53e6": {
+        "octgn_id": "0921f5e1-a2d2-4944-b32c-76fe636c53e6",
+        "name": "\"Threat or Menace?\"",
+        "quantity": 1
+      },
+      "27dff1b1-7a15-47b0-bfcc-69b6e8b2dd2a": {
+        "octgn_id": "27dff1b1-7a15-47b0-bfcc-69b6e8b2dd2a",
+        "name": "Loose Ends",
+        "quantity": 1
+      }
+    },
+    "goblin_gear": {
+      "ced28c50-6a21-4faa-aca0-98f953ffbc04": {
+        "octgn_id": "ced28c50-6a21-4faa-aca0-98f953ffbc04",
+        "name": "Advanced Glider",
+        "quantity": 1
+      },
+      "0f5de367-4208-4cdb-8fd7-6518da2703b9": {
+        "octgn_id": "0f5de367-4208-4cdb-8fd7-6518da2703b9",
+        "name": "Concussive Bombs",
+        "quantity": 1
+      },
+      "13d106ee-3440-496e-ba76-bdd7b127d206": {
+        "octgn_id": "13d106ee-3440-496e-ba76-bdd7b127d206",
+        "name": "Incendiary Bombs",
+        "quantity": 1
+      },
+      "66132631-70ef-4427-837f-e0037246a708": {
+        "octgn_id": "66132631-70ef-4427-837f-e0037246a708",
+        "name": "Smoke Bombs",
+        "quantity": 1
+      },
+      "9b8b7896-435d-4fa2-b715-3623a8b7b97c": {
+        "octgn_id": "9b8b7896-435d-4fa2-b715-3623a8b7b97c",
+        "name": "Limitless Supply",
+        "quantity": 1
+      },
+      "2520783a-45af-466f-bc28-a092ef2f47ac": {
+        "octgn_id": "2520783a-45af-466f-bc28-a092ef2f47ac",
+        "name": "Remote Navigation",
+        "quantity": 1
+      }
+    },
+    "guerrilla_tactics": {
+      "89d737b7-467b-43b3-b410-b00374dec4a9": {
+        "octgn_id": "89d737b7-467b-43b3-b410-b00374dec4a9",
+        "name": "Life-Size Decoy",
+        "quantity": 2
+      },
+      "611a9eeb-fc05-411e-8c74-30d001e4f87a": {
+        "octgn_id": "611a9eeb-fc05-411e-8c74-30d001e4f87a",
+        "name": "Coordinated Effort",
+        "quantity": 1
+      },
+      "d3c97815-7953-4cea-ae62-5d4cc89c53b4": {
+        "octgn_id": "d3c97815-7953-4cea-ae62-5d4cc89c53b4",
+        "name": "Hidden in Shadow",
+        "quantity": 1
+      },
+      "69fd32b6-5727-4ff6-92d8-bc3198f51a78": {
+        "octgn_id": "69fd32b6-5727-4ff6-92d8-bc3198f51a78",
+        "name": "Teamwork Makes the Dream Work",
+        "quantity": 1
+      },
+      "af4666b5-0e39-41d2-974f-340648546dc0": {
+        "octgn_id": "af4666b5-0e39-41d2-974f-340648546dc0",
+        "name": "From Every Direction",
+        "quantity": 2
+      }
+    },
+    "osborn_tech": {
+      "5ad0d535-b853-4236-b122-5b033f1c4ef1": {
+        "octgn_id": "5ad0d535-b853-4236-b122-5b033f1c4ef1",
+        "name": "Arm Cannon",
+        "quantity": 1
+      },
+      "b49e759e-e1c0-433e-bead-a0abc6dbebae": {
+        "octgn_id": "b49e759e-e1c0-433e-bead-a0abc6dbebae",
+        "name": "Ionic Boots",
+        "quantity": 1
+      },
+      "30bb4f04-dcb8-41e1-aa97-08442de39d41": {
+        "octgn_id": "30bb4f04-dcb8-41e1-aa97-08442de39d41",
+        "name": "Kinetic Armor",
+        "quantity": 1
+      },
+      "6533c147-41d9-4fd3-960d-3d33b2095a23": {
+        "octgn_id": "6533c147-41d9-4fd3-960d-3d33b2095a23",
+        "name": "Neocarbon Scales",
+        "quantity": 1
+      },
+      "741bff7c-eddb-4b30-aaa7-73b1eefb5f64": {
+        "octgn_id": "741bff7c-eddb-4b30-aaa7-73b1eefb5f64",
+        "name": "Spiked Gauntlet",
+        "quantity": 1
+      },
+      "14b0a5c7-0c6b-4587-a807-82a894f9212b": {
+        "octgn_id": "14b0a5c7-0c6b-4587-a807-82a894f9212b",
+        "name": "Tracking Display",
+        "quantity": 1
+      }
+    },
+    "personal_nightmare": {
+      "ab7f1299-6b83-4835-af25-33f93ccbbb6e": {
+        "octgn_id": "ab7f1299-6b83-4835-af25-33f93ccbbb6e",
+        "name": "Induced Panic",
+        "quantity": 1
+      },
+      "8d73b392-f14b-462d-9478-09bd213a2db6": {
+        "octgn_id": "8d73b392-f14b-462d-9478-09bd213a2db6",
+        "name": "Evil Doppelgänger",
+        "quantity": 2
+      },
+      "eb3a82ab-3f17-4178-8cfc-bec92fcac863": {
+        "octgn_id": "eb3a82ab-3f17-4178-8cfc-bec92fcac863",
+        "name": "Fool's Paradise",
+        "quantity": 1
+      },
+      "0ea57316-c6ce-4436-bd02-b3b247f9cca3": {
+        "octgn_id": "0ea57316-c6ce-4436-bd02-b3b247f9cca3",
+        "name": "Weakness from Within",
+        "quantity": 1
+      },
+      "ca6abc05-6046-4df4-894f-3f0652ecbd0e": {
+        "octgn_id": "ca6abc05-6046-4df4-894f-3f0652ecbd0e",
+        "name": "Deepest Fears",
+        "quantity": 2
+      }
+    },
+    "sinister_assault": {
+      "c78ee8f0-5121-4b77-a6e7-900dbb9a691b": {
+        "octgn_id": "c78ee8f0-5121-4b77-a6e7-900dbb9a691b",
+        "name": "Doctor Octopus",
+        "quantity": 1
+      },
+      "618c2d7c-28b0-47bb-b98b-7c17e9dde660": {
+        "octgn_id": "618c2d7c-28b0-47bb-b98b-7c17e9dde660",
+        "name": "Electro",
+        "quantity": 1
+      },
+      "85ddb2ef-981d-4802-991b-44bad12e54af": {
+        "octgn_id": "85ddb2ef-981d-4802-991b-44bad12e54af",
+        "name": "Hobgoblin",
+        "quantity": 1
+      },
+      "057cd98e-008f-43d9-9bf3-130211be6aea": {
+        "octgn_id": "057cd98e-008f-43d9-9bf3-130211be6aea",
+        "name": "Kraven the Hunter",
+        "quantity": 1
+      },
+      "60c3c0b6-baba-4879-9452-b3aecec46bef": {
+        "octgn_id": "60c3c0b6-baba-4879-9452-b3aecec46bef",
+        "name": "Scorpion",
+        "quantity": 1
+      },
+      "a22b7b89-c64c-4da8-824b-180fdabd51ac": {
+        "octgn_id": "a22b7b89-c64c-4da8-824b-180fdabd51ac",
+        "name": "Vulture",
+        "quantity": 1
+      }
+    },
+    "symbiotic_strength": {
+      "869e8157-2aa8-4e8e-ba62-0b256b667a9e": {
+        "octgn_id": "869e8157-2aa8-4e8e-ba62-0b256b667a9e",
+        "name": "Improvised Weapons",
+        "quantity": 1
+      },
+      "453b9c1e-40ae-49c1-b2da-3d26d1e0c43a": {
+        "octgn_id": "453b9c1e-40ae-49c1-b2da-3d26d1e0c43a",
+        "name": "Violent Tendencies",
+        "quantity": 1
+      },
+      "6698cbe7-9bdc-4d25-a174-1529c513cc20": {
+        "octgn_id": "6698cbe7-9bdc-4d25-a174-1529c513cc20",
+        "name": "Webbed Up",
+        "quantity": 1
+      },
+      "137a0a3a-798d-4597-b625-01599dee05df": {
+        "octgn_id": "137a0a3a-798d-4597-b625-01599dee05df",
+        "name": "Enraged Symbiote",
+        "quantity": 3
+      },
+      "5a41a4a1-40ef-4dff-9b2d-54c4b2cd12a3": {
+        "octgn_id": "5a41a4a1-40ef-4dff-9b2d-54c4b2cd12a3",
+        "name": "Swinging Assault",
+        "quantity": 2
+      },
+      "7011e50e-bc88-4ec7-be09-53bb5a5926bf": {
+        "octgn_id": "7011e50e-bc88-4ec7-be09-53bb5a5926bf",
+        "name": "Unstable Sentience",
+        "quantity": 1
+      }
+    },
+    "whispers_of_paranoia": {
+      "7f0a789e-c3a2-466e-b7b0-7a5cb8f4efae": {
+        "octgn_id": "7f0a789e-c3a2-466e-b7b0-7a5cb8f4efae",
+        "name": "Delusion of Collusion",
+        "quantity": 2
+      },
+      "edd2d216-02d1-47f5-890b-ad360a506c71": {
+        "octgn_id": "edd2d216-02d1-47f5-890b-ad360a506c71",
+        "name": "Manipulated Mind",
+        "quantity": 1
+      },
+      "4b17ba6a-3c95-472a-918d-d3d31649d49a": {
+        "octgn_id": "4b17ba6a-3c95-472a-918d-d3d31649d49a",
+        "name": "Old Grudge",
+        "quantity": 1
+      },
+      "34093d78-7c88-4714-88af-146727dfaebf": {
+        "octgn_id": "34093d78-7c88-4714-88af-146727dfaebf",
+        "name": "Analysis Paralysis",
+        "quantity": 1
+      }
+    },
+    "bad_publicity": {
+      "98d67b98-d883-4fdc-a1a0-3b62d2a9cdd1": {
+        "octgn_id": "98d67b98-d883-4fdc-a1a0-3b62d2a9cdd1",
+        "name": "Public Outcry",
+        "quantity": 1
+      },
+      "1a4dae9b-c0a1-4a5c-92bd-e9bc02535e8c": {
+        "octgn_id": "1a4dae9b-c0a1-4a5c-92bd-e9bc02535e8c",
+        "name": "Smear Campaign",
+        "quantity": 1
+      }
+    },
+    "community_service": {
+      "7692e1d4-cda3-40b5-a46c-0943d59701ac": {
+        "octgn_id": "7692e1d4-cda3-40b5-a46c-0943d59701ac",
+        "name": "Back Alley Burglary",
+        "quantity": 1
+      },
+      "4017100b-c6b8-4e0e-9f4f-6300706c814e": {
+        "octgn_id": "4017100b-c6b8-4e0e-9f4f-6300706c814e",
+        "name": "Cat in a Tree",
+        "quantity": 1
+      },
+      "2483b565-4194-478d-93a0-b66be343bf8d": {
+        "octgn_id": "2483b565-4194-478d-93a0-b66be343bf8d",
+        "name": "Henchmen Heist",
+        "quantity": 1
+      },
+      "be369c53-4080-4843-a88b-ad31c1cc18a7": {
+        "octgn_id": "be369c53-4080-4843-a88b-ad31c1cc18a7",
+        "name": "Off the Rails",
+        "quantity": 1
+      },
+      "2257080b-898f-40f5-bd17-2dba6187a70a": {
+        "octgn_id": "2257080b-898f-40f5-bd17-2dba6187a70a",
+        "name": "Rubble Rescue",
+        "quantity": 1
+      }
+    },
+    "snitches_get_stitches": {
+      "2ab8ff36-6074-4662-990f-2aec3ba538f0": {
+        "octgn_id": "2ab8ff36-6074-4662-990f-2aec3ba538f0",
+        "name": "Snitches Get Stitches",
+        "quantity": 1
+      }
+    },
+    "shield_tech": {
+      "01273b97-c9bf-49f8-bab7-cfc2ad127f3a": {
+        "octgn_id": "01273b97-c9bf-49f8-bab7-cfc2ad127f3a",
+        "name": "Compact Darts",
+        "quantity": 1
+      },
+      "cff4327f-deae-46a2-97a4-2eae84eef5ed": {
+        "octgn_id": "cff4327f-deae-46a2-97a4-2eae84eef5ed",
+        "name": "Impact-Dampening Suit",
+        "quantity": 1
+      },
+      "6f9ce064-3f42-409c-9f2b-d657f4fda83e": {
+        "octgn_id": "6f9ce064-3f42-409c-9f2b-d657f4fda83e",
+        "name": "Laser Googles",
+        "quantity": 1
+      },
+      "cd5f15c5-1d35-4582-b664-5b03cb7e44f2": {
+        "octgn_id": "cd5f15c5-1d35-4582-b664-5b03cb7e44f2",
+        "name": "Propulsion Gauntlet",
+        "quantity": 1
+      },
+      "a9fcdf47-3a27-465b-a751-2d5d462d4cdd": {
+        "octgn_id": "a9fcdf47-3a27-465b-a751-2d5d462d4cdd",
+        "name": "Retinal Display",
+        "quantity": 1
+      },
+      "0862fbbf-4b8b-4cf9-80cd-cb00efddcbbb": {
+        "octgn_id": "0862fbbf-4b8b-4cf9-80cd-cb00efddcbbb",
+        "name": "Shock Knuckles",
+        "quantity": 1
+      },
+      "83a5b8aa-b0a8-4ee7-a1ea-f34ad22e6737": {
+        "octgn_id": "83a5b8aa-b0a8-4ee7-a1ea-f34ad22e6737",
+        "name": "Wave Bracers",
+        "quantity": 1
+      },
+      "9b19aec4-ff1e-4b26-b85d-17c15f4ba81f": {
+        "octgn_id": "9b19aec4-ff1e-4b26-b85d-17c15f4ba81f",
+        "name": "Wrist Navigators",
+        "quantity": 1
+      }
+    },
+    "armadillo": {
+      "0271ab7e-75bc-436d-b0f7-be103892ea1d": {
+        "octgn_id": "0271ab7e-75bc-436d-b0f7-be103892ea1d",
+        "name": "Armored Assault",
+        "quantity": 1
+      },
+      "e13a299e-8c42-484b-924b-2fc56afa962f": {
+        "octgn_id": "e13a299e-8c42-484b-924b-2fc56afa962f",
+        "name": "Armadillo",
+        "quantity": 1
+      },
+      "0bb66b13-2327-4916-9c65-8d1ca623f3b9": {
+        "octgn_id": "0bb66b13-2327-4916-9c65-8d1ca623f3b9",
+        "name": "Rollin', Rollin'",
+        "quantity": 1
+      },
+      "a2b27a0e-4812-4806-9654-f062f034de03": {
+        "octgn_id": "a2b27a0e-4812-4806-9654-f062f034de03",
+        "name": "Tough and Tumble",
+        "quantity": 1
+      },
+      "865165c4-5c04-42bc-9ae9-c84314ca2636": {
+        "octgn_id": "865165c4-5c04-42bc-9ae9-c84314ca2636",
+        "name": "Tough It Out",
+        "quantity": 2
+      }
+    },
+    "zzzax": {
+      "f0244c72-6c3e-4f1e-aaff-30b81661f88e": {
+        "octgn_id": "f0244c72-6c3e-4f1e-aaff-30b81661f88e",
+        "name": "Feedback Loop",
+        "quantity": 1
+      },
+      "52a950f6-3304-42a3-bf0c-567f51aa505d": {
+        "octgn_id": "52a950f6-3304-42a3-bf0c-567f51aa505d",
+        "name": "Zzzax",
+        "quantity": 1
+      },
+      "0c0e36ef-c097-4895-9db9-78fa3b28f79b": {
+        "octgn_id": "0c0e36ef-c097-4895-9db9-78fa3b28f79b",
+        "name": "Haywire",
+        "quantity": 2
+      },
+      "4d21ae7a-57f6-49cb-bfd6-5c58668b06e9": {
+        "octgn_id": "4d21ae7a-57f6-49cb-bfd6-5c58668b06e9",
+        "name": "Air Static",
+        "quantity": 1
+      },
+      "2740251a-0e64-452d-872a-b7dfca1d5df2": {
+        "octgn_id": "2740251a-0e64-452d-872a-b7dfca1d5df2",
+        "name": "Zzzap!",
+        "quantity": 2
+      }
+    },
+    "inheritors": {
+      "5f189d1d-2352-41cc-b285-a4c687030030": {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030030",
+        "name": "Hunting the Spider-Totems",
+        "quantity": 1
+      },
+      "5f189d1d-2352-41cc-b285-a4c687030031": {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030031",
+        "name": "Bora",
+        "quantity": 1
+      },
+      "5f189d1d-2352-41cc-b285-a4c687030032": {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030032",
+        "name": "Brix",
+        "quantity": 1
+      },
+      "5f189d1d-2352-41cc-b285-a4c687030033": {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030033",
+        "name": "Daemos",
+        "quantity": 1
+      },
+      "5f189d1d-2352-41cc-b285-a4c687030034": {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030034",
+        "name": "Jennix",
+        "quantity": 1
+      },
+      "5f189d1d-2352-41cc-b285-a4c687030035": {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030035",
+        "name": "Karn",
+        "quantity": 1
+      },
+      "5f189d1d-2352-41cc-b285-a4c687030036": {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030036",
+        "name": "Morlun",
+        "quantity": 1
+      },
+      "5f189d1d-2352-41cc-b285-a4c687030037": {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030037",
+        "name": "Solus",
+        "quantity": 1
+      },
+      "5f189d1d-2352-41cc-b285-a4c687030038": {
+        "octgn_id": "5f189d1d-2352-41cc-b285-a4c687030038",
+        "name": "Verna",
+        "quantity": 1
+      }
+    },
+    "ironspider_sinister": {
+      "5b7da011-412e-452a-9edd-24618a031030": {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031030",
+        "name": "Grand Larceny",
+        "quantity": 1
+      },
+      "5b7da011-412e-452a-9edd-24618a031031": {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031031",
+        "name": "Bombshell",
+        "quantity": 1
+      },
+      "5b7da011-412e-452a-9edd-24618a031032": {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031032",
+        "name": "Electro",
+        "quantity": 1
+      },
+      "5b7da011-412e-452a-9edd-24618a031033": {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031033",
+        "name": "Hobgoblin",
+        "quantity": 1
+      },
+      "5b7da011-412e-452a-9edd-24618a031034": {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031034",
+        "name": "Iron Spider",
+        "quantity": 1
+      },
+      "5b7da011-412e-452a-9edd-24618a031035": {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031035",
+        "name": "Sandman",
+        "quantity": 1
+      },
+      "5b7da011-412e-452a-9edd-24618a031036": {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031036",
+        "name": "Spot",
+        "quantity": 1
+      },
+      "5b7da011-412e-452a-9edd-24618a031037": {
+        "octgn_id": "5b7da011-412e-452a-9edd-24618a031037",
+        "name": "Surge in Crime",
+        "quantity": 1
+      }
+    },
+    "brotherhood": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032073": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032073",
+        "name": "Avalanche",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032074": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032074",
+        "name": "Blob",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032075": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032075",
+        "name": "Pyro",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032076": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032076",
+        "name": "Toad",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032077": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032077",
+        "name": "Homo Superior",
+        "quantity": 2
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032078": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032078",
+        "name": "Mutant Terrorists",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032079": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032079",
+        "name": "The Brotherhood",
+        "quantity": 1
+      }
+    },
+    "mystique": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032080": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032080",
+        "name": "Mystique",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032081": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032081",
+        "name": "Metamorphic Mayhem",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032082": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032082",
+        "name": "Infiltration",
+        "quantity": 2
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032083": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032083",
+        "name": "Shapeshifter Surprise",
+        "quantity": 1
+      }
+    },
+    "zero_tolerance": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032101": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032101",
+        "name": "Sentinel Mark II",
+        "quantity": 2
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032102": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032102",
+        "name": "Sentinel Mark III",
+        "quantity": 2
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032103": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032103",
+        "name": "Energy Barrier",
+        "quantity": 2
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032104": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032104",
+        "name": "Operation Zero Tolerance",
+        "quantity": 1
+      }
+    },
+    "sentinels": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032105": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032105",
+        "name": "Sentinel Mark V",
+        "quantity": 2
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032106": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032106",
+        "name": "Sentinel Mark VI",
+        "quantity": 2
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032107": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032107",
+        "name": "Targeted for Elimination",
+        "quantity": 2
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032108": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032108",
+        "name": "Relentless Robots",
+        "quantity": 1
+      }
+    },
+    "acolytes": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032159": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032159",
+        "name": "Fabian Cortez",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032160": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032160",
+        "name": "Amelia Voght",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032161": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032161",
+        "name": "Senyaka",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032162": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032162",
+        "name": "Delgado",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032163": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032163",
+        "name": "Unuscione",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032164": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032164",
+        "name": "Zeal for the Cause",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032165": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032165",
+        "name": "The Acolytes",
+        "quantity": 1
+      }
+    },
+    "future_past": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032166": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032166",
+        "name": "Nimrod",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032167": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032167",
+        "name": "Bastion",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032168": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032168",
+        "name": "Nimrod's Portal",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032169": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032169",
+        "name": "Bastion's Machinations",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032170": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032170",
+        "name": "Nano-Sentinel Tech",
+        "quantity": 1
+      }
+    },
+    "mut_gen_campaign": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032171": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032171",
+        "name": "Metro P.D.",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032172": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032172",
+        "name": "Magneto",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032173": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032173",
+        "name": "Rescue Captives",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032174": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032174",
+        "name": "Surprise Attack",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032175": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032175",
+        "name": "Magneto's Power",
+        "quantity": 1
+      }
+    },
+    "brawler": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032176": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032176",
+        "name": "Coup de Grâce",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032177": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032177",
+        "name": "Swagger",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032178": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032178",
+        "name": "Brazen Defense",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032179": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032179",
+        "name": "Ferocious Attack",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032180": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032180",
+        "name": "War Cry",
+        "quantity": 1
+      }
+    },
+    "commander": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032181": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032181",
+        "name": "Coup de Grâce",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032182": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032182",
+        "name": "Compassion",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032183": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032183",
+        "name": "Group Assault",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032184": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032184",
+        "name": "Shock and Awe",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032185": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032185",
+        "name": "Improvisation",
+        "quantity": 1
+      }
+    },
+    "defender": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032186": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032186",
+        "name": "Swagger",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032187": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032187",
+        "name": "Surprise!",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032188": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032188",
+        "name": "Heroic Intervention",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032189": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032189",
+        "name": "Determined Defense",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032190": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032190",
+        "name": "Bodyguard",
+        "quantity": 1
+      }
+    },
+    "peacekeeper": {
+      "47d34c5d-5319-45a9-a2d6-1fb975032191": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032191",
+        "name": "Surprise!",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032192": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032192",
+        "name": "Compassion",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032193": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032193",
+        "name": "Rescue Operation",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032194": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032194",
+        "name": "Mentorship",
+        "quantity": 1
+      },
+      "47d34c5d-5319-45a9-a2d6-1fb975032195": {
+        "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032195",
+        "name": "Fortitude",
+        "quantity": 1
+      }
+    }
+  },
+  "villainSets": {
+    "rhino": {
+      "villainCards": {
+        "fce46ea8-8d92-4ddc-8ef0-9c923fcf6afd": {
+          "octgn_id": "fce46ea8-8d92-4ddc-8ef0-9c923fcf6afd",
+          "name": "Rhino",
+          "quantity": 1
+        },
+        "d02475f1-4bfb-476a-a76d-b69dbd33e47a": {
+          "octgn_id": "d02475f1-4bfb-476a-a76d-b69dbd33e47a",
+          "name": "Rhino",
+          "quantity": 1
+        },
+        "bb54b9af-cada-43e0-8602-258169423892": {
+          "octgn_id": "bb54b9af-cada-43e0-8602-258169423892",
+          "name": "Rhino",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "1687b8a9-9630-4800-b297-03c5001e8ee9": {
+          "octgn_id": "1687b8a9-9630-4800-b297-03c5001e8ee9",
+          "name": "The Break-In!",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "71ec987b-57ea-441f-8329-2979d4f452a3": {
+          "octgn_id": "71ec987b-57ea-441f-8329-2979d4f452a3",
+          "name": "Armored Rhino Suit",
+          "quantity": 1
+        },
+        "9b64b2e1-31f2-4ab0-bc27-2a852bddd38d": {
+          "octgn_id": "9b64b2e1-31f2-4ab0-bc27-2a852bddd38d",
+          "name": "Charge",
+          "quantity": 2
+        },
+        "a4657b2a-a6c5-4219-9941-b3b97d395619": {
+          "octgn_id": "a4657b2a-a6c5-4219-9941-b3b97d395619",
+          "name": "Enhanced Ivory Horn",
+          "quantity": 1
+        },
+        "c73009c6-1937-4337-928a-61993a21b01b": {
+          "octgn_id": "c73009c6-1937-4337-928a-61993a21b01b",
+          "name": "Hydra Mercenary",
+          "quantity": 2
+        },
+        "14f6e92c-4a2a-4545-8052-a275fdd480c9": {
+          "octgn_id": "14f6e92c-4a2a-4545-8052-a275fdd480c9",
+          "name": "Sandman",
+          "quantity": 1
+        },
+        "4543fce4-1833-4654-877c-f2e5b9948807": {
+          "octgn_id": "4543fce4-1833-4654-877c-f2e5b9948807",
+          "name": "Shocker",
+          "quantity": 1
+        },
+        "bd636747-04b7-4f4d-bad8-51bca13649dc": {
+          "octgn_id": "bd636747-04b7-4f4d-bad8-51bca13649dc",
+          "name": "Hard to Keep Down",
+          "quantity": 2
+        },
+        "afe13025-a15b-43b8-bf07-7ff4ed3158a9": {
+          "octgn_id": "afe13025-a15b-43b8-bf07-7ff4ed3158a9",
+          "name": "\"I'm Tough\"",
+          "quantity": 2
+        },
+        "68cded28-0a5e-426b-a549-532ae7919867": {
+          "octgn_id": "68cded28-0a5e-426b-a549-532ae7919867",
+          "name": "Stampede",
+          "quantity": 3
+        },
+        "ef2f8584-2a72-46a2-81ac-076f10e7b883": {
+          "octgn_id": "ef2f8584-2a72-46a2-81ac-076f10e7b883",
+          "name": "Breakin' & Takin'",
+          "quantity": 1
+        },
+        "0cec442b-79ef-4ab5-9ba7-772db0d4d33e": {
+          "octgn_id": "0cec442b-79ef-4ab5-9ba7-772db0d4d33e",
+          "name": "Crowd Control",
+          "quantity": 1
+        }
+      }
+    },
+    "klaw": {
+      "villainCards": {
+        "dd8ef54b-2bfd-4043-a2e2-e77ae3d5710e": {
+          "octgn_id": "dd8ef54b-2bfd-4043-a2e2-e77ae3d5710e",
+          "name": "Klaw",
+          "quantity": 1
+        },
+        "87da60fb-2502-4e5d-a8fc-9f06c447ab67": {
+          "octgn_id": "87da60fb-2502-4e5d-a8fc-9f06c447ab67",
+          "name": "Klaw",
+          "quantity": 1
+        },
+        "f0ca13fc-9848-44a0-9842-f149d9308544": {
+          "octgn_id": "f0ca13fc-9848-44a0-9842-f149d9308544",
+          "name": "Klaw",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "77e9fb39-e38c-4b35-bf58-39072e9c6c10": {
+          "octgn_id": "77e9fb39-e38c-4b35-bf58-39072e9c6c10",
+          "name": "Underground Distribution",
+          "quantity": 1
+        },
+        "76806fd2-3552-44be-98a5-17ab83880eca": {
+          "octgn_id": "76806fd2-3552-44be-98a5-17ab83880eca",
+          "name": "Secret Rendezvous",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "ca97e8f7-2c9f-4953-bdb4-2380afa631cf": {
+          "octgn_id": "ca97e8f7-2c9f-4953-bdb4-2380afa631cf",
+          "name": "Sonic Converter",
+          "quantity": 1
+        },
+        "4ab04b9e-b080-4767-97eb-e0a3ce2b7e86": {
+          "octgn_id": "4ab04b9e-b080-4767-97eb-e0a3ce2b7e86",
+          "name": "Solid-Sound Body",
+          "quantity": 1
+        },
+        "685fecf2-664a-4fe2-8f78-8af5a5dfdb69": {
+          "octgn_id": "685fecf2-664a-4fe2-8f78-8af5a5dfdb69",
+          "name": "Armored Guard",
+          "quantity": 3
+        },
+        "c3479be7-4227-4f32-a049-0f33bc8f5b37": {
+          "octgn_id": "c3479be7-4227-4f32-a049-0f33bc8f5b37",
+          "name": "Weapons Runner",
+          "quantity": 2
+        },
+        "a1dd93bb-29b3-4389-b85a-329c7c7f2de1": {
+          "octgn_id": "a1dd93bb-29b3-4389-b85a-329c7c7f2de1",
+          "name": "Klaw's Vengeance",
+          "quantity": 2
+        },
+        "d5d0bc67-1098-4798-a992-d5cac8e9ab8b": {
+          "octgn_id": "d5d0bc67-1098-4798-a992-d5cac8e9ab8b",
+          "name": "Sonic Boom",
+          "quantity": 2
+        },
+        "41dbe155-10b6-4cbe-bac1-d0ac21120c70": {
+          "octgn_id": "41dbe155-10b6-4cbe-bac1-d0ac21120c70",
+          "name": "Sound Manipulation",
+          "quantity": 2
+        },
+        "f37279a7-bbef-433f-b756-d078081a23be": {
+          "octgn_id": "f37279a7-bbef-433f-b756-d078081a23be",
+          "name": "Defense Network",
+          "quantity": 1
+        },
+        "e737e08f-5758-4d71-bdc0-39aa6226a358": {
+          "octgn_id": "e737e08f-5758-4d71-bdc0-39aa6226a358",
+          "name": "Illegal Arms Factory",
+          "quantity": 1
+        },
+        "41d90a95-581a-40c6-b73f-acfc209b6522": {
+          "octgn_id": "41d90a95-581a-40c6-b73f-acfc209b6522",
+          "name": "The \"Immortal\" Klaw",
+          "quantity": 1
+        }
+      }
+    },
+    "ultron": {
+      "villainCards": {
+        "1ac72089-1c7c-4b04-8389-423afae2f870": {
+          "octgn_id": "1ac72089-1c7c-4b04-8389-423afae2f870",
+          "name": "Ultron",
+          "quantity": 1
+        },
+        "9000efcd-7131-4e7a-bac9-69cee5fb54d1": {
+          "octgn_id": "9000efcd-7131-4e7a-bac9-69cee5fb54d1",
+          "name": "Ultron",
+          "quantity": 1
+        },
+        "2a8069a6-044c-409c-a633-ded41dde6670": {
+          "octgn_id": "2a8069a6-044c-409c-a633-ded41dde6670",
+          "name": "Ultron",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "741ee538-008d-4f5b-8b54-be47c3b37160": {
+          "octgn_id": "741ee538-008d-4f5b-8b54-be47c3b37160",
+          "name": "The Crimson Cowl",
+          "quantity": 1
+        },
+        "79ae1bd9-628f-40f7-8e00-049526f13041": {
+          "octgn_id": "79ae1bd9-628f-40f7-8e00-049526f13041",
+          "name": "Assault on NORAD",
+          "quantity": 1
+        },
+        "af49444f-d93e-4ef5-b2fb-2035cd386d41": {
+          "octgn_id": "af49444f-d93e-4ef5-b2fb-2035cd386d41",
+          "name": "Countdown to Oblivion",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "551b46f8-e92a-47c8-8506-70127a0aca16": {
+          "octgn_id": "551b46f8-e92a-47c8-8506-70127a0aca16",
+          "name": "Ultron Drones",
+          "quantity": 1
+        },
+        "9fb5fb97-0dcc-47d9-bce1-8b22c53e48cc": {
+          "octgn_id": "9fb5fb97-0dcc-47d9-bce1-8b22c53e48cc",
+          "name": "Program Transmitter",
+          "quantity": 1
+        },
+        "4704125d-e56c-450d-85f2-6773ad6484f7": {
+          "octgn_id": "4704125d-e56c-450d-85f2-6773ad6484f7",
+          "name": "Upgraded Drones",
+          "quantity": 2
+        },
+        "4baf3e7a-96af-4f1b-9477-a7f9426b6d16": {
+          "octgn_id": "4baf3e7a-96af-4f1b-9477-a7f9426b6d16",
+          "name": "Advanced Ultron Drone",
+          "quantity": 3
+        },
+        "undefined": {
+          "name": "Android Efficiency",
+          "quantity": 3
+        },
+        "c48c6ee0-8bcc-4855-be15-9cebffbc17bb": {
+          "octgn_id": "c48c6ee0-8bcc-4855-be15-9cebffbc17bb",
+          "name": "Android Efficiency",
+          "quantity": 1
+        },
+        "112ca6dd-7733-457e-b2cb-2e4dd7720bf7": {
+          "octgn_id": "112ca6dd-7733-457e-b2cb-2e4dd7720bf7",
+          "name": "Android Efficiency",
+          "quantity": 1
+        },
+        "8dcff72d-dfd3-4717-9bbb-433eeca2efae": {
+          "octgn_id": "8dcff72d-dfd3-4717-9bbb-433eeca2efae",
+          "name": "Android Efficiency",
+          "quantity": 1
+        },
+        "67976b80-f940-4e87-8856-2437c2729dc8": {
+          "octgn_id": "67976b80-f940-4e87-8856-2437c2729dc8",
+          "name": "Rage of Ultron",
+          "quantity": 2
+        },
+        "19c66bf5-f9a2-4189-abda-ac6401acc16b": {
+          "octgn_id": "19c66bf5-f9a2-4189-abda-ac6401acc16b",
+          "name": "Repair Sequence",
+          "quantity": 2
+        },
+        "33aa7723-e4ea-49cd-a1d5-c653fc99e77d": {
+          "octgn_id": "33aa7723-e4ea-49cd-a1d5-c653fc99e77d",
+          "name": "Swarm Attack",
+          "quantity": 2
+        },
+        "00d3ab63-ca36-45dd-bc07-484d8c26739c": {
+          "octgn_id": "00d3ab63-ca36-45dd-bc07-484d8c26739c",
+          "name": "Drone Factory",
+          "quantity": 1
+        },
+        "1e73665c-99f8-4232-8786-e38eae794a34": {
+          "octgn_id": "1e73665c-99f8-4232-8786-e38eae794a34",
+          "name": "Invasive AI",
+          "quantity": 1
+        },
+        "0f38393d-c11d-49c7-b9a0-4c7c61f098d4": {
+          "octgn_id": "0f38393d-c11d-49c7-b9a0-4c7c61f098d4",
+          "name": "Ultron's Imperative",
+          "quantity": 1
+        }
+      }
+    },
+    "risky_business": {
+      "villainCards": {
+        "8665869b-fae4-494e-91d1-1e8c308220c2": {
+          "octgn_id": "8665869b-fae4-494e-91d1-1e8c308220c2",
+          "name": "Norman Osborn",
+          "quantity": 1
+        },
+        "cfd051be-4ade-4cf8-b575-4b673cfa9a92": {
+          "octgn_id": "cfd051be-4ade-4cf8-b575-4b673cfa9a92",
+          "name": "Norman Osborn",
+          "quantity": 1
+        },
+        "b16187a4-3f29-4a4b-8b66-6e8c7524c402": {
+          "octgn_id": "b16187a4-3f29-4a4b-8b66-6e8c7524c402",
+          "name": "Norman Osborn",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "b35084d9-3a2b-418c-b1a4-e4929de16a2c": {
+          "octgn_id": "b35084d9-3a2b-418c-b1a4-e4929de16a2c",
+          "name": "Hostile Takeover",
+          "quantity": 1
+        },
+        "1eae757a-25b2-4b29-a8e7-f43b12c531b0": {
+          "octgn_id": "1eae757a-25b2-4b29-a8e7-f43b12c531b0",
+          "name": "Corporate Acquisition",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "0a59161d-7db6-4328-9eeb-1906ce8715a5": {
+          "octgn_id": "0a59161d-7db6-4328-9eeb-1906ce8715a5",
+          "name": "State of Madness",
+          "quantity": 1
+        },
+        "e6b84007-2c4a-47e8-b58c-d21794469131": {
+          "octgn_id": "e6b84007-2c4a-47e8-b58c-d21794469131",
+          "name": "Hired Gun",
+          "quantity": 3
+        },
+        "9c9d5849-a50e-42ee-a3ee-53f7a6c57087": {
+          "octgn_id": "9c9d5849-a50e-42ee-a3ee-53f7a6c57087",
+          "name": "Private Security Specialist",
+          "quantity": 4
+        },
+        "12f16fcf-cb34-437d-816c-6c2dd8795ca2": {
+          "octgn_id": "12f16fcf-cb34-437d-816c-6c2dd8795ca2",
+          "name": "Collapsing Bridge",
+          "quantity": 1
+        },
+        "24bdfc4c-006f-4b64-8895-2bd0cfe579f0": {
+          "octgn_id": "24bdfc4c-006f-4b64-8895-2bd0cfe579f0",
+          "name": "Oscorp Manufacturing",
+          "quantity": 2
+        },
+        "feb7edd8-676d-4ec6-8bfd-1564723467db": {
+          "octgn_id": "feb7edd8-676d-4ec6-8bfd-1564723467db",
+          "name": "Payoff",
+          "quantity": 2
+        },
+        "960d1f64-9bf0-4dad-9e66-1099dbdaf257": {
+          "octgn_id": "960d1f64-9bf0-4dad-9e66-1099dbdaf257",
+          "name": "All in a Day's Work",
+          "quantity": 4
+        },
+        "14ab5336-b138-4875-9b5f-49bd2ca77e92": {
+          "octgn_id": "14ab5336-b138-4875-9b5f-49bd2ca77e92",
+          "name": "Mad Genius",
+          "quantity": 2
+        }
+      }
+    },
+    "mutagen_formula": {
+      "villainCards": {
+        "00908c1e-5280-4b72-8900-86022a1a8c43": {
+          "octgn_id": "00908c1e-5280-4b72-8900-86022a1a8c43",
+          "name": "Green Goblin",
+          "quantity": 1
+        },
+        "62842a3b-7b68-40b8-b64f-956d6f420518": {
+          "octgn_id": "62842a3b-7b68-40b8-b64f-956d6f420518",
+          "name": "Green Goblin",
+          "quantity": 1
+        },
+        "470eb264-0b7a-4d68-a580-d35dfd875f04": {
+          "octgn_id": "470eb264-0b7a-4d68-a580-d35dfd875f04",
+          "name": "Green Goblin",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "a8133759-8bc7-4fd3-94e5-166c92753a09": {
+          "octgn_id": "a8133759-8bc7-4fd3-94e5-166c92753a09",
+          "name": "Unleashing the Mutagen",
+          "quantity": 1
+        },
+        "ec37ec17-e73b-4826-ad35-469dfca71959": {
+          "octgn_id": "ec37ec17-e73b-4826-ad35-469dfca71959",
+          "name": "Mutagen Cloud",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "d138e1aa-4fa6-4c12-b0a2-5104a4a7ab50": {
+          "octgn_id": "d138e1aa-4fa6-4c12-b0a2-5104a4a7ab50",
+          "name": "Goblin Glider",
+          "quantity": 1
+        },
+        "67b6c338-07f9-441d-8b61-0b4c5b4ad28e": {
+          "octgn_id": "67b6c338-07f9-441d-8b61-0b4c5b4ad28e",
+          "name": "Hysteria",
+          "quantity": 1
+        },
+        "8f97becc-6c49-4421-a80f-475a314d7122": {
+          "octgn_id": "8f97becc-6c49-4421-a80f-475a314d7122",
+          "name": "Pumpkin Bombs",
+          "quantity": 1
+        },
+        "0c62c139-5a67-48ce-8838-320b92d3a782": {
+          "octgn_id": "0c62c139-5a67-48ce-8838-320b92d3a782",
+          "name": "Goblin Knight",
+          "quantity": 1
+        },
+        "8f4358a0-d60c-47ad-9301-bab37ecb8012": {
+          "octgn_id": "8f4358a0-d60c-47ad-9301-bab37ecb8012",
+          "name": "Goblin Soldier",
+          "quantity": 4
+        },
+        "28b868b1-f1db-4795-8c26-99129aff0ec5": {
+          "octgn_id": "28b868b1-f1db-4795-8c26-99129aff0ec5",
+          "name": "Goblin Thrall",
+          "quantity": 6
+        },
+        "62e51c46-14b3-4143-947b-995186e9aee9": {
+          "octgn_id": "62e51c46-14b3-4143-947b-995186e9aee9",
+          "name": "Monster",
+          "quantity": 1
+        },
+        "6d4ad9e9-384f-49a8-beb6-050b003a108d": {
+          "octgn_id": "6d4ad9e9-384f-49a8-beb6-050b003a108d",
+          "name": "Goblin Reinforcements",
+          "quantity": 2
+        },
+        "bb4a88dd-5bb3-4afa-a045-6e9e0ac07311": {
+          "octgn_id": "bb4a88dd-5bb3-4afa-a045-6e9e0ac07311",
+          "name": "Goblin Nation",
+          "quantity": 1
+        },
+        "324db345-6795-4a0c-a989-dbbf668c5087": {
+          "octgn_id": "324db345-6795-4a0c-a989-dbbf668c5087",
+          "name": "Overrun",
+          "quantity": 2
+        },
+        "ad6d825b-ef7e-46a8-99ca-d89e86050900": {
+          "octgn_id": "ad6d825b-ef7e-46a8-99ca-d89e86050900",
+          "name": "Death from Above",
+          "quantity": 2
+        },
+        "8418c281-34e3-4667-93a5-9f358081ccb8": {
+          "octgn_id": "8418c281-34e3-4667-93a5-9f358081ccb8",
+          "name": "I See You",
+          "quantity": 1
+        },
+        "ac6410c6-21f8-49a0-bf6e-e132dbecf102": {
+          "octgn_id": "ac6410c6-21f8-49a0-bf6e-e132dbecf102",
+          "name": "Overconfidence",
+          "quantity": 1
+        },
+        "0f121890-bef2-4dae-9ba5-bb07e8cdd1ca": {
+          "octgn_id": "0f121890-bef2-4dae-9ba5-bb07e8cdd1ca",
+          "name": "Wicked Ambitions",
+          "quantity": 2
+        }
+      }
+    },
+    "wrecking_crew": {
+      "mainSchemeCards": {
+        "0a41a3f9-9056-48d9-a2f1-908cfc6adc05": {
+          "octgn_id": "0a41a3f9-9056-48d9-a2f1-908cfc6adc05",
+          "name": "Breakout",
+          "quantity": 1
+        }
+      }
+    },
+    "wrecker": {
+      "villainCards": {
+        "088c0ae9-bfad-4e44-a1da-cdcea00bf7d9": {
+          "octgn_id": "088c0ae9-bfad-4e44-a1da-cdcea00bf7d9",
+          "name": "Wrecker",
+          "quantity": 1
+        },
+        "718f9b98-926f-4147-b958-1fec8f72b4f5": {
+          "octgn_id": "718f9b98-926f-4147-b958-1fec8f72b4f5",
+          "name": "Wrecker",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "e1ea2b6d-2955-4970-a389-51db51f06423": {
+          "octgn_id": "e1ea2b6d-2955-4970-a389-51db51f06423",
+          "name": "Day of Reckoning",
+          "quantity": 1
+        },
+        "dee1879f-1238-496a-a6de-bb506c655af8": {
+          "octgn_id": "dee1879f-1238-496a-a6de-bb506c655af8",
+          "name": "Held Hostage",
+          "quantity": 1
+        },
+        "a94d4a20-d9e3-48ae-ab7d-3bd477456bce": {
+          "octgn_id": "a94d4a20-d9e3-48ae-ab7d-3bd477456bce",
+          "name": "Magic Crowbar",
+          "quantity": 1
+        },
+        "25b3560e-ecb0-4209-b77b-a8e02ed27aeb": {
+          "octgn_id": "25b3560e-ecb0-4209-b77b-a8e02ed27aeb",
+          "name": "Wrecker's Command",
+          "quantity": 1
+        },
+        "7cbd8bae-918b-4fa2-a81a-73d44419255c": {
+          "octgn_id": "7cbd8bae-918b-4fa2-a81a-73d44419255c",
+          "name": "Corrupt Prison Guard",
+          "quantity": 1
+        },
+        "661a4d1a-8a25-4bcc-bb7c-72fbd29e3cfb": {
+          "octgn_id": "661a4d1a-8a25-4bcc-bb7c-72fbd29e3cfb",
+          "name": "Escaped Convict",
+          "quantity": 1
+        },
+        "a6137e20-4f05-4c7d-9747-15dff289abc8": {
+          "octgn_id": "a6137e20-4f05-4c7d-9747-15dff289abc8",
+          "name": "Buddy System",
+          "quantity": 1
+        },
+        "d1701a2b-6a39-47a7-94b9-1c7aafe152b2": {
+          "octgn_id": "d1701a2b-6a39-47a7-94b9-1c7aafe152b2",
+          "name": "Chaos In the Prison",
+          "quantity": 1
+        },
+        "b6e8c584-3d7c-4d67-a332-c3f85ab9e540": {
+          "octgn_id": "b6e8c584-3d7c-4d67-a332-c3f85ab9e540",
+          "name": "Crowbar Toss",
+          "quantity": 2
+        },
+        "5c1a8df3-5077-4666-b16e-207c1a5f4e58": {
+          "octgn_id": "5c1a8df3-5077-4666-b16e-207c1a5f4e58",
+          "name": "Get Wrecked!",
+          "quantity": 1
+        },
+        "db36c41c-8dff-4c87-9080-a9fbf594cba0": {
+          "octgn_id": "db36c41c-8dff-4c87-9080-a9fbf594cba0",
+          "name": "I've Been Waiting For This!",
+          "quantity": 1
+        },
+        "dbc37382-417d-4f43-a2ea-cb4c8dfb9cb9": {
+          "octgn_id": "dbc37382-417d-4f43-a2ea-cb4c8dfb9cb9",
+          "name": "Mystical Link",
+          "quantity": 2
+        },
+        "05987f76-15e8-46a4-be01-7f77a26c4f91": {
+          "octgn_id": "05987f76-15e8-46a4-be01-7f77a26c4f91",
+          "name": "You're Dead Meat!",
+          "quantity": 2
+        }
+      }
+    },
+    "thunderball": {
+      "villainCards": {
+        "1d067bd2-dbd7-44a9-8ea1-787fc3632e30": {
+          "octgn_id": "1d067bd2-dbd7-44a9-8ea1-787fc3632e30",
+          "name": "Thunderball",
+          "quantity": 1
+        },
+        "aa0f58bf-eee5-4c83-8118-dd7224d15744": {
+          "octgn_id": "aa0f58bf-eee5-4c83-8118-dd7224d15744",
+          "name": "Thunderball",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "0b250c97-24dc-4f20-9b1e-b60a4d361784": {
+          "octgn_id": "0b250c97-24dc-4f20-9b1e-b60a4d361784",
+          "name": "Thunderstruck",
+          "quantity": 1
+        },
+        "5b85d595-10ad-438a-9bd8-ad547a1400e0": {
+          "octgn_id": "5b85d595-10ad-438a-9bd8-ad547a1400e0",
+          "name": "Ball and Chain",
+          "quantity": 1
+        },
+        "9c7fc7bb-e95f-43a4-b5fa-4e61b5659039": {
+          "octgn_id": "9c7fc7bb-e95f-43a4-b5fa-4e61b5659039",
+          "name": "Held Hostage",
+          "quantity": 1
+        },
+        "a0936235-2ca3-4171-9851-35c5be1d81bd": {
+          "octgn_id": "a0936235-2ca3-4171-9851-35c5be1d81bd",
+          "name": "Radioactive Buildup",
+          "quantity": 1
+        },
+        "0bf428bf-0cb6-41f4-acf2-dcc0aa957422": {
+          "octgn_id": "0bf428bf-0cb6-41f4-acf2-dcc0aa957422",
+          "name": "Corrupt Prison Guard",
+          "quantity": 1
+        },
+        "788bbc50-fb40-4e45-8735-08a16646f3bd": {
+          "octgn_id": "788bbc50-fb40-4e45-8735-08a16646f3bd",
+          "name": "Escaped Convict",
+          "quantity": 1
+        },
+        "c1d0cd2e-fff0-4d32-a050-f09c33c096cc": {
+          "octgn_id": "c1d0cd2e-fff0-4d32-a050-f09c33c096cc",
+          "name": "Buddy System",
+          "quantity": 1
+        },
+        "3c0bc7fe-15fa-47b8-a239-770529e79dc5": {
+          "octgn_id": "3c0bc7fe-15fa-47b8-a239-770529e79dc5",
+          "name": "Chaos In the Prison",
+          "quantity": 1
+        },
+        "d3f20142-1d74-4f21-8485-5057a602e5bf": {
+          "octgn_id": "d3f20142-1d74-4f21-8485-5057a602e5bf",
+          "name": "Energy Projectiles",
+          "quantity": 1
+        },
+        "20cc17e1-9bbc-40f1-8611-ff0b34d0414a": {
+          "octgn_id": "20cc17e1-9bbc-40f1-8611-ff0b34d0414a",
+          "name": "Get Wrecked!",
+          "quantity": 1
+        },
+        "369dd490-3f74-4178-b1e8-6b4289fc6f6c": {
+          "octgn_id": "369dd490-3f74-4178-b1e8-6b4289fc6f6c",
+          "name": "I've Been Waiting For This!",
+          "quantity": 1
+        },
+        "99fd32db-3458-4938-93e3-c4fcd479847c": {
+          "octgn_id": "99fd32db-3458-4938-93e3-c4fcd479847c",
+          "name": "Lightning Blast",
+          "quantity": 2
+        },
+        "eceb4c0b-7d0d-4ee8-ba1a-119ae9816268": {
+          "octgn_id": "eceb4c0b-7d0d-4ee8-ba1a-119ae9816268",
+          "name": "Tactical Prowess",
+          "quantity": 2
+        }
+      }
+    },
+    "piledriver": {
+      "villainCards": {
+        "8b9cd463-75e6-4fa6-9c12-3cfdf4f23e36": {
+          "octgn_id": "8b9cd463-75e6-4fa6-9c12-3cfdf4f23e36",
+          "name": "Piledriver",
+          "quantity": 1
+        },
+        "8245cefe-a577-4c74-a578-bc99fe1f184c": {
+          "octgn_id": "8245cefe-a577-4c74-a578-bc99fe1f184c",
+          "name": "Piledriver",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "07284c7c-100d-4bf0-96cc-64a6f70578ba": {
+          "octgn_id": "07284c7c-100d-4bf0-96cc-64a6f70578ba",
+          "name": "Pile It On!",
+          "quantity": 1
+        },
+        "19b53cc4-d89d-4b71-9de4-c3a221c994a3": {
+          "octgn_id": "19b53cc4-d89d-4b71-9de4-c3a221c994a3",
+          "name": "Distracting Taunts",
+          "quantity": 2
+        },
+        "9296a7a3-52f4-4b1e-9151-ea08243cc648": {
+          "octgn_id": "9296a7a3-52f4-4b1e-9151-ea08243cc648",
+          "name": "Held Hostage",
+          "quantity": 1
+        },
+        "d9ee087c-303e-4d9e-ae83-f886816b07e2": {
+          "octgn_id": "d9ee087c-303e-4d9e-ae83-f886816b07e2",
+          "name": "Corrupt Prison Guard",
+          "quantity": 1
+        },
+        "39e91adb-9a28-4cc6-a28d-4e5ac9b63b6f": {
+          "octgn_id": "39e91adb-9a28-4cc6-a28d-4e5ac9b63b6f",
+          "name": "Escaped Convict",
+          "quantity": 1
+        },
+        "0861371b-c579-455b-84b1-804142e73c5a": {
+          "octgn_id": "0861371b-c579-455b-84b1-804142e73c5a",
+          "name": "Buddy System",
+          "quantity": 1
+        },
+        "5e3ef564-65e3-4277-b5ed-378c2938072d": {
+          "octgn_id": "5e3ef564-65e3-4277-b5ed-378c2938072d",
+          "name": "Get Wrecked!",
+          "quantity": 1
+        },
+        "9bb310d7-9a46-49cc-9bc5-0de5585a2922": {
+          "octgn_id": "9bb310d7-9a46-49cc-9bc5-0de5585a2922",
+          "name": "I've Been Waiting For This!",
+          "quantity": 1
+        },
+        "08d9325f-a2a1-4756-ad98-c519df0b5a77": {
+          "octgn_id": "08d9325f-a2a1-4756-ad98-c519df0b5a77",
+          "name": "Oversized Hands",
+          "quantity": 2
+        },
+        "7148c0bd-dd88-45d1-bdf2-ec6028d9238e": {
+          "octgn_id": "7148c0bd-dd88-45d1-bdf2-ec6028d9238e",
+          "name": "Escape Plan",
+          "quantity": 2
+        },
+        "c23dcd60-c984-40a9-8c44-f63e01da5d57": {
+          "octgn_id": "c23dcd60-c984-40a9-8c44-f63e01da5d57",
+          "name": "Pummel",
+          "quantity": 2
+        },
+        "0fabc94e-d42b-47ae-be80-48b3728feda1": {
+          "octgn_id": "0fabc94e-d42b-47ae-be80-48b3728feda1",
+          "name": "Uncanny Resilience",
+          "quantity": 1
+        }
+      }
+    },
+    "bulldozer": {
+      "villainCards": {
+        "fe540251-cf35-467c-b7c9-1772ff2e6379": {
+          "octgn_id": "fe540251-cf35-467c-b7c9-1772ff2e6379",
+          "name": "Bulldozer",
+          "quantity": 1
+        },
+        "2a3f89b9-cb19-4d2a-93b0-47ba2b108c4b": {
+          "octgn_id": "2a3f89b9-cb19-4d2a-93b0-47ba2b108c4b",
+          "name": "Bulldozer",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "bcc65a44-48e0-44bf-b2ec-9054672b48c0": {
+          "octgn_id": "bcc65a44-48e0-44bf-b2ec-9054672b48c0",
+          "name": "Clear the Road",
+          "quantity": 1
+        },
+        "f46e9561-7d30-442f-a279-7bfa5c6865fd": {
+          "octgn_id": "f46e9561-7d30-442f-a279-7bfa5c6865fd",
+          "name": "Bulldozer's Helmet",
+          "quantity": 1
+        },
+        "e924b0c4-9c78-4cba-a0d4-04000542943e": {
+          "octgn_id": "e924b0c4-9c78-4cba-a0d4-04000542943e",
+          "name": "Held Hostage",
+          "quantity": 1
+        },
+        "c1e610c2-9cd4-4a60-a88b-8a94992519ae": {
+          "octgn_id": "c1e610c2-9cd4-4a60-a88b-8a94992519ae",
+          "name": "Ramming Speed",
+          "quantity": 2
+        },
+        "ddbce021-cf26-42e7-83b8-5e0c96ff2f54": {
+          "octgn_id": "ddbce021-cf26-42e7-83b8-5e0c96ff2f54",
+          "name": "Corrupt Prison Guard",
+          "quantity": 1
+        },
+        "134453c8-55c9-4c7d-af73-0d763f55f07a": {
+          "octgn_id": "134453c8-55c9-4c7d-af73-0d763f55f07a",
+          "name": "Escaped Convict",
+          "quantity": 1
+        },
+        "ccbc0d68-b64d-4897-9579-b828545c2a98": {
+          "octgn_id": "ccbc0d68-b64d-4897-9579-b828545c2a98",
+          "name": "Buddy System",
+          "quantity": 1
+        },
+        "d265e5b4-b98a-4a92-8cd5-e615b8f3f4f2": {
+          "octgn_id": "d265e5b4-b98a-4a92-8cd5-e615b8f3f4f2",
+          "name": "Bull Rush",
+          "quantity": 2
+        },
+        "a04be6ab-0778-41aa-bf77-ef0340e7632f": {
+          "octgn_id": "a04be6ab-0778-41aa-bf77-ef0340e7632f",
+          "name": "Chaos In the Prison",
+          "quantity": 1
+        },
+        "1f77bd47-e713-4a93-8b8e-66efc270815c": {
+          "octgn_id": "1f77bd47-e713-4a93-8b8e-66efc270815c",
+          "name": "Get Wrecked!",
+          "quantity": 1
+        },
+        "c1ada917-64e7-4a8a-809e-759a036b3328": {
+          "octgn_id": "c1ada917-64e7-4a8a-809e-759a036b3328",
+          "name": "Headbutt",
+          "quantity": 2
+        },
+        "f5a9718e-ad1f-46f0-b7cb-bdfa2e0fca26": {
+          "octgn_id": "f5a9718e-ad1f-46f0-b7cb-bdfa2e0fca26",
+          "name": "Leading the Charge",
+          "quantity": 2
+        }
+      }
+    },
+    "crossbones": {
+      "villainCards": {
+        "ec53655e-3d72-4775-861a-7dd5e3157e16": {
+          "octgn_id": "ec53655e-3d72-4775-861a-7dd5e3157e16",
+          "name": "Crossbones",
+          "quantity": 1
+        },
+        "dfbcf7ad-714f-4e2c-9ef3-bd8d489e7a47": {
+          "octgn_id": "dfbcf7ad-714f-4e2c-9ef3-bd8d489e7a47",
+          "name": "Crossbones",
+          "quantity": 1
+        },
+        "4d18a168-3459-4a06-8bac-e926e798b43b": {
+          "octgn_id": "4d18a168-3459-4a06-8bac-e926e798b43b",
+          "name": "Crossbones",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "e90ea3a8-3c15-43b5-abfb-740f75b2e387": {
+          "octgn_id": "e90ea3a8-3c15-43b5-abfb-740f75b2e387",
+          "name": "Attack on Mount Athena",
+          "quantity": 1
+        },
+        "d2dc4d17-57d2-4b1f-af78-9c165e9e9bc5": {
+          "octgn_id": "d2dc4d17-57d2-4b1f-af78-9c165e9e9bc5",
+          "name": "The Infinity Stone",
+          "quantity": 1
+        },
+        "c315c1af-c393-4b8f-a858-460933dd082a": {
+          "octgn_id": "c315c1af-c393-4b8f-a858-460933dd082a",
+          "name": "The Getaway",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "be59cd22-07bb-4f43-9216-7758209b93ef": {
+          "octgn_id": "be59cd22-07bb-4f43-9216-7758209b93ef",
+          "name": "Crossbones' Machine Gun",
+          "quantity": 1
+        },
+        "5f67e4b0-e8dc-41c6-9738-32b2c2dc0b0d": {
+          "octgn_id": "5f67e4b0-e8dc-41c6-9738-32b2c2dc0b0d",
+          "name": "Crossbones' Armor",
+          "quantity": 1
+        },
+        "abc2f4cb-6f8f-46ed-8058-b7c641252c5f": {
+          "octgn_id": "abc2f4cb-6f8f-46ed-8058-b7c641252c5f",
+          "name": "Hydra Bomber",
+          "quantity": 2
+        },
+        "870b8d42-88b7-458d-838c-d0c47a92099a": {
+          "octgn_id": "870b8d42-88b7-458d-838c-d0c47a92099a",
+          "name": "Full Auto",
+          "quantity": 2
+        },
+        "fdb43cfb-92d0-4883-911b-48c86fb9d740": {
+          "octgn_id": "fdb43cfb-92d0-4883-911b-48c86fb9d740",
+          "name": "Hard as Nails",
+          "quantity": 2
+        },
+        "3f183bb6-8ef2-4376-b5fc-98b1780cab6f": {
+          "octgn_id": "3f183bb6-8ef2-4376-b5fc-98b1780cab6f",
+          "name": "Raid the Armory",
+          "quantity": 2
+        },
+        "3fab793e-37ad-4be3-8f86-fd0aed6380ba": {
+          "octgn_id": "3fab793e-37ad-4be3-8f86-fd0aed6380ba",
+          "name": "Crossbones' Assault",
+          "quantity": 2
+        },
+        "e3dbba8c-3367-4f35-a6b6-d6cc29112850": {
+          "octgn_id": "e3dbba8c-3367-4f35-a6b6-d6cc29112850",
+          "name": "Cornered Staff",
+          "quantity": 1
+        }
+      }
+    },
+    "absorbing_man": {
+      "villainCards": {
+        "c1750563-5686-42cd-a70a-e4944469ed85": {
+          "octgn_id": "c1750563-5686-42cd-a70a-e4944469ed85",
+          "name": "Absorbing Man",
+          "quantity": 1
+        },
+        "06aa908d-632f-41eb-b0c9-cc93ce13cbf8": {
+          "octgn_id": "06aa908d-632f-41eb-b0c9-cc93ce13cbf8",
+          "name": "Absorbing Man",
+          "quantity": 1
+        },
+        "01681b97-950b-453f-a6c4-b421e783f946": {
+          "octgn_id": "01681b97-950b-453f-a6c4-b421e783f946",
+          "name": "Absorbing Man",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "ced7298e-4dc3-4fe0-8f3e-1e1effbec845": {
+          "octgn_id": "ced7298e-4dc3-4fe0-8f3e-1e1effbec845",
+          "name": "None Shall Pass",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "82603a65-e87e-4e55-b30e-b4b76c8dc301": {
+          "octgn_id": "82603a65-e87e-4e55-b30e-b4b76c8dc301",
+          "name": "Dense Forest",
+          "quantity": 1
+        },
+        "2807d558-a4fd-4993-ad0f-1e022d7c65a7": {
+          "octgn_id": "2807d558-a4fd-4993-ad0f-1e022d7c65a7",
+          "name": "Snowy Hillside",
+          "quantity": 1
+        },
+        "c71ce929-c548-43e8-948a-0efd31dadb0f": {
+          "octgn_id": "c71ce929-c548-43e8-948a-0efd31dadb0f",
+          "name": "Rocky Outcrop",
+          "quantity": 1
+        },
+        "e1ff61ea-eb9f-4917-8e2b-35f6d9d7fb6d": {
+          "octgn_id": "e1ff61ea-eb9f-4917-8e2b-35f6d9d7fb6d",
+          "name": "Abandoned Facility",
+          "quantity": 1
+        },
+        "8ae72091-0d6c-43d7-b4da-1c8e6f6b3786": {
+          "octgn_id": "8ae72091-0d6c-43d7-b4da-1c8e6f6b3786",
+          "name": "Ball and Chain",
+          "quantity": 1
+        },
+        "3d3a1d21-4967-408c-a716-01f57215b45d": {
+          "octgn_id": "3d3a1d21-4967-408c-a716-01f57215b45d",
+          "name": "Stall Tactics",
+          "quantity": 2
+        },
+        "dc09ca21-e3eb-43fb-a188-b71872ccc30f": {
+          "octgn_id": "dc09ca21-e3eb-43fb-a188-b71872ccc30f",
+          "name": "Swinging Stone",
+          "quantity": 2
+        },
+        "4b0b6cc5-5e2e-4f8c-9d96-f1166f0cd517": {
+          "octgn_id": "4b0b6cc5-5e2e-4f8c-9d96-f1166f0cd517",
+          "name": "Steel Kick",
+          "quantity": 2
+        },
+        "e7a35aa3-1385-486a-8917-52ae1c200332": {
+          "octgn_id": "e7a35aa3-1385-486a-8917-52ae1c200332",
+          "name": "Piercing Thorns",
+          "quantity": 2
+        },
+        "c7214d89-17e4-4edc-94d8-03ef602e0241": {
+          "octgn_id": "c7214d89-17e4-4edc-94d8-03ef602e0241",
+          "name": "Omni-Morph Duplication",
+          "quantity": 3
+        },
+        "b5636e0c-e0d6-45df-b974-44f16764cc42": {
+          "octgn_id": "b5636e0c-e0d6-45df-b974-44f16764cc42",
+          "name": "Icy Grip",
+          "quantity": 2
+        },
+        "173c6c8a-85ea-4bbb-ad2e-94dea8eef453": {
+          "octgn_id": "173c6c8a-85ea-4bbb-ad2e-94dea8eef453",
+          "name": "Avalanche!",
+          "quantity": 2
+        },
+        "638e209f-b997-47aa-a907-05d79c704a20": {
+          "octgn_id": "638e209f-b997-47aa-a907-05d79c704a20",
+          "name": "Super Absorbing Power",
+          "quantity": 1
+        }
+      }
+    },
+    "taskmaster": {
+      "villainCards": {
+        "76e17e38-69d9-4963-baac-d94c47e6738a": {
+          "octgn_id": "76e17e38-69d9-4963-baac-d94c47e6738a",
+          "name": "Taskmaster",
+          "quantity": 1
+        },
+        "d902da85-d6f2-432b-9cc3-ee6fe7b69205": {
+          "octgn_id": "d902da85-d6f2-432b-9cc3-ee6fe7b69205",
+          "name": "Taskmaster",
+          "quantity": 1
+        },
+        "33ceb6e7-1883-4a84-80fd-1f52e01b4e9e": {
+          "octgn_id": "33ceb6e7-1883-4a84-80fd-1f52e01b4e9e",
+          "name": "Taskmaster",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "6b8bab87-c585-4cba-929d-e9a5607234b6": {
+          "octgn_id": "6b8bab87-c585-4cba-929d-e9a5607234b6",
+          "name": "Hunting Down Heroes",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "6431e532-58dc-4039-b392-9fb1f79cbacc": {
+          "octgn_id": "6431e532-58dc-4039-b392-9fb1f79cbacc",
+          "name": "Moon Knight",
+          "quantity": 1
+        },
+        "0da3a078-e9d8-4001-b022-b76bb62bb53d": {
+          "octgn_id": "0da3a078-e9d8-4001-b022-b76bb62bb53d",
+          "name": "Shang-Chi",
+          "quantity": 1
+        },
+        "undefined": {
+          "name": "Shang-Chi",
+          "quantity": 1
+        },
+        "33b9c515-1ee4-46b7-a206-c03e2d242a3f": {
+          "octgn_id": "33b9c515-1ee4-46b7-a206-c03e2d242a3f",
+          "name": "White Tiger",
+          "quantity": 1
+        },
+        "ce4d89b6-b9fd-4055-b011-c7b9b0f2c8c3": {
+          "octgn_id": "ce4d89b6-b9fd-4055-b011-c7b9b0f2c8c3",
+          "name": "Elektra",
+          "quantity": 1
+        },
+        "dbeb93e2-5ece-4617-b273-977cfbd6644a": {
+          "octgn_id": "dbeb93e2-5ece-4617-b273-977cfbd6644a",
+          "name": "Hydra Hunter",
+          "quantity": 2
+        },
+        "32643237-2182-4d89-86c9-d4ba84e85b1b": {
+          "octgn_id": "32643237-2182-4d89-86c9-d4ba84e85b1b",
+          "name": "Taskmaster's Sword",
+          "quantity": 1
+        },
+        "5dd3d326-c3db-4fd2-abc3-2fe139b4f35a": {
+          "octgn_id": "5dd3d326-c3db-4fd2-abc3-2fe139b4f35a",
+          "name": "Taskmaster's Shield",
+          "quantity": 1
+        },
+        "0de72f8c-92eb-4457-862e-8143b47cd277": {
+          "octgn_id": "0de72f8c-92eb-4457-862e-8143b47cd277",
+          "name": "Photographic Reflexes",
+          "quantity": 2
+        },
+        "4f457b57-81a6-4175-ac92-4e63c3a30893": {
+          "octgn_id": "4f457b57-81a6-4175-ac92-4e63c3a30893",
+          "name": "Mimicry",
+          "quantity": 2
+        },
+        "3cf1b37e-199b-4ec6-8b10-d3f006ac6561": {
+          "octgn_id": "3cf1b37e-199b-4ec6-8b10-d3f006ac6561",
+          "name": "Hunted by Hydra",
+          "quantity": 2
+        },
+        "57c2cc36-a8f0-4390-a0f3-5fa0fb82da41": {
+          "octgn_id": "57c2cc36-a8f0-4390-a0f3-5fa0fb82da41",
+          "name": "Captured by Hydra",
+          "quantity": 4
+        },
+        "f9337949-f941-448c-8f02-3e1ffbe99bc0": {
+          "octgn_id": "f9337949-f941-448c-8f02-3e1ffbe99bc0",
+          "name": "Taskmaster's Training Camp",
+          "quantity": 1
+        }
+      }
+    },
+    "zola": {
+      "villainCards": {
+        "eab3ab57-deb2-4a17-af72-cff0872dfdeb": {
+          "octgn_id": "eab3ab57-deb2-4a17-af72-cff0872dfdeb",
+          "name": "Zola",
+          "quantity": 1
+        },
+        "adb80f8f-97a6-4874-a85c-7d9048cc0ea8": {
+          "octgn_id": "adb80f8f-97a6-4874-a85c-7d9048cc0ea8",
+          "name": "Zola",
+          "quantity": 1
+        },
+        "c94ec62b-5653-406d-8d4f-0054d2181283": {
+          "octgn_id": "c94ec62b-5653-406d-8d4f-0054d2181283",
+          "name": "Zola",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "d164f547-ee69-4825-acb6-f845177b0c3f": {
+          "octgn_id": "d164f547-ee69-4825-acb6-f845177b0c3f",
+          "name": "The Island of Dr. Zola",
+          "quantity": 1
+        },
+        "e8f0826a-53e1-4fd4-afcc-9ef00bf2f21a": {
+          "octgn_id": "e8f0826a-53e1-4fd4-afcc-9ef00bf2f21a",
+          "name": "The Mad Doctor",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "56819119-319d-42d0-aaad-0e351b5be68a": {
+          "octgn_id": "56819119-319d-42d0-aaad-0e351b5be68a",
+          "name": "Ultimate Bio-Servant",
+          "quantity": 4
+        },
+        "a63cbf90-dda3-405a-bf92-88f582b5a146": {
+          "octgn_id": "a63cbf90-dda3-405a-bf92-88f582b5a146",
+          "name": "Zola's Mutate",
+          "quantity": 3
+        },
+        "e8243cb0-3494-47f3-a01b-f108987b6d40": {
+          "octgn_id": "e8243cb0-3494-47f3-a01b-f108987b6d40",
+          "name": "Berserk Mutate",
+          "quantity": 3
+        },
+        "9b9dbac1-b0a7-46a6-bac9-1f4b20054648": {
+          "octgn_id": "9b9dbac1-b0a7-46a6-bac9-1f4b20054648",
+          "name": "Defensive Programming",
+          "quantity": 3
+        },
+        "ec9b8e85-e8b7-4b64-842e-c1d8c3603467": {
+          "octgn_id": "ec9b8e85-e8b7-4b64-842e-c1d8c3603467",
+          "name": "Pain Inhibitors",
+          "quantity": 2
+        },
+        "2032636c-8b5a-47c8-a55f-831904403ea9": {
+          "octgn_id": "2032636c-8b5a-47c8-a55f-831904403ea9",
+          "name": "Neurological Implants",
+          "quantity": 2
+        },
+        "0a792bff-6c3b-4ed9-be1d-4305b4ff2954": {
+          "octgn_id": "0a792bff-6c3b-4ed9-be1d-4305b4ff2954",
+          "name": "Mind Ray",
+          "quantity": 3
+        },
+        "ae14b470-185e-4891-a34c-3deb3e55449d": {
+          "octgn_id": "ae14b470-185e-4891-a34c-3deb3e55449d",
+          "name": "Technological Enhancements",
+          "quantity": 2
+        },
+        "0660cc2e-fddb-439d-9955-121f558a150d": {
+          "octgn_id": "0660cc2e-fddb-439d-9955-121f558a150d",
+          "name": "Hydra Prison",
+          "quantity": 1
+        },
+        "c4ddb102-6820-4ecd-9da7-f33bf2e4bdb9": {
+          "octgn_id": "c4ddb102-6820-4ecd-9da7-f33bf2e4bdb9",
+          "name": "Test Subjects",
+          "quantity": 2
+        },
+        "0980a8f5-1f1f-48ed-ae69-f4399226b017": {
+          "octgn_id": "0980a8f5-1f1f-48ed-ae69-f4399226b017",
+          "name": "Zola's Experiments",
+          "quantity": 1
+        }
+      }
+    },
+    "red_skull": {
+      "villainCards": {
+        "fecaf76d-62fc-4574-89f1-bf5bfe5636d4": {
+          "octgn_id": "fecaf76d-62fc-4574-89f1-bf5bfe5636d4",
+          "name": "Red Skull",
+          "quantity": 1
+        },
+        "35bce1b6-3b52-47dd-963a-050eeb49991d": {
+          "octgn_id": "35bce1b6-3b52-47dd-963a-050eeb49991d",
+          "name": "Red Skull",
+          "quantity": 1
+        },
+        "4568553c-0300-4816-b0d4-14b4983a459a": {
+          "octgn_id": "4568553c-0300-4816-b0d4-14b4983a459a",
+          "name": "Red Skull",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "6f14f5f9-4951-4303-a167-82f2d94f7a80": {
+          "octgn_id": "6f14f5f9-4951-4303-a167-82f2d94f7a80",
+          "name": "The Rise of the Red Skull",
+          "quantity": 1
+        },
+        "f7ed2a79-3310-424c-a4dd-c77e3dc8fb6b": {
+          "octgn_id": "f7ed2a79-3310-424c-a4dd-c77e3dc8fb6b",
+          "name": "New World Hydra",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "4cf802de-49df-4db7-908e-3f09c5dba3fc": {
+          "octgn_id": "4cf802de-49df-4db7-908e-3f09c5dba3fc",
+          "name": "The Sleeper",
+          "quantity": 1
+        },
+        "61d9b503-1ea4-4fae-a5dc-c8f0950b16a1": {
+          "octgn_id": "61d9b503-1ea4-4fae-a5dc-c8f0950b16a1",
+          "name": "Hydra Exo-Soldier",
+          "quantity": 3
+        },
+        "34e8083c-420f-48c0-9089-f65176f422eb": {
+          "octgn_id": "34e8083c-420f-48c0-9089-f65176f422eb",
+          "name": "Red Skull's Luger",
+          "quantity": 1
+        },
+        "971c8868-897c-43f5-a1e7-bc855baf9b68": {
+          "octgn_id": "971c8868-897c-43f5-a1e7-bc855baf9b68",
+          "name": "Red Skull's Right Hook",
+          "quantity": 2
+        },
+        "58ae1f81-a43b-4f41-8841-b6772edbeb52": {
+          "octgn_id": "58ae1f81-a43b-4f41-8841-b6772edbeb52",
+          "name": "Master Strategist",
+          "quantity": 2
+        },
+        "4cc815c6-e403-43bd-ae71-8678fac7972f": {
+          "octgn_id": "4cc815c6-e403-43bd-ae71-8678fac7972f",
+          "name": "Twisted Reality",
+          "quantity": 2
+        },
+        "89375e19-4b62-4985-b410-771ab2787cce": {
+          "octgn_id": "89375e19-4b62-4985-b410-771ab2787cce",
+          "name": "Bitter Rival",
+          "quantity": 2
+        },
+        "0e18d70e-b1f5-4d96-b96d-039ec6fbd36e": {
+          "octgn_id": "0e18d70e-b1f5-4d96-b96d-039ec6fbd36e",
+          "name": "Spreading Lies",
+          "quantity": 2
+        },
+        "535a7cdd-17ed-4e63-abfe-90f492e3e31c": {
+          "octgn_id": "535a7cdd-17ed-4e63-abfe-90f492e3e31c",
+          "name": "Infinite Power",
+          "quantity": 2
+        },
+        "210ac10f-e175-4d1c-a4cb-578d662d370c": {
+          "octgn_id": "210ac10f-e175-4d1c-a4cb-578d662d370c",
+          "name": "The Red House",
+          "quantity": 1
+        },
+        "3d7cf91e-a538-4186-a106-7fd4ceea6593": {
+          "octgn_id": "3d7cf91e-a538-4186-a106-7fd4ceea6593",
+          "name": "The Sleeper Awakened",
+          "quantity": 1
+        },
+        "6ebc3a55-5d2b-4970-8511-62666d224d5c": {
+          "octgn_id": "6ebc3a55-5d2b-4970-8511-62666d224d5c",
+          "name": "Prison Camps",
+          "quantity": 1
+        },
+        "3f28bd64-edcc-4419-84cd-e8741ec9b79b": {
+          "octgn_id": "3f28bd64-edcc-4419-84cd-e8741ec9b79b",
+          "name": "Censor the Past",
+          "quantity": 1
+        },
+        "73a7a089-43a9-406e-a7df-17cdafd707e1": {
+          "octgn_id": "73a7a089-43a9-406e-a7df-17cdafd707e1",
+          "name": "Hydra Reinforcements",
+          "quantity": 1
+        },
+        "e794d58a-8ba4-4fd5-83cd-947c301a832b": {
+          "octgn_id": "e794d58a-8ba4-4fd5-83cd-947c301a832b",
+          "name": "Mass Chaos",
+          "quantity": 1
+        }
+      }
+    },
+    "kang": {
+      "villainCards": {
+        "2ffbb7b7-8474-4609-b081-0a1012846c92": {
+          "octgn_id": "2ffbb7b7-8474-4609-b081-0a1012846c92",
+          "name": "Kang (The Conqueror)",
+          "quantity": 1
+        },
+        "bf057f58-a3f5-4abb-bfd0-3a6c990cb520": {
+          "octgn_id": "bf057f58-a3f5-4abb-bfd0-3a6c990cb520",
+          "name": "Kang (Immortus)",
+          "quantity": 1
+        },
+        "bc4483ea-d655-4a79-8cd1-aa3939b3362a": {
+          "octgn_id": "bc4483ea-d655-4a79-8cd1-aa3939b3362a",
+          "name": "Kang (Iron Lad)",
+          "quantity": 1
+        },
+        "c4f52e75-2a7d-46f8-8d3a-8516139b98fe": {
+          "octgn_id": "c4f52e75-2a7d-46f8-8d3a-8516139b98fe",
+          "name": "Kang (Rama-Tut)",
+          "quantity": 1
+        },
+        "b92f5a56-4a6d-466d-a3f0-af3c79dad3d0": {
+          "octgn_id": "b92f5a56-4a6d-466d-a3f0-af3c79dad3d0",
+          "name": "Kang (Scarlet Centurion)",
+          "quantity": 1
+        },
+        "595929fb-efc0-49d5-b6ec-8921b2c03b85": {
+          "octgn_id": "595929fb-efc0-49d5-b6ec-8921b2c03b85",
+          "name": "Kang (The Conqueror)",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "61982560-7e2d-4cef-8e9c-42ea0163611b": {
+          "octgn_id": "61982560-7e2d-4cef-8e9c-42ea0163611b",
+          "name": "Kang's Arrival",
+          "quantity": 1
+        },
+        "ffb36a40-2428-4559-a091-a6d86d8cb404": {
+          "octgn_id": "ffb36a40-2428-4559-a091-a6d86d8cb404",
+          "name": "The Master of Time",
+          "quantity": 1
+        },
+        "6560ec50-ff75-49c6-9d92-12a8b150f221": {
+          "octgn_id": "6560ec50-ff75-49c6-9d92-12a8b150f221",
+          "name": "The Chronopolis",
+          "quantity": 1
+        },
+        "9bc0dc7a-82d0-4212-bd20-ee9dee4c27f1": {
+          "octgn_id": "9bc0dc7a-82d0-4212-bd20-ee9dee4c27f1",
+          "name": "Inexorable Fate",
+          "quantity": 1
+        },
+        "7b56d02e-c49a-45d1-9794-3f47ec47a086": {
+          "octgn_id": "7b56d02e-c49a-45d1-9794-3f47ec47a086",
+          "name": "The Realm of Rama-Tut",
+          "quantity": 1
+        },
+        "f9f6fa40-42e3-4e1f-9487-bd1becc54a7d": {
+          "octgn_id": "f9f6fa40-42e3-4e1f-9487-bd1becc54a7d",
+          "name": "The Present Future War",
+          "quantity": 1
+        },
+        "07747783-94cf-435f-b9bb-43e7da557f7c": {
+          "octgn_id": "07747783-94cf-435f-b9bb-43e7da557f7c",
+          "name": "Kang's Wrath",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "8dc2876f-c785-4584-9b35-f49d1dfa432c": {
+          "octgn_id": "8dc2876f-c785-4584-9b35-f49d1dfa432c",
+          "name": "Temporal Shield",
+          "quantity": 2
+        },
+        "9ff018f8-1ab4-45b8-89d1-610dd7f2394a": {
+          "octgn_id": "9ff018f8-1ab4-45b8-89d1-610dd7f2394a",
+          "name": "Future Weapon",
+          "quantity": 2
+        },
+        "fc1e1383-7ca7-4ed7-9db2-da42b9350dc7": {
+          "octgn_id": "fc1e1383-7ca7-4ed7-9db2-da42b9350dc7",
+          "name": "Frozen in Time",
+          "quantity": 1
+        },
+        "415a99cc-66be-4465-8ae3-ad46441fa9c0": {
+          "octgn_id": "415a99cc-66be-4465-8ae3-ad46441fa9c0",
+          "name": "Macrobots",
+          "quantity": 3
+        },
+        "78e89e1a-31cc-4006-a0ff-9cf7a59b7833": {
+          "octgn_id": "78e89e1a-31cc-4006-a0ff-9cf7a59b7833",
+          "name": "Weakened",
+          "quantity": 2
+        },
+        "b54ad424-3c6b-41c7-a0e3-a4c0628ac38e": {
+          "octgn_id": "b54ad424-3c6b-41c7-a0e3-a4c0628ac38e",
+          "name": "Stolen Memories",
+          "quantity": 2
+        },
+        "b85c7baa-90a7-431d-a1c5-8cc163f873e8": {
+          "octgn_id": "b85c7baa-90a7-431d-a1c5-8cc163f873e8",
+          "name": "Depowered",
+          "quantity": 2
+        },
+        "d028dcfb-69e7-43a3-83a3-dcac1912338b": {
+          "octgn_id": "d028dcfb-69e7-43a3-83a3-dcac1912338b",
+          "name": "Time-Travel Hijinks",
+          "quantity": 2
+        },
+        "28a354cd-afac-4f46-98f4-eecf7baddad9": {
+          "octgn_id": "28a354cd-afac-4f46-98f4-eecf7baddad9",
+          "name": "Corrupted Timestream",
+          "quantity": 1
+        },
+        "aa42a4c7-62a3-4cab-ab0c-c19ac6f0e2e4": {
+          "octgn_id": "aa42a4c7-62a3-4cab-ab0c-c19ac6f0e2e4",
+          "name": "Kang's Dominion",
+          "quantity": 4
+        },
+        "341cf8a2-7b9e-4284-939e-d6bb6e95c0f0": {
+          "octgn_id": "341cf8a2-7b9e-4284-939e-d6bb6e95c0f0",
+          "name": "Pinned Down",
+          "quantity": 1
+        },
+        "656bd1db-8f48-430d-a7b5-8ecbeb30d8fb": {
+          "octgn_id": "656bd1db-8f48-430d-a7b5-8ecbeb30d8fb",
+          "name": "Rampage",
+          "quantity": 2
+        },
+        "9f0f4bbc-80d1-4735-a75d-2d9d53a5e1bc": {
+          "octgn_id": "9f0f4bbc-80d1-4735-a75d-2d9d53a5e1bc",
+          "name": "Energy Blast",
+          "quantity": 2
+        },
+        "75be53ad-e064-4a8b-94d0-cf05ba9c9b86": {
+          "octgn_id": "75be53ad-e064-4a8b-94d0-cf05ba9c9b86",
+          "name": "Manipulated Timestream",
+          "quantity": 1
+        },
+        "adaf02f4-74ef-4688-8ad1-8809533285c0": {
+          "octgn_id": "adaf02f4-74ef-4688-8ad1-8809533285c0",
+          "name": "Time-Travel Tactics",
+          "quantity": 2
+        },
+        "50afde39-c309-45db-9627-922799bfa0ab": {
+          "octgn_id": "50afde39-c309-45db-9627-922799bfa0ab",
+          "name": "Past Machinations",
+          "quantity": 1
+        }
+      }
+    },
+    "collector1": {
+      "villainCards": {
+        "5d58f3a0-f5e3-4754-847a-fa7bcc9ea5a2": {
+          "octgn_id": "5d58f3a0-f5e3-4754-847a-fa7bcc9ea5a2",
+          "name": "Collector",
+          "quantity": 1
+        },
+        "6f42f3a5-dd72-434f-90f6-6613aba7794a": {
+          "octgn_id": "6f42f3a5-dd72-434f-90f6-6613aba7794a",
+          "name": "Collector",
+          "quantity": 1
+        },
+        "969e88ce-859b-41da-99cb-ded219009ac4": {
+          "octgn_id": "969e88ce-859b-41da-99cb-ded219009ac4",
+          "name": "Collector",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "fbd98e39-52f9-4a87-83f5-4e47d4b998d9": {
+          "octgn_id": "fbd98e39-52f9-4a87-83f5-4e47d4b998d9",
+          "name": "The Grand Collection",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "cd31945d-a33c-4057-bd84-bd28ddc1bf21": {
+          "octgn_id": "cd31945d-a33c-4057-bd84-bd28ddc1bf21",
+          "name": "Biogram Image",
+          "quantity": 1
+        },
+        "470d1975-b14e-4d38-9e98-517220fe8be3": {
+          "octgn_id": "470d1975-b14e-4d38-9e98-517220fe8be3",
+          "name": "Monarch Starstalker",
+          "quantity": 1
+        },
+        "8f1b3704-4c71-4223-9e46-239622dfed9d": {
+          "octgn_id": "8f1b3704-4c71-4223-9e46-239622dfed9d",
+          "name": "Inconspicuous Box",
+          "quantity": 2
+        },
+        "fe9470e2-fddf-44e5-b0f4-b17290321451": {
+          "octgn_id": "fe9470e2-fddf-44e5-b0f4-b17290321451",
+          "name": "View the Cosmos",
+          "quantity": 2
+        },
+        "756a6abf-16e8-4195-a7a6-17f3e79c8b5b": {
+          "octgn_id": "756a6abf-16e8-4195-a7a6-17f3e79c8b5b",
+          "name": "Stay Awhile",
+          "quantity": 2
+        },
+        "cb73592a-53d6-4866-b7ab-125d975bcf21": {
+          "octgn_id": "cb73592a-53d6-4866-b7ab-125d975bcf21",
+          "name": "Caught Off Guard",
+          "quantity": 1
+        }
+      }
+    },
+    "collector2": {
+      "villainCards": {
+        "c18ab3d5-291e-48b6-b0e9-75b730ad21cd": {
+          "octgn_id": "c18ab3d5-291e-48b6-b0e9-75b730ad21cd",
+          "name": "Collector",
+          "quantity": 1
+        },
+        "25d33bab-0ffa-4a49-8082-e65af59c2335": {
+          "octgn_id": "25d33bab-0ffa-4a49-8082-e65af59c2335",
+          "name": "Collector",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "2ec8d391-2690-4910-82e1-692015682f87": {
+          "octgn_id": "2ec8d391-2690-4910-82e1-692015682f87",
+          "name": "The Missing Milano",
+          "quantity": 1
+        },
+        "ebc9f310-20b2-45fb-b6f4-b04225be0cba": {
+          "octgn_id": "ebc9f310-20b2-45fb-b6f4-b04225be0cba",
+          "name": "Lost in the Museum",
+          "quantity": 1
+        },
+        "cc1a8b15-6270-45ef-a710-03130c6c1152": {
+          "octgn_id": "cc1a8b15-6270-45ef-a710-03130c6c1152",
+          "name": "The Great Escape",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "89bde368-ab43-4b9b-bd51-48246ee85c5d": {
+          "octgn_id": "89bde368-ab43-4b9b-bd51-48246ee85c5d",
+          "name": "Museum Ship",
+          "quantity": 1
+        },
+        "4243690d-0a32-4091-85ce-4bab69ea4a4e": {
+          "octgn_id": "4243690d-0a32-4091-85ce-4bab69ea4a4e",
+          "name": "\"I Have You Now!\"",
+          "quantity": 3
+        },
+        "97bc8fc5-ed34-46c4-a47e-f0e66cf0fab4": {
+          "octgn_id": "97bc8fc5-ed34-46c4-a47e-f0e66cf0fab4",
+          "name": "Impossible Geometry",
+          "quantity": 3
+        }
+      }
+    },
+    "nebula": {
+      "villainCards": {
+        "1ce11d38-dd3c-4558-b52b-5643d04970dd": {
+          "octgn_id": "1ce11d38-dd3c-4558-b52b-5643d04970dd",
+          "name": "Nebula",
+          "quantity": 1
+        },
+        "c915d4ea-c157-485b-b854-ef16e81988ba": {
+          "octgn_id": "c915d4ea-c157-485b-b854-ef16e81988ba",
+          "name": "Nebula",
+          "quantity": 1
+        },
+        "def69074-edb2-4922-9218-44726b17af56": {
+          "octgn_id": "def69074-edb2-4922-9218-44726b17af56",
+          "name": "Nebula",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "3d5f8cf4-9d76-4a23-9789-e0a17268ecc0": {
+          "octgn_id": "3d5f8cf4-9d76-4a23-9789-e0a17268ecc0",
+          "name": "The Art of Evasion",
+          "quantity": 1
+        },
+        "84ef5fa6-d390-433b-ac92-9095c3ff57f1": {
+          "octgn_id": "84ef5fa6-d390-433b-ac92-9095c3ff57f1",
+          "name": "Warp Drive Initiated",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "2cfe86ea-023c-40c4-bd72-8d933386ee9c": {
+          "octgn_id": "2cfe86ea-023c-40c4-bd72-8d933386ee9c",
+          "name": "Nebula's Ship",
+          "quantity": 1
+        },
+        "d6d2ccab-502d-411f-88f4-93460dabef90": {
+          "octgn_id": "d6d2ccab-502d-411f-88f4-93460dabef90",
+          "name": "Cutthroat Ambition",
+          "quantity": 2
+        },
+        "4f793b8f-787f-4a24-b13b-b4a3985e7247": {
+          "octgn_id": "4f793b8f-787f-4a24-b13b-b4a3985e7247",
+          "name": "Evasive Maneuvering",
+          "quantity": 1
+        },
+        "8caacfe1-474c-499d-b277-3dd03bc747d6": {
+          "octgn_id": "8caacfe1-474c-499d-b277-3dd03bc747d6",
+          "name": "Unyielding Persistence",
+          "quantity": 1
+        },
+        "670f8912-5378-4acf-9737-2b33e282e361": {
+          "octgn_id": "670f8912-5378-4acf-9737-2b33e282e361",
+          "name": "Weapon Mastery",
+          "quantity": 2
+        },
+        "e568b1a5-1874-4b40-be6e-7b7d2990d2eb": {
+          "octgn_id": "e568b1a5-1874-4b40-be6e-7b7d2990d2eb",
+          "name": "Wide Stance",
+          "quantity": 2
+        },
+        "73e43852-3b7f-4fb7-9f28-4e901fa17281": {
+          "octgn_id": "73e43852-3b7f-4fb7-9f28-4e901fa17281",
+          "name": "Lethal Intent",
+          "quantity": 2
+        },
+        "fdde7089-045a-4504-bcd6-07d7c299903b": {
+          "octgn_id": "fdde7089-045a-4504-bcd6-07d7c299903b",
+          "name": "Barrel Roll",
+          "quantity": 2
+        },
+        "b44c1182-fa91-4313-b9e3-e78f63011dd4": {
+          "octgn_id": "b44c1182-fa91-4313-b9e3-e78f63011dd4",
+          "name": "Combat Ready",
+          "quantity": 2
+        },
+        "bb79ddd3-d5ff-49f2-a089-c9fe8b4848b3": {
+          "octgn_id": "bb79ddd3-d5ff-49f2-a089-c9fe8b4848b3",
+          "name": "Ruthless",
+          "quantity": 2
+        }
+      }
+    },
+    "ronan": {
+      "villainCards": {
+        "b5a4e498-626e-4726-90fa-9ce211d6b04f": {
+          "octgn_id": "b5a4e498-626e-4726-90fa-9ce211d6b04f",
+          "name": "Ronan the Accuser",
+          "quantity": 1
+        },
+        "106f4217-c861-456d-b2d7-4aa3d08938f8": {
+          "octgn_id": "106f4217-c861-456d-b2d7-4aa3d08938f8",
+          "name": "Ronan the Accuser",
+          "quantity": 1
+        },
+        "094767b3-dbf0-4529-b50a-f4083f2acb34": {
+          "octgn_id": "094767b3-dbf0-4529-b50a-f4083f2acb34",
+          "name": "Ronan the Accuser",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "ac9e35f9-fd37-4bc5-ad25-0853ee2be8c8": {
+          "octgn_id": "ac9e35f9-fd37-4bc5-ad25-0853ee2be8c8",
+          "name": "Interception Imminent",
+          "quantity": 1
+        },
+        "d7410353-e0aa-4796-b9bc-078f999e26f6": {
+          "octgn_id": "d7410353-e0aa-4796-b9bc-078f999e26f6",
+          "name": "\"Take What Is Mine\"",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "31ca39d5-ecd4-402a-a751-6f1b6814b436": {
+          "octgn_id": "31ca39d5-ecd4-402a-a751-6f1b6814b436",
+          "name": "Kree Command Ship",
+          "quantity": 1
+        },
+        "f429cbf9-3426-4d92-91c0-b276450fbb37": {
+          "octgn_id": "f429cbf9-3426-4d92-91c0-b276450fbb37",
+          "name": "Universal Weapon",
+          "quantity": 1
+        },
+        "35c6958f-d44d-43f0-bc01-54bb9e94d107": {
+          "octgn_id": "35c6958f-d44d-43f0-bc01-54bb9e94d107",
+          "name": "Fanaticism",
+          "quantity": 2
+        },
+        "6566139b-944a-4412-9ae0-73d291076926": {
+          "octgn_id": "6566139b-944a-4412-9ae0-73d291076926",
+          "name": "Cut the Power",
+          "quantity": 1
+        },
+        "6d28c19b-a788-4b86-a808-15d28ec345e4": {
+          "octgn_id": "6d28c19b-a788-4b86-a808-15d28ec345e4",
+          "name": "Pincer Maneuver",
+          "quantity": 2
+        },
+        "fbc9e9bd-fa15-4699-86b4-eeb46d7c9fde": {
+          "octgn_id": "fbc9e9bd-fa15-4699-86b4-eeb46d7c9fde",
+          "name": "Superior Tactics",
+          "quantity": 1
+        },
+        "9b784508-02c2-4dee-a573-5293077c23e4": {
+          "octgn_id": "9b784508-02c2-4dee-a573-5293077c23e4",
+          "name": "Single-Minded Fury",
+          "quantity": 2
+        },
+        "5aa3f3df-2ab9-4efe-a284-821daf0e34fe": {
+          "octgn_id": "5aa3f3df-2ab9-4efe-a284-821daf0e34fe",
+          "name": "Kree Physiology",
+          "quantity": 2
+        },
+        "53269850-9178-483f-b340-0ab0f1a65197": {
+          "octgn_id": "53269850-9178-483f-b340-0ab0f1a65197",
+          "name": "\"You Stand Accused!\"",
+          "quantity": 3
+        }
+      }
+    },
+    "ebony_maw": {
+      "villainCards": {
+        "f5ebd140-77da-4d97-a3bb-ff780d6a696d": {
+          "octgn_id": "f5ebd140-77da-4d97-a3bb-ff780d6a696d",
+          "name": "Ebony Maw",
+          "quantity": 1
+        },
+        "8e9da375-0812-499b-adf1-30f625cacb2b": {
+          "octgn_id": "8e9da375-0812-499b-adf1-30f625cacb2b",
+          "name": "Ebony Maw",
+          "quantity": 1
+        },
+        "0861cc9f-10c9-4138-aff7-283557b85707": {
+          "octgn_id": "0861cc9f-10c9-4138-aff7-283557b85707",
+          "name": "Ebony Maw",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "7fb53a59-eff6-4e45-95af-460d7f13a3ee": {
+          "octgn_id": "7fb53a59-eff6-4e45-95af-460d7f13a3ee",
+          "name": "Attack on Knowhere",
+          "quantity": 1
+        },
+        "da735271-448d-4e85-b5a4-5790c04eda4b": {
+          "octgn_id": "da735271-448d-4e85-b5a4-5790c04eda4b",
+          "name": "The Power Stone",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "d96a2a68-0048-4df7-88ca-45ee4b27baec": {
+          "octgn_id": "d96a2a68-0048-4df7-88ca-45ee4b27baec",
+          "name": "Fireball",
+          "quantity": 2
+        },
+        "b7dd977a-a9f8-4ac4-86b3-72473ebd501e": {
+          "octgn_id": "b7dd977a-a9f8-4ac4-86b3-72473ebd501e",
+          "name": "Manipulation",
+          "quantity": 2
+        },
+        "beac988e-f34c-429f-9911-e036b259a48f": {
+          "octgn_id": "beac988e-f34c-429f-9911-e036b259a48f",
+          "name": "Pacification",
+          "quantity": 2
+        },
+        "a55843c8-84be-4b99-a3e7-87c3ffdb588c": {
+          "octgn_id": "a55843c8-84be-4b99-a3e7-87c3ffdb588c",
+          "name": "Rubblestorm",
+          "quantity": 2
+        },
+        "2499d769-8365-40f7-8639-977be42b5f24": {
+          "octgn_id": "2499d769-8365-40f7-8639-977be42b5f24",
+          "name": "Agent of Thanos",
+          "quantity": 2
+        },
+        "f896a4d8-c6cb-4f29-8b4d-c93635df92b1": {
+          "octgn_id": "f896a4d8-c6cb-4f29-8b4d-c93635df92b1",
+          "name": "Channeling Trance",
+          "quantity": 3
+        },
+        "17e67050-31b0-4f3f-9b0d-9f37674dff45": {
+          "octgn_id": "17e67050-31b0-4f3f-9b0d-9f37674dff45",
+          "name": "Abjuration",
+          "quantity": 1
+        },
+        "5df0e88a-8323-40a4-8387-6a09bdc12b62": {
+          "octgn_id": "5df0e88a-8323-40a4-8387-6a09bdc12b62",
+          "name": "Restrained",
+          "quantity": 1
+        },
+        "4ad7692c-28a4-4c7f-9607-2238ad1b71e1": {
+          "octgn_id": "4ad7692c-28a4-4c7f-9607-2238ad1b71e1",
+          "name": "Reactor Overload",
+          "quantity": 2
+        }
+      }
+    },
+    "tower_defense": {
+      "villainCards": {
+        "0af7888f-3578-4348-b965-8dcaebf4475f": {
+          "octgn_id": "0af7888f-3578-4348-b965-8dcaebf4475f",
+          "name": "Proxima Midnight",
+          "quantity": 1
+        },
+        "e14d083e-52f9-4ee9-bfd1-1132fcac5886": {
+          "octgn_id": "e14d083e-52f9-4ee9-bfd1-1132fcac5886",
+          "name": "Proxima Midnight",
+          "quantity": 1
+        },
+        "22e7f441-7fc4-4c95-9317-8c5d5aea258e": {
+          "octgn_id": "22e7f441-7fc4-4c95-9317-8c5d5aea258e",
+          "name": "Proxima Midnight",
+          "quantity": 1
+        },
+        "b2fecb49-9a22-461c-825c-0928e402a9ad": {
+          "octgn_id": "b2fecb49-9a22-461c-825c-0928e402a9ad",
+          "name": "Corvus Glaive",
+          "quantity": 1
+        },
+        "61e5cac6-882b-4376-ba95-36d2d188bdb6": {
+          "octgn_id": "61e5cac6-882b-4376-ba95-36d2d188bdb6",
+          "name": "Corvus Glaive",
+          "quantity": 1
+        },
+        "d80958fd-6b84-4798-9287-8ef7d8a03fac": {
+          "octgn_id": "d80958fd-6b84-4798-9287-8ef7d8a03fac",
+          "name": "Corvus Glaive",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "c0771a09-7c76-4e7a-97e2-9e4e73a57fc6": {
+          "octgn_id": "c0771a09-7c76-4e7a-97e2-9e4e73a57fc6",
+          "name": "Under Siege",
+          "quantity": 1
+        },
+        "7d421149-6cb6-496f-b818-1ad8e8e05e28": {
+          "octgn_id": "7d421149-6cb6-496f-b818-1ad8e8e05e28",
+          "name": "The Armies of Thanos",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "5feae2d4-9f22-4145-a07d-4bd0f873a569": {
+          "octgn_id": "5feae2d4-9f22-4145-a07d-4bd0f873a569",
+          "name": "Avengers Tower",
+          "quantity": 1
+        },
+        "42290570-2eab-44ae-9db8-c6122094f7e2": {
+          "octgn_id": "42290570-2eab-44ae-9db8-c6122094f7e2",
+          "name": "Focused Defense",
+          "quantity": 1
+        },
+        "4ceab8f8-f9d8-4522-bab4-31fd6b305ff3": {
+          "octgn_id": "4ceab8f8-f9d8-4522-bab4-31fd6b305ff3",
+          "name": "Black Order Besieger",
+          "quantity": 4
+        },
+        "dfd264e0-a22f-4a71-bf14-fad69c5e4aae": {
+          "octgn_id": "dfd264e0-a22f-4a71-bf14-fad69c5e4aae",
+          "name": "Proxima's Spear",
+          "quantity": 1
+        },
+        "bfede6d2-96e8-485a-a07e-072b03ca3cf3": {
+          "octgn_id": "bfede6d2-96e8-485a-a07e-072b03ca3cf3",
+          "name": "Corvus Glaive",
+          "quantity": 1
+        },
+        "5da2ba9a-d5a8-4333-8847-dbf2a788ff57": {
+          "octgn_id": "5da2ba9a-d5a8-4333-8847-dbf2a788ff57",
+          "name": "Direct Assault",
+          "quantity": 2
+        },
+        "07fb7600-dea1-4241-87bb-e7028eeaef72": {
+          "octgn_id": "07fb7600-dea1-4241-87bb-e7028eeaef72",
+          "name": "Proxima's Power",
+          "quantity": 2
+        },
+        "07091acb-8088-4854-8e3f-f0ca6c120bca": {
+          "octgn_id": "07091acb-8088-4854-8e3f-f0ca6c120bca",
+          "name": "Corvus's Cunning",
+          "quantity": 2
+        },
+        "beff6594-c2f8-4f72-922d-4c805c3d8a86": {
+          "octgn_id": "beff6594-c2f8-4f72-922d-4c805c3d8a86",
+          "name": "Bound by Blood",
+          "quantity": 1
+        },
+        "da438813-cbb7-4084-b251-7ba185c2c4ad": {
+          "octgn_id": "da438813-cbb7-4084-b251-7ba185c2c4ad",
+          "name": "Rain Fire",
+          "quantity": 2
+        },
+        "ba8928ad-240a-4f19-b981-fec021e3c7d8": {
+          "octgn_id": "ba8928ad-240a-4f19-b981-fec021e3c7d8",
+          "name": "City Under Attack",
+          "quantity": 2
+        }
+      }
+    },
+    "thanos": {
+      "villainCards": {
+        "923ec297-d8ed-48e6-9dc4-4f07c2989123": {
+          "octgn_id": "923ec297-d8ed-48e6-9dc4-4f07c2989123",
+          "name": "Thanos",
+          "quantity": 1
+        },
+        "f7ee10f5-96e6-4750-a981-2af1bc7359e0": {
+          "octgn_id": "f7ee10f5-96e6-4750-a981-2af1bc7359e0",
+          "name": "Thanos",
+          "quantity": 1
+        },
+        "4eaaf0a1-02ad-4c84-a09a-0e0885095694": {
+          "octgn_id": "4eaaf0a1-02ad-4c84-a09a-0e0885095694",
+          "name": "Thanos",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "2986f3a3-e1cd-437b-9ee7-f90a71ec0fa9": {
+          "octgn_id": "2986f3a3-e1cd-437b-9ee7-f90a71ec0fa9",
+          "name": "The Infinity Stones",
+          "quantity": 1
+        },
+        "2e8b479f-70a5-4040-bc83-40929baf5a01": {
+          "octgn_id": "2e8b479f-70a5-4040-bc83-40929baf5a01",
+          "name": "Balance the Scales",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "a8e9ed1b-e91b-4546-bdbe-fb7150aad9a8": {
+          "octgn_id": "a8e9ed1b-e91b-4546-bdbe-fb7150aad9a8",
+          "name": "Sanctuary",
+          "quantity": 1
+        },
+        "9694950d-c2ac-49a4-ad2d-59b6a0cd8143": {
+          "octgn_id": "9694950d-c2ac-49a4-ad2d-59b6a0cd8143",
+          "name": "Thanos's Armor",
+          "quantity": 1
+        },
+        "873c5989-dab2-4313-b7ec-41cc3f4171d2": {
+          "octgn_id": "873c5989-dab2-4313-b7ec-41cc3f4171d2",
+          "name": "Thanos's Helmet",
+          "quantity": 1
+        },
+        "692312d4-f079-4377-adf3-fa3b907b7949": {
+          "octgn_id": "692312d4-f079-4377-adf3-fa3b907b7949",
+          "name": "Master of the Stones",
+          "quantity": 2
+        },
+        "8e872f76-4923-499e-a936-57ed909394dd": {
+          "octgn_id": "8e872f76-4923-499e-a936-57ed909394dd",
+          "name": "Avatar of Death",
+          "quantity": 2
+        },
+        "0b936a9d-91fe-4a3b-a6b9-4392e258a080": {
+          "octgn_id": "0b936a9d-91fe-4a3b-a6b9-4392e258a080",
+          "name": "Deviant Syndrome",
+          "quantity": 2
+        },
+        "25b982c6-c6c1-4159-884a-e465dfd84a45": {
+          "octgn_id": "25b982c6-c6c1-4159-884a-e465dfd84a45",
+          "name": "\"I Am Inevitable\"",
+          "quantity": 2
+        },
+        "b8bf4353-46ee-47d9-9259-03bf4bb93ca4": {
+          "octgn_id": "b8bf4353-46ee-47d9-9259-03bf4bb93ca4",
+          "name": "The Mad Titan",
+          "quantity": 2
+        },
+        "359f51cb-7e74-498c-909a-bedb1ce4e39f": {
+          "octgn_id": "359f51cb-7e74-498c-909a-bedb1ce4e39f",
+          "name": "The Titan's Throne",
+          "quantity": 1
+        }
+      }
+    },
+    "hela": {
+      "villainCards": {
+        "4fcc84da-28e1-4d4f-9aa1-33c7ce2a430f": {
+          "octgn_id": "4fcc84da-28e1-4d4f-9aa1-33c7ce2a430f",
+          "name": "Hela",
+          "quantity": 1
+        },
+        "01359a66-4d39-4386-89ab-d4772db295cb": {
+          "octgn_id": "01359a66-4d39-4386-89ab-d4772db295cb",
+          "name": "Hela",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "6b11b387-d7e5-4060-99a5-af2b29c9c46d": {
+          "octgn_id": "6b11b387-d7e5-4060-99a5-af2b29c9c46d",
+          "name": "Odin's Torment",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "14f09cf3-dc31-409b-842c-edf0de59638a": {
+          "octgn_id": "14f09cf3-dc31-409b-842c-edf0de59638a",
+          "name": "Odin",
+          "quantity": 1
+        },
+        "4004a445-81a0-45ab-a4a2-dd0af176ded9": {
+          "octgn_id": "4004a445-81a0-45ab-a4a2-dd0af176ded9",
+          "name": "Gnipahellir",
+          "quantity": 1
+        },
+        "b13e6ed2-cf77-49bc-a2f0-19c438476512": {
+          "octgn_id": "b13e6ed2-cf77-49bc-a2f0-19c438476512",
+          "name": "Hall of Nastrond",
+          "quantity": 1
+        },
+        "e6f40a9e-3a80-4b28-bfaf-c8fc3c6be072": {
+          "octgn_id": "e6f40a9e-3a80-4b28-bfaf-c8fc3c6be072",
+          "name": "Gjallerbru",
+          "quantity": 1
+        },
+        "c42cb275-bfa3-4262-a1b4-21b82daf8fac": {
+          "octgn_id": "c42cb275-bfa3-4262-a1b4-21b82daf8fac",
+          "name": "Garm",
+          "quantity": 1
+        },
+        "0e20745a-218a-4808-80dd-3ec0e69e4905": {
+          "octgn_id": "0e20745a-218a-4808-80dd-3ec0e69e4905",
+          "name": "Skurge",
+          "quantity": 1
+        },
+        "76c7c57e-aa2e-4532-bbc4-7f3a4594f7da": {
+          "octgn_id": "76c7c57e-aa2e-4532-bbc4-7f3a4594f7da",
+          "name": "Nidhogg",
+          "quantity": 1
+        },
+        "9d45e20c-6945-4d07-a2e2-5ad9e1ad6626": {
+          "octgn_id": "9d45e20c-6945-4d07-a2e2-5ad9e1ad6626",
+          "name": "Nightsword",
+          "quantity": 1
+        },
+        "7e2c8564-6ccf-49d8-8b2a-12a89fe29c30": {
+          "octgn_id": "7e2c8564-6ccf-49d8-8b2a-12a89fe29c30",
+          "name": "Hela's Crown",
+          "quantity": 1
+        },
+        "c28b8526-c82e-4a72-b3bf-67fbf45b6bce": {
+          "octgn_id": "c28b8526-c82e-4a72-b3bf-67fbf45b6bce",
+          "name": "Hela's Cloak",
+          "quantity": 1
+        },
+        "e4627e9e-1407-4a52-8d93-5c89f5eda677": {
+          "octgn_id": "e4627e9e-1407-4a52-8d93-5c89f5eda677",
+          "name": "Hela's Domain",
+          "quantity": 2
+        },
+        "6bf7a4e5-d798-4a04-8d0b-a93e08956af6": {
+          "octgn_id": "6bf7a4e5-d798-4a04-8d0b-a93e08956af6",
+          "name": "The Queen of Hel",
+          "quantity": 2
+        },
+        "3d545ebf-acc6-4afc-9f73-c627c10187bc": {
+          "octgn_id": "3d545ebf-acc6-4afc-9f73-c627c10187bc",
+          "name": "The Wastes of Niffleheim",
+          "quantity": 2
+        }
+      }
+    },
+    "loki": {
+      "villainCards": {
+        "f750ccc7-88f6-4fa5-947d-c19c599eb04b": {
+          "octgn_id": "f750ccc7-88f6-4fa5-947d-c19c599eb04b",
+          "name": "Loki",
+          "quantity": 1
+        },
+        "9f2c5ebc-0175-485c-8f1a-d9cbaae96e5e": {
+          "octgn_id": "9f2c5ebc-0175-485c-8f1a-d9cbaae96e5e",
+          "name": "Loki",
+          "quantity": 1
+        },
+        "aaab48af-c265-4fd9-858f-4b9f3207b9cd": {
+          "octgn_id": "aaab48af-c265-4fd9-858f-4b9f3207b9cd",
+          "name": "Loki",
+          "quantity": 1
+        },
+        "9ef361a8-0916-4df9-93c5-b81dd666af66": {
+          "octgn_id": "9ef361a8-0916-4df9-93c5-b81dd666af66",
+          "name": "Loki",
+          "quantity": 1
+        },
+        "0bfa3943-bf1b-437c-bcd2-ec5fde5b0a20": {
+          "octgn_id": "0bfa3943-bf1b-437c-bcd2-ec5fde5b0a20",
+          "name": "Loki",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "7ea906b4-2bab-47df-9416-f3e6db6345cf": {
+          "octgn_id": "7ea906b4-2bab-47df-9416-f3e6db6345cf",
+          "name": "All Hail King Loki",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "7a901c55-eb24-44f8-8303-d5ae3bea286d": {
+          "octgn_id": "7a901c55-eb24-44f8-8303-d5ae3bea286d",
+          "name": "Casket of Ancient Winters",
+          "quantity": 1
+        },
+        "3a615d6b-5acf-42ae-b2da-3f68797b8af3": {
+          "octgn_id": "3a615d6b-5acf-42ae-b2da-3f68797b8af3",
+          "name": "War in Asgard",
+          "quantity": 1
+        },
+        "57691063-02c5-4ffc-8a1f-39cc639b59cb": {
+          "octgn_id": "57691063-02c5-4ffc-8a1f-39cc639b59cb",
+          "name": "Madness on Midgard",
+          "quantity": 1
+        },
+        "02efd977-6da9-4f71-a8b2-b7dfae4280b6": {
+          "octgn_id": "02efd977-6da9-4f71-a8b2-b7dfae4280b6",
+          "name": "Open the Bifrost",
+          "quantity": 1
+        },
+        "7fa93e98-1e02-4b4a-9f07-b4c6f6d51266": {
+          "octgn_id": "7fa93e98-1e02-4b4a-9f07-b4c6f6d51266",
+          "name": "Loki's Staff",
+          "quantity": 1
+        },
+        "5c7f2927-b4c3-4385-8698-f14f04c49c08": {
+          "octgn_id": "5c7f2927-b4c3-4385-8698-f14f04c49c08",
+          "name": "Loki's Crown",
+          "quantity": 1
+        },
+        "366dc34c-fd51-4c7a-96dd-cf37de70872f": {
+          "octgn_id": "366dc34c-fd51-4c7a-96dd-cf37de70872f",
+          "name": "Loki's Cape",
+          "quantity": 1
+        },
+        "37ff5c37-e7c5-4692-8c40-1f227a91ebe6": {
+          "octgn_id": "37ff5c37-e7c5-4692-8c40-1f227a91ebe6",
+          "name": "Master of Illusions",
+          "quantity": 1
+        },
+        "a1171282-4d10-4f95-a661-e0d42d2ad4fa": {
+          "octgn_id": "a1171282-4d10-4f95-a661-e0d42d2ad4fa",
+          "name": "Devious Sorcery",
+          "quantity": 2
+        },
+        "394562a9-1efe-4a9c-9a1c-40e9714ac911": {
+          "octgn_id": "394562a9-1efe-4a9c-9a1c-40e9714ac911",
+          "name": "Infinite Mischief",
+          "quantity": 2
+        },
+        "fca57976-37b5-48dd-a676-03bbcdac8ab9": {
+          "octgn_id": "fca57976-37b5-48dd-a676-03bbcdac8ab9",
+          "name": "The Trickster",
+          "quantity": 3
+        }
+      }
+    },
+    "the_hood": {
+      "villainCards": {
+        "9ddf6141-1223-4b30-b8cf-d73256190eae": {
+          "octgn_id": "9ddf6141-1223-4b30-b8cf-d73256190eae",
+          "name": "The Hood",
+          "quantity": 1
+        },
+        "ccae86ac-a7a6-47f6-a995-81340dce0e4f": {
+          "octgn_id": "ccae86ac-a7a6-47f6-a995-81340dce0e4f",
+          "name": "The Hood",
+          "quantity": 1
+        },
+        "89b6ae86-aa38-482b-b404-9ce6e8d44365": {
+          "octgn_id": "89b6ae86-aa38-482b-b404-9ce6e8d44365",
+          "name": "The Hood",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "24a8b07f-1245-4ce3-9e98-d5c8477c114f": {
+          "octgn_id": "24a8b07f-1245-4ce3-9e98-d5c8477c114f",
+          "name": "Making Connections",
+          "quantity": 1
+        },
+        "0c666736-15ff-42d5-adc6-7e619c6d0cc5": {
+          "octgn_id": "0c666736-15ff-42d5-adc6-7e619c6d0cc5",
+          "name": "Promised Prosperity",
+          "quantity": 1
+        },
+        "335f078d-6dbb-4caf-92f9-d7db70ae6fcb": {
+          "octgn_id": "335f078d-6dbb-4caf-92f9-d7db70ae6fcb",
+          "name": "Crime State",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "ef919a00-c34a-4f9d-a6ca-9fe45a903a88": {
+          "octgn_id": "ef919a00-c34a-4f9d-a6ca-9fe45a903a88",
+          "name": "Established Dominance",
+          "quantity": 1
+        },
+        "f3bb575c-8441-410c-85c9-75cc65df409e": {
+          "octgn_id": "f3bb575c-8441-410c-85c9-75cc65df409e",
+          "name": "The Hood's Mantle",
+          "quantity": 1
+        },
+        "05180ef6-70f4-4416-b771-ad02ad6302f0": {
+          "octgn_id": "05180ef6-70f4-4416-b771-ad02ad6302f0",
+          "name": "The Hood's Pistol",
+          "quantity": 2
+        },
+        "09768633-7145-4bf2-805c-29f24ed5f458": {
+          "octgn_id": "09768633-7145-4bf2-805c-29f24ed5f458",
+          "name": "Madame Masque",
+          "quantity": 1
+        },
+        "5c230f3d-9f0d-4f6c-8b26-61318e435ac6": {
+          "octgn_id": "5c230f3d-9f0d-4f6c-8b26-61318e435ac6",
+          "name": "Unbridled Ambition",
+          "quantity": 1
+        },
+        "1dedc24d-0a09-4a5d-ab0d-2211f8f217f3": {
+          "octgn_id": "1dedc24d-0a09-4a5d-ab0d-2211f8f217f3",
+          "name": "Field Recruitment",
+          "quantity": 1
+        },
+        "ab3663bb-67f4-43b3-83fb-290fc1e6e938": {
+          "octgn_id": "ab3663bb-67f4-43b3-83fb-290fc1e6e938",
+          "name": "Upper Hand",
+          "quantity": 3
+        }
+      }
+    },
+    "sandman": {
+      "villainCards": {
+        "220429c9-ec55-4635-b566-3ce2e291c70a": {
+          "octgn_id": "220429c9-ec55-4635-b566-3ce2e291c70a",
+          "name": "Sandman",
+          "quantity": 1
+        },
+        "974b395f-5a83-4c46-beee-9dc64cdaab36": {
+          "octgn_id": "974b395f-5a83-4c46-beee-9dc64cdaab36",
+          "name": "Sandman",
+          "quantity": 1
+        },
+        "87dff240-4e2f-4cee-9676-557a59917480": {
+          "octgn_id": "87dff240-4e2f-4cee-9676-557a59917480",
+          "name": "Sandman",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "1a181de0-f184-4319-999b-c13406dfc41a": {
+          "octgn_id": "1a181de0-f184-4319-999b-c13406dfc41a",
+          "name": "Hapless Pedestrians",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "7f2333a8-dfef-402c-b04e-8b1d44082fd9": {
+          "octgn_id": "7f2333a8-dfef-402c-b04e-8b1d44082fd9",
+          "name": "City Streets",
+          "quantity": 1
+        },
+        "94228310-0d09-45fe-a19b-d9e2b6d7b348": {
+          "octgn_id": "94228310-0d09-45fe-a19b-d9e2b6d7b348",
+          "name": "Sand Form",
+          "quantity": 2
+        },
+        "80f402fc-9c39-4553-91ed-a66aef5091c4": {
+          "octgn_id": "80f402fc-9c39-4553-91ed-a66aef5091c4",
+          "name": "Sand Clone",
+          "quantity": 4
+        },
+        "07f2c73b-5d07-4d5a-8d49-00bab9660a3c": {
+          "octgn_id": "07f2c73b-5d07-4d5a-8d49-00bab9660a3c",
+          "name": "Dirt Trap",
+          "quantity": 2
+        },
+        "9bc1f9e2-7df7-4696-abb0-c4d37d4853be": {
+          "octgn_id": "9bc1f9e2-7df7-4696-abb0-c4d37d4853be",
+          "name": "Tidal Sands",
+          "quantity": 1
+        },
+        "9ee0a63d-1f11-4c3e-8ede-c869638c2847": {
+          "octgn_id": "9ee0a63d-1f11-4c3e-8ede-c869638c2847",
+          "name": "Sandslide",
+          "quantity": 1
+        },
+        "d93f1e09-7828-4407-a1b1-9a6c9d5df1fb": {
+          "octgn_id": "d93f1e09-7828-4407-a1b1-9a6c9d5df1fb",
+          "name": "Sand Storm",
+          "quantity": 1
+        },
+        "7a952776-cce9-4586-ae80-378d2973234d": {
+          "octgn_id": "7a952776-cce9-4586-ae80-378d2973234d",
+          "name": "Sand Smash",
+          "quantity": 2
+        }
+      }
+    },
+    "venom": {
+      "villainCards": {
+        "2a925300-34f7-4b35-9bc5-7042f01bb3c0": {
+          "octgn_id": "2a925300-34f7-4b35-9bc5-7042f01bb3c0",
+          "name": "Venom",
+          "quantity": 1
+        },
+        "2f477066-15bb-47c2-968a-be7e1f157ab3": {
+          "octgn_id": "2f477066-15bb-47c2-968a-be7e1f157ab3",
+          "name": "Venom",
+          "quantity": 1
+        },
+        "b8d77136-ce0f-48a6-a303-5f6277feb696": {
+          "octgn_id": "b8d77136-ce0f-48a6-a303-5f6277feb696",
+          "name": "Venom",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "f0fae2c4-caaf-427a-83ea-fa3898828b6b": {
+          "octgn_id": "f0fae2c4-caaf-427a-83ea-fa3898828b6b",
+          "name": "\"Leave Us Alone!\"",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "2e7f7d42-8883-4c2a-844e-c6883c9d4564": {
+          "octgn_id": "2e7f7d42-8883-4c2a-844e-c6883c9d4564",
+          "name": "Bell Tower",
+          "quantity": 1
+        },
+        "4e1ebcc4-6550-407e-be39-26ea8d6286bf": {
+          "octgn_id": "4e1ebcc4-6550-407e-be39-26ea8d6286bf",
+          "name": "\"Now We're Angry!\"",
+          "quantity": 2
+        },
+        "78cb5fe2-04ec-4fa8-8f9f-9adadd930012": {
+          "octgn_id": "78cb5fe2-04ec-4fa8-8f9f-9adadd930012",
+          "name": "Guard the Bell Tower",
+          "quantity": 1
+        },
+        "b444649f-f43d-4282-a796-feea51585274": {
+          "octgn_id": "b444649f-f43d-4282-a796-feea51585274",
+          "name": "Lashing Out",
+          "quantity": 1
+        },
+        "0d5e8165-4b48-4068-9c56-c8e8999c2b43": {
+          "octgn_id": "0d5e8165-4b48-4068-9c56-c8e8999c2b43",
+          "name": "Tooth and Nail",
+          "quantity": 1
+        },
+        "5a54df35-c1cd-43ed-9f5d-0478a93a3dd1": {
+          "octgn_id": "5a54df35-c1cd-43ed-9f5d-0478a93a3dd1",
+          "name": "Biting Retort",
+          "quantity": 2
+        },
+        "582cf29f-d1f9-4f76-ae0e-a4d16d2c3011": {
+          "octgn_id": "582cf29f-d1f9-4f76-ae0e-a4d16d2c3011",
+          "name": "For Whom the Bell Tolls",
+          "quantity": 2
+        }
+      }
+    },
+    "mysterio": {
+      "villainCards": {
+        "2f5393e9-2f46-4e1a-a54d-45a9374ab5c1": {
+          "octgn_id": "2f5393e9-2f46-4e1a-a54d-45a9374ab5c1",
+          "name": "Mysterio",
+          "quantity": 1
+        },
+        "508eea9c-19da-4761-809f-98a7121e7d78": {
+          "octgn_id": "508eea9c-19da-4761-809f-98a7121e7d78",
+          "name": "Mysterio",
+          "quantity": 1
+        },
+        "1ab99fb0-2f7d-4beb-8990-60fe59c44788": {
+          "octgn_id": "1ab99fb0-2f7d-4beb-8990-60fe59c44788",
+          "name": "Mysterio",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "d2642a7a-62a6-4cbf-9d35-6197dc918549": {
+          "octgn_id": "d2642a7a-62a6-4cbf-9d35-6197dc918549",
+          "name": "Maze of Mirrors",
+          "quantity": 1
+        },
+        "5f8d0885-f894-4924-b4b8-111a020e9566": {
+          "octgn_id": "5f8d0885-f894-4924-b4b8-111a020e9566",
+          "name": "Edge of Reality",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "3513a473-5d36-44fd-9ada-b731eb505994": {
+          "octgn_id": "3513a473-5d36-44fd-9ada-b731eb505994",
+          "name": "Humongous Hallucination",
+          "quantity": 1
+        },
+        "3624e9ce-5267-4a0d-a6d2-c64aa50f0d0d": {
+          "octgn_id": "3624e9ce-5267-4a0d-a6d2-c64aa50f0d0d",
+          "name": "Masterful Mirage",
+          "quantity": 2
+        },
+        "4fb8bba0-a362-44e8-8636-1cd71977954f": {
+          "octgn_id": "4fb8bba0-a362-44e8-8636-1cd71977954f",
+          "name": "Shifting Apparition",
+          "quantity": 4
+        },
+        "0710dc42-3969-44e2-9608-9a8c6a04a7ed": {
+          "octgn_id": "0710dc42-3969-44e2-9608-9a8c6a04a7ed",
+          "name": "Déjà Vu",
+          "quantity": 2
+        },
+        "e2f6d85f-4ad9-4113-99cd-353d58588ee9": {
+          "octgn_id": "e2f6d85f-4ad9-4113-99cd-353d58588ee9",
+          "name": "Fearmonger",
+          "quantity": 2
+        }
+      }
+    },
+    "sinister_six": {
+      "villainCards": {
+        "2e05b415-c758-47b6-8ae3-57dc76ac49df": {
+          "octgn_id": "2e05b415-c758-47b6-8ae3-57dc76ac49df",
+          "name": "Doctor Octopus",
+          "quantity": 1
+        },
+        "800f33c8-a683-470a-944e-ae7083a7f3a3": {
+          "octgn_id": "800f33c8-a683-470a-944e-ae7083a7f3a3",
+          "name": "Electro",
+          "quantity": 1
+        },
+        "83211044-881e-40ac-9735-af5db8689286": {
+          "octgn_id": "83211044-881e-40ac-9735-af5db8689286",
+          "name": "Hobgoblin",
+          "quantity": 1
+        },
+        "e4974462-c4bb-4286-9c27-93126f6726d5": {
+          "octgn_id": "e4974462-c4bb-4286-9c27-93126f6726d5",
+          "name": "Kraven the Hunter",
+          "quantity": 1
+        },
+        "b5a76600-dcdb-4528-84fb-56217769dbc7": {
+          "octgn_id": "b5a76600-dcdb-4528-84fb-56217769dbc7",
+          "name": "Scorpion",
+          "quantity": 1
+        },
+        "ece2a17b-19b3-4813-9d61-e106d2f21622": {
+          "octgn_id": "ece2a17b-19b3-4813-9d61-e106d2f21622",
+          "name": "Vulture",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "d1b9e550-e569-455e-b32e-56a1426acd8a": {
+          "octgn_id": "d1b9e550-e569-455e-b32e-56a1426acd8a",
+          "name": "Sinister Synchonization",
+          "quantity": 1
+        },
+        "ffff8175-9807-4a4d-b508-6298e430af77": {
+          "octgn_id": "ffff8175-9807-4a4d-b508-6298e430af77",
+          "name": "Sinister Beatdown",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "6c1142d0-3fb7-4303-85b3-bec275ad8d5e": {
+          "octgn_id": "6c1142d0-3fb7-4303-85b3-bec275ad8d5e",
+          "name": "Light at the End",
+          "quantity": 1
+        },
+        "d205c4ad-db4c-46cf-a7d1-bc9bf03adcd7": {
+          "octgn_id": "d205c4ad-db4c-46cf-a7d1-bc9bf03adcd7",
+          "name": "Heightened Morale",
+          "quantity": 2
+        },
+        "cdbd46d3-d55b-4817-a486-56601e65abcf": {
+          "octgn_id": "cdbd46d3-d55b-4817-a486-56601e65abcf",
+          "name": "Taunting Presence",
+          "quantity": 2
+        },
+        "6755901e-07d7-4635-9aed-8a442b9d323b": {
+          "octgn_id": "6755901e-07d7-4635-9aed-8a442b9d323b",
+          "name": "Team Leader",
+          "quantity": 1
+        },
+        "fa638444-ba88-4d26-a7b1-dc9911b64125": {
+          "octgn_id": "fa638444-ba88-4d26-a7b1-dc9911b64125",
+          "name": "Take One for the Team",
+          "quantity": 1
+        },
+        "3f5c9a5d-dee1-4816-a31a-bcd075a33cbe": {
+          "octgn_id": "3f5c9a5d-dee1-4816-a31a-bcd075a33cbe",
+          "name": "Brute Force Barricade",
+          "quantity": 1
+        },
+        "47bbd2e0-c1d4-4728-89a3-6ee156a0d70e": {
+          "octgn_id": "47bbd2e0-c1d4-4728-89a3-6ee156a0d70e",
+          "name": "Frequent Flyers",
+          "quantity": 1
+        },
+        "822e7566-6928-4de0-8b45-509ea7c4a3a1": {
+          "octgn_id": "822e7566-6928-4de0-8b45-509ea7c4a3a1",
+          "name": "High Fashion",
+          "quantity": 1
+        },
+        "fe24180f-b32f-4e39-add3-06b13dcc6343": {
+          "octgn_id": "fe24180f-b32f-4e39-add3-06b13dcc6343",
+          "name": "Robotic Enhancements",
+          "quantity": 1
+        },
+        "001074cf-7321-44b7-a99f-1ba4d38f88e0": {
+          "octgn_id": "001074cf-7321-44b7-a99f-1ba4d38f88e0",
+          "name": "Partnership of Pain",
+          "quantity": 3
+        },
+        "26a0d127-a0ea-42bd-92d2-aff7a942205a": {
+          "octgn_id": "26a0d127-a0ea-42bd-92d2-aff7a942205a",
+          "name": "Surprise!",
+          "quantity": 3
+        }
+      }
+    },
+    "venom_goblin": {
+      "villainCards": {
+        "7721eef8-3ff4-4930-b0b1-a4b4a86884b1": {
+          "octgn_id": "7721eef8-3ff4-4930-b0b1-a4b4a86884b1",
+          "name": "Venom Goblin",
+          "quantity": 1
+        },
+        "4adb2649-5556-4143-b164-73da388f77c5": {
+          "octgn_id": "4adb2649-5556-4143-b164-73da388f77c5",
+          "name": "Venom Goblin",
+          "quantity": 1
+        },
+        "a5fb3f73-29d4-464c-9287-4cd477c900f0": {
+          "octgn_id": "a5fb3f73-29d4-464c-9287-4cd477c900f0",
+          "name": "Venom Goblin",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "1a105de2-01b9-4232-aa4c-5a84116e1cf6": {
+          "octgn_id": "1a105de2-01b9-4232-aa4c-5a84116e1cf6",
+          "name": "Skies Over New York",
+          "quantity": 1
+        },
+        "638af324-457e-450b-b6b8-44566cf9ad7e": {
+          "octgn_id": "638af324-457e-450b-b6b8-44566cf9ad7e",
+          "name": "Lower Manhattan",
+          "quantity": 1
+        },
+        "3f635367-a5a3-4a28-8792-67d72c0d300c": {
+          "octgn_id": "3f635367-a5a3-4a28-8792-67d72c0d300c",
+          "name": "Midtown Manhattan",
+          "quantity": 1
+        },
+        "dce8888a-13c1-491b-8053-68aa45b3bfe9": {
+          "octgn_id": "dce8888a-13c1-491b-8053-68aa45b3bfe9",
+          "name": "Upper Manhattan",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "1a105de2-01b9-4232-aa4c-5a84116e1cf6": {
+          "octgn_id": "1a105de2-01b9-4232-aa4c-5a84116e1cf6",
+          "name": "Skies Over New York",
+          "quantity": 1
+        },
+        "638af324-457e-450b-b6b8-44566cf9ad7e": {
+          "octgn_id": "638af324-457e-450b-b6b8-44566cf9ad7e",
+          "name": "Lower Manhattan",
+          "quantity": 1
+        },
+        "3f635367-a5a3-4a28-8792-67d72c0d300c": {
+          "octgn_id": "3f635367-a5a3-4a28-8792-67d72c0d300c",
+          "name": "Midtown Manhattan",
+          "quantity": 1
+        },
+        "dce8888a-13c1-491b-8053-68aa45b3bfe9": {
+          "octgn_id": "dce8888a-13c1-491b-8053-68aa45b3bfe9",
+          "name": "Upper Manhattan",
+          "quantity": 1
+        },
+        "2fdcee7f-4bb8-44b9-94b6-084e8c5cf7e5": {
+          "octgn_id": "2fdcee7f-4bb8-44b9-94b6-084e8c5cf7e5",
+          "name": "We Are One",
+          "quantity": 1
+        },
+        "5c7747a7-fc6e-4912-a518-4f0cd355d3d7": {
+          "octgn_id": "5c7747a7-fc6e-4912-a518-4f0cd355d3d7",
+          "name": "Symbiotic Berserker",
+          "quantity": 2
+        },
+        "4dc840fa-521c-409d-b57c-d0b63bd3b22c": {
+          "octgn_id": "4dc840fa-521c-409d-b57c-d0b63bd3b22c",
+          "name": "Symbiotic Monstrosity",
+          "quantity": 2
+        },
+        "7e764795-8b63-47fd-b5a2-4f620be4b780": {
+          "octgn_id": "7e764795-8b63-47fd-b5a2-4f620be4b780",
+          "name": "Symbiotic Thrall",
+          "quantity": 4
+        },
+        "d160a2b5-31e3-4b54-9668-2320e705a947": {
+          "octgn_id": "d160a2b5-31e3-4b54-9668-2320e705a947",
+          "name": "Festering Mass",
+          "quantity": 1
+        },
+        "3ea8ccf9-291f-456a-9b20-d6dcd638ef8d": {
+          "octgn_id": "3ea8ccf9-291f-456a-9b20-d6dcd638ef8d",
+          "name": "Joy Ride",
+          "quantity": 1
+        },
+        "f27426bd-9b63-4bf0-b83b-d4c09ee0f2d9": {
+          "octgn_id": "f27426bd-9b63-4bf0-b83b-d4c09ee0f2d9",
+          "name": "Spreading Panic",
+          "quantity": 2
+        }
+      }
+    },
+    "sabretooth": {
+      "villainCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032060": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032060",
+          "name": "Sabretooth I",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032061": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032061",
+          "name": "Sabretooth II",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032062": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032062",
+          "name": "Sabretooth III",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032063": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032063",
+          "name": "Stalked by Sabretooth 1B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032064": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032064",
+          "name": "The Injured Senator 2B",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032065": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032065",
+          "name": "Protect the Senator",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032066": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032066",
+          "name": "Robert Kelly",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032067": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032067",
+          "name": "Adamantium Claws",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032068": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032068",
+          "name": "Animal Ferocity",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032069": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032069",
+          "name": "Sabretooth Strikes",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032070": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032070",
+          "name": "Unreleting Savage",
+          "quantity": 4
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032071": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032071",
+          "name": "Medical Emergency",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032072": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032072",
+          "name": "Deral Rage",
+          "quantity": 1
+        }
+      }
+    },
+    "project_wideawake": {
+      "villainCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032084": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032084",
+          "name": "Sentinel I",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032085": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032085",
+          "name": "Sentinel II",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032086": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032086",
+          "name": "Sentinel III",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032087": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032087",
+          "name": "Night of the Sentinels B",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032088": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032088",
+          "name": "Mutant at the Mall",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032089": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032089",
+          "name": "Rictor",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032090": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032090",
+          "name": "Boom Boom",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032091": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032091",
+          "name": "Cannonball",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032092": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032092",
+          "name": "Wolfsbane",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032093": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032093",
+          "name": "Sentinel Mark IV",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032094": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032094",
+          "name": "Gauntlet Beam",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032095": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032095",
+          "name": "Learning A.I.",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032096": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032096",
+          "name": "Adaptive Armor",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032097": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032097",
+          "name": "Self-Repair",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032098": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032098",
+          "name": "Mutant Detected",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032099": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032099",
+          "name": "Warn the Others",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032100": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032100",
+          "name": "Abduction Protocols",
+          "quantity": 4
+        }
+      }
+    },
+    "master_mold": {
+      "villainCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032109": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032109",
+          "name": "Master Mold I",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032110": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032110",
+          "name": "Master Mold II",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032111": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032111",
+          "name": "Master Mold III",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032112": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032112",
+          "name": "The Sentinel Factory B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032113": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032113",
+          "name": "Master Mold's Agenda B",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032114": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032114",
+          "name": "Sentinel Mark VIII",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032115": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032115",
+          "name": "Unit Upgrade",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032116": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032116",
+          "name": "Stun Beam",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032117": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032117",
+          "name": "Master Mold's Children",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032118": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032118",
+          "name": "Shields Up",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032119": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032119",
+          "name": "Intruder Alert!",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032120": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032120",
+          "name": "Insert Virus Program",
+          "quantity": 2
+        }
+      }
+    },
+    "mansion_attack": {
+      "villainCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032121": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032121",
+          "name": "Avalanche B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032122": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032122",
+          "name": "Blob B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032123": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032123",
+          "name": "Pyro B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032124": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032124",
+          "name": "Toad B",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032125": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032125",
+          "name": "The Brotherhood Strikes! B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032126": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032126",
+          "name": "The Atrium B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032127": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032127",
+          "name": "The Cafeteria B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032128": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032128",
+          "name": "The Basketball Court B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032129": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032129",
+          "name": "The Courtyard B",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032130": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032130",
+          "name": "Save the School",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032131": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032131",
+          "name": "Brotherhood Beatdown",
+          "quantity": 3
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032132": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032132",
+          "name": "Ground Swell",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032133": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032133",
+          "name": "Immovable",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032134": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032134",
+          "name": "Pyromaniac",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032135": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032135",
+          "name": "Hopping Mad",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032136": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032136",
+          "name": "Protect the Students",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032137": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032137",
+          "name": "Under Siege",
+          "quantity": 2
+        }
+      }
+    },
+    "magneto": {
+      "villainCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032138": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032138",
+          "name": "Magneto I",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032139": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032139",
+          "name": "Magneto II",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032140": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032140",
+          "name": "Magneto III",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032141": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032141",
+          "name": "Asteroid M B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032142": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032142",
+          "name": "Factory Online B",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032143": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032143",
+          "name": "The Rule of Magnus B",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "47d34c5d-5319-45a9-a2d6-1fb975032144": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032144",
+          "name": "Sabotage Master Mold",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032145": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032145",
+          "name": "Physical Strain",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032146": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032146",
+          "name": "M-Type Sentinel",
+          "quantity": 4
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032147": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032147",
+          "name": "Magneto's Helmet",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032148": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032148",
+          "name": "Magneto's Armor",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032149": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032149",
+          "name": "Magnetic Bubble",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032150": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032150",
+          "name": "Wrapped in Metal",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032151": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032151",
+          "name": "Master of Magnetism",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032152": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032152",
+          "name": "Electric Shock",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032153": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032153",
+          "name": "Electromagnetic Blast",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032154": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032154",
+          "name": "Metal Shards",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032155": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032155",
+          "name": "Magnetic Missile",
+          "quantity": 2
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032156": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032156",
+          "name": "Magnetic Mayhem",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032157": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032157",
+          "name": "Magnetically Sealed",
+          "quantity": 1
+        },
+        "47d34c5d-5319-45a9-a2d6-1fb975032158": {
+          "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032158",
+          "name": "Seized!",
+          "quantity": 1
+        }
+      }
+    }
+  }
+}
