@@ -66,3 +66,4 @@ fetch("http://localhost:8010/proxy/api/public/packs")
     console.error("ERROR:", err);
     process.exit(1);
   });
+  

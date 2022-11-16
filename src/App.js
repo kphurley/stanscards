@@ -8,9 +8,6 @@ import "./styles/app.css";
 import "rsuite/dist/rsuite.min.css"
 
 import StartGameModal from "./components/StartGameModal";
-
-import encounterData from "./config/encounterData.json";
-
 import useBoardState from './hooks/useBoardState';
 import { createKeyHandler } from "./utils/commands";
 import { parseEncounterSetSelectionToCardData, parseOctgnFileIntoPlayerDeck } from "./utils/parsers";
@@ -34,19 +31,6 @@ const App = () => {
 
   const handleKeyPress = useCallback(createKeyHandler(boardState, dispatch), [boardState, dispatch]);
 
-  const handleVillainSelection = useCallback((e) => {
-    const selection = e.target.getAttribute("data-id");
-
-    // This returns { villain: villainCards, mainScheme: mainSchemeCards, encounter: encounterCards }
-    parseEncounterSetSelectionToCardData(selection, "villainSets");
-  });
-
-  const handleModularSelection = useCallback((e) => {
-    const selection = e.target.getAttribute("data-id");
-
-    parseEncounterSetSelectionToCardData(selection, "modularSets");
-  });
-
   const openStartGameModal = () => setModalIsOpen(true);
   const closeStartGameModal = () => setModalIsOpen(false);
 
@@ -57,10 +41,10 @@ const App = () => {
     closeStartGameModal();
 
     const villainData = parseEncounterSetSelectionToCardData(villain, "villainSets");
-    const modularData = modulars.map((modular) => parseEncounterSetSelectionToCardData(modular, "modularSets"))
-                                .reduce((acc, set) => acc.encounterCards = acc.encounterCards.concat(set.encounterCards));
+    const modularCards = modulars.map((modular) => parseEncounterSetSelectionToCardData(modular, "modularSets").encounterCards)
+                                .reduce((acc, set) => acc.concat(set));
 
-    villainData.encounterCards = villainData.encounterCards.concat(modularData);
+    villainData.encounterCards = villainData.encounterCards.concat(modularCards);
 
     dispatch({ type: "UPDATE_VILLAIN", payload: {
       villainCards: villainData.villainCards,
