@@ -11,14 +11,15 @@ const initialState = {
   // Special state for the hero, includes exhausted, flipped
   // Definitely will need stuff to capture multiple hero cards (Ironheart) or triple cards (Ant-Man, Wasp)
   hero: {},
-  packs: [],
   playerBoard: [],
   playerDeck: [],
   playerDiscard: [],
   //playerHand: [],
-  villianBoard: [],
-  villianDeck: [],
-  villianDiscard: [],
+  villainBoard: [],
+  villainCards: [],
+  villainDeck: [],
+  villainDiscard: [],
+  villainMainSchemes: [],
 }
 
 // action: { type: string, payload: string | array }
@@ -43,8 +44,6 @@ function boardStateReducer(state, action) {
       updatedBoard.push(drawnCard);
 
       return { ...state, playerDeck: updatedDeck, playerBoard: updatedBoard };
-    case "SET_PACKS":
-      return { ...state, packs: action.payload };
     case "SHUFFLE_DECK":
       const shuffledDeck = arrayShuffle(state[action.payload])
       return { ...state, [action.payload]: shuffledDeck };
@@ -54,6 +53,9 @@ function boardStateReducer(state, action) {
     case "UPDATE_HERO":
       const { obligation, nemesisSet } = action.payload;
       return { ...state, hero: { ...state.hero, obligation, nemesisSet }};
+    case "UPDATE_VILLAIN":
+      const { villainCards, villainDeck, villainMainSchemes } = action.payload;
+      return { ...state, villainCards, villainDeck, villainMainSchemes};
     case "FLIP_HERO":
       return { ...state, hero: { ...state.hero, alterEgo: action.payload }};
     default:

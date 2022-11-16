@@ -1,30 +1,24 @@
-import React, { useCallback, useEffect } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Container, Content, Header, Nav, Popover, Whisper } from 'rsuite';
 import Draggable from 'react-draggable';
 import { useFilePicker } from 'use-file-picker';
+import _ from 'lodash';
 
 import "./styles/app.css";
 import "rsuite/dist/rsuite.min.css"
 
+import StartGameModal from "./components/StartGameModal";
+
+import encounterData from "./config/encounterData.json";
+
 import useBoardState from './hooks/useBoardState';
 import { createKeyHandler } from "./utils/commands";
-import { parseOctgnFileIntoPlayerDeck } from "./utils/parsers";
+import { parseEncounterSetSelectionToCardData, parseOctgnFileIntoPlayerDeck } from "./utils/parsers";
 
 const App = () => {
   const [boardState, dispatch] = useBoardState();
   const [openFileSelector, { clear, filesContent }] = useFilePicker({ accept: ['.o8d'], multiple: false });
-
-  // On load, fetch all of the sets from marvelcdb.
-  // This is needed to map heroes to their nemesis sets, among other things
-  // useEffect(() => {
-  //   fetch("http://localhost:8010/proxy/api/public/packs")
-  //     .then((data) => {
-  //       return data.json();
-  //     })
-  //     .then((json) => {
-  //       dispatch({ type: "SET_PACKS", payload: json })
-  //     });
-  // }, [])
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   // Hook to handle processing the .o8d file upload
   useEffect(() => {
@@ -38,31 +32,42 @@ const App = () => {
     }
   }, [boardState, filesContent])
 
-  // Hook to get the hero's obligation card and nemesis content
-  // Replace the hardcoded stuff here with a lookup to a set code (need to get this from marvelcdb)
-  // useEffect(() => {
-  //   if (boardState.hero.card && !(boardState.hero.obligation)) {
-  //     fetch("http://localhost:8010/proxy/api/public/cards/ironheart.json")
-  //       .then((data) => {
-  //         return data.json();
-  //       })
-  //       .then((json) => {
-  //         console.log("json", json);
-  //         const obData = json.find((card) => card["type_code"] === "obligation");
-  //         const obligation = { id: obData["octgn_id"], name: obData["name"] }
-  //         const nemesisData = json.filter((card) => card["card_set_code"] === "ironheart_nemesis");
-  //         const nemesisSet = []
-  //         for(const card of nemesisData) {
-  //           for(let i = 1; i <= card.quantity; i++) {
-  //             nemesisSet.push({ id: card["octgn_id"], name: card["name"]})
-  //           }
-  //         }
-  //         dispatch({ type: "UPDATE_HERO", payload: { obligation, nemesisSet }})
-  //       });  
-  //   }
-  // }, [boardState.hero])
-
   const handleKeyPress = useCallback(createKeyHandler(boardState, dispatch), [boardState, dispatch]);
+
+  const handleVillainSelection = useCallback((e) => {
+    const selection = e.target.getAttribute("data-id");
+
+    // This returns { villain: villainCards, mainScheme: mainSchemeCards, encounter: encounterCards }
+    parseEncounterSetSelectionToCardData(selection, "villainSets");
+  });
+
+  const handleModularSelection = useCallback((e) => {
+    const selection = e.target.getAttribute("data-id");
+
+    parseEncounterSetSelectionToCardData(selection, "modularSets");
+  });
+
+  const openStartGameModal = () => setModalIsOpen(true);
+  const closeStartGameModal = () => setModalIsOpen(false);
+
+  // villain = string key from encounter sets
+  // modulars = array of selected modulars
+  // TODO - how to handle standard/expert selection?
+  const closeModalAndStartGame = (villain, modulars) => {
+    closeStartGameModal();
+
+    const villainData = parseEncounterSetSelectionToCardData(villain, "villainSets");
+    const modularData = modulars.map((modular) => parseEncounterSetSelectionToCardData(modular, "modularSets"))
+                                .reduce((acc, set) => acc.encounterCards = acc.encounterCards.concat(set.encounterCards));
+
+    villainData.encounterCards = villainData.encounterCards.concat(modularData);
+
+    dispatch({ type: "UPDATE_VILLAIN", payload: {
+      villainCards: villainData.villainCards,
+      villainDeck: villainData.encounterCards,
+      villainMainSchemes: villainData.mainSchemeCards,
+    }})
+  }
 
   const playerDeckContextMenu = (
     <Popover arrow={false}>
@@ -79,12 +84,13 @@ const App = () => {
           <Nav>
             <Nav.Menu title="File">
               <Nav.Item onClick={() => openFileSelector()}>Load Player Deck</Nav.Item>
-              <Nav.Item>Load Villain</Nav.Item>
+              <Nav.Item onClick={openStartGameModal}>Start Game</Nav.Item>
             </Nav.Menu>
           </Nav>
         </Header>
         <Content className="contentPane">
           <div className="villainRow">
+            <div className="expand" />
             <div className="villainCardZone villainDiscard">Discard</div>
             <div className="villainCardZone villainDraw">
               Draw
@@ -100,13 +106,8 @@ const App = () => {
               </Draggable>
             </div>
             <div className="villainCardZone villainCard">Villain</div>
-            <div className="villainHealth">
-              <img className="villainHealthItem" src="/images/minus.svg" alt="A Rectangle Image with SVG" height="36px" width="36px" />
-              <div className="villainHealthItem villainHealthCount">12</div>
-              <img className="villainHealthItem" src="/images/plus.svg" alt="A Rectangle Image with SVG" height="36px" width="36px" />
-            </div>
             <div className="villainHorizontalCardZone villainMainScheme">Main Scheme</div>
-            <div className="villainHorizontalCardZone expandable villainSideSchemes">Side Scheme</div>
+            <div className="expand" />
           </div>
 
           <div className="heroRows">
@@ -182,6 +183,11 @@ const App = () => {
           </div>
         </Content>
       </Container>
+      <StartGameModal
+        handleCloseAndStartGameWithSelections={closeModalAndStartGame}
+        handleClose={closeStartGameModal}
+        modalIsOpen={modalIsOpen}
+      />
     </div>
   );
 }

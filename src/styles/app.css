@@ -18,10 +18,24 @@
   height: calc(100vh - 36px);
 }
 
+.expand {
+  flex: 1;
+}
+
+.flex-centerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .mainContainer {
   position: relative;
   height: 100vh;
   width: 100vw;
+}
+
+.maxWidth-400px {
+  max-width: 400px;
 }
 
 .heroRows {
@@ -83,6 +97,7 @@
 .villainCardZone {
   border-radius: 4px;
   background: #E5625E;
+  margin: 8px;
   height: 200px;
   width: 140px;
 }
@@ -116,6 +131,7 @@
 .villainHorizontalCardZone {
   border-radius: 4px;
   background: #E5625E;
+  margin: 8px;
   height: 160px;
   width: 220px;
 }
@@ -126,4 +142,13 @@
   align-items: center;
   justify-content: space-between;
   height: 25%
+}
+
+.villainSelectionColumn {
+  padding: 8px;
+}
+
+.villainSelectionContainer {
+  display: flex;
+  flex-direction: row;
 }
