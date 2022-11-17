@@ -110,6 +110,50 @@
         "quantity": 3
       }
     },
+    "standard": {
+      "784c9289-6c13-44cd-97d0-100517406c82": {
+        "octgn_id": "784c9289-6c13-44cd-97d0-100517406c82",
+        "name": "Advance",
+        "quantity": 2
+      },
+      "42ff2d81-31cc-43a3-9ad2-0f29deab6fda": {
+        "octgn_id": "42ff2d81-31cc-43a3-9ad2-0f29deab6fda",
+        "name": "Assault",
+        "quantity": 2
+      },
+      "40a61b14-3ab2-459d-bee2-8c4983253116": {
+        "octgn_id": "40a61b14-3ab2-459d-bee2-8c4983253116",
+        "name": "Caught Off Guard",
+        "quantity": 1
+      },
+      "97c72ae9-1ec6-44d4-876d-2e3688a55c9e": {
+        "octgn_id": "97c72ae9-1ec6-44d4-876d-2e3688a55c9e",
+        "name": "Gang-Up",
+        "quantity": 1
+      },
+      "6d4aa932-4d9b-40d3-bf02-283bdfff9abf": {
+        "octgn_id": "6d4aa932-4d9b-40d3-bf02-283bdfff9abf",
+        "name": "Shadow of the Past",
+        "quantity": 1
+      }
+    },
+    "expert": {
+      "77ddd5c1-04f0-4796-b0f1-b3558071d187": {
+        "octgn_id": "77ddd5c1-04f0-4796-b0f1-b3558071d187",
+        "name": "Exhaustion",
+        "quantity": 1
+      },
+      "b18967c6-313b-40ec-a5b3-4e4e2fa88650": {
+        "octgn_id": "b18967c6-313b-40ec-a5b3-4e4e2fa88650",
+        "name": "Masterplan",
+        "quantity": 1
+      },
+      "6a40661c-e13a-4dfd-a676-d5022ce6cf1d": {
+        "octgn_id": "6a40661c-e13a-4dfd-a676-d5022ce6cf1d",
+        "name": "Under Fire",
+        "quantity": 1
+      }
+    },
     "goblin_gimmicks": {
       "6e5a5c16-ebe8-4021-bf47-6d79929b8bdf": {
         "octgn_id": "6e5a5c16-ebe8-4021-bf47-6d79929b8bdf",
@@ -2248,6 +2292,249 @@
       "47d34c5d-5319-45a9-a2d6-1fb975032195": {
         "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032195",
         "name": "Fortitude",
+        "quantity": 1
+      }
+    },
+    "deathstrike": {
+      "663cb632-e6c8-4e94-8676-a8e0ca035034": {
+        "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035034",
+        "name": "Lady Deathstrike",
+        "quantity": 1
+      },
+      "663cb632-e6c8-4e94-8676-a8e0ca035035": {
+        "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035035",
+        "name": "Seeking Vengeance",
+        "quantity": 1
+      },
+      "663cb632-e6c8-4e94-8676-a8e0ca035036": {
+        "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035036",
+        "name": "Adamantium Upgrades",
+        "quantity": 2
+      },
+      "663cb632-e6c8-4e94-8676-a8e0ca035037": {
+        "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035037",
+        "name": "Bain de Sang",
+        "quantity": 2
+      }
+    },
+    "shadow_king": {
+      "775cc394-70e0-4a37-bb3b-5a13b4036036": {
+        "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036036",
+        "name": "The Shadow King",
+        "quantity": 1
+      },
+      "775cc394-70e0-4a37-bb3b-5a13b4036037": {
+        "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036037",
+        "name": "Ruler of the Astral Plane",
+        "quantity": 1
+      },
+      "775cc394-70e0-4a37-bb3b-5a13b4036038": {
+        "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036038",
+        "name": "Possessed",
+        "quantity": 2
+      },
+      "775cc394-70e0-4a37-bb3b-5a13b4036039": {
+        "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036039",
+        "name": "Astral Attack",
+        "quantity": 1
+      }
+    },
+    "crime": {
+      "56b64e85-e416-4ec5-83e2-4bbd16039035": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039035",
+        "name": "Dial M for Mojo",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039036": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039036",
+        "name": "Build the Case",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039037": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039037",
+        "name": "Crime Scene Investigation",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039038": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039038",
+        "name": "Law & Order",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039039": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039039",
+        "name": "Dragnet",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039040": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039040",
+        "name": "Elementary, My Dear Mojo",
+        "quantity": 1
+      }
+    },
+    "fantasy": {
+      "56b64e85-e416-4ec5-83e2-4bbd16039041": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039041",
+        "name": "A Game of Mojo's",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039042": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039042",
+        "name": "Dragon",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039043": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039043",
+        "name": "Goblin",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039044": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039044",
+        "name": "Troll",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039045": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039045",
+        "name": "Fetch Quest",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039046": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039046",
+        "name": "Mana Drain",
+        "quantity": 1
+      }
+    },
+    "horror": {
+      "56b64e85-e416-4ec5-83e2-4bbd16039047": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039047",
+        "name": "The Mojo Files",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039048": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039048",
+        "name": "Bandolier of Stakes",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039049": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039049",
+        "name": "Cultist",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039050": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039050",
+        "name": "The Kraken",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039051": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039051",
+        "name": "Vampire",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039052": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039052",
+        "name": "Werewolf Pack",
+        "quantity": 1
+      }
+    },
+    "sci-fi": {
+      "56b64e85-e416-4ec5-83e2-4bbd16039053": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039053",
+        "name": "Mojo Runner",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039054": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039054",
+        "name": "Avalanche 9.0",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039055": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039055",
+        "name": "Blob 3.14",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039056": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039056",
+        "name": "Magneto 2.6",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039057": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039057",
+        "name": "Pyro 4.0",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039058": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039058",
+        "name": "Toad 2.0",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039059": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039059",
+        "name": "ICE-Teroid M",
+        "quantity": 1
+      }
+    },
+    "sitcom": {
+      "56b64e85-e416-4ec5-83e2-4bbd16039060": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039060",
+        "name": "Mojo in the Middle",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039061": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039061",
+        "name": "Family Matters",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039062": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039062",
+        "name": "Growing Pains",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039063": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039063",
+        "name": "The Odd Couple",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039064": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039064",
+        "name": "The One with the Breakup",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039065": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039065",
+        "name": "Watch Me Play",
+        "quantity": 1
+      }
+    },
+    "western": {
+      "56b64e85-e416-4ec5-83e2-4bbd16039066": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039066",
+        "name": "Wild Wild Mojo",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039067": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039067",
+        "name": "Dead or Alive",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039068": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039068",
+        "name": "Card Shark",
+        "quantity": 1
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039069": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039069",
+        "name": "Gunslinger",
+        "quantity": 2
+      },
+      "56b64e85-e416-4ec5-83e2-4bbd16039070": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039070",
+        "name": "A Game of Cards",
+        "quantity": 1
+      }
+    },
+    "longshot": {
+      "56b64e85-e416-4ec5-83e2-4bbd16039071": {
+        "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039071",
+        "name": "Longshot",
         "quantity": 1
       }
     }
@@ -5243,6 +5530,200 @@
         "47d34c5d-5319-45a9-a2d6-1fb975032158": {
           "octgn_id": "47d34c5d-5319-45a9-a2d6-1fb975032158",
           "name": "Seized!",
+          "quantity": 1
+        }
+      }
+    },
+    "magog": {
+      "villainCards": {
+        "56b64e85-e416-4ec5-83e2-4bbd16039001": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039001",
+          "name": "MaGog (B)",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "56b64e85-e416-4ec5-83e2-4bbd16039002": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039002",
+          "name": "Melee in the Mojo-seum (1B)",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "56b64e85-e416-4ec5-83e2-4bbd16039003": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039003",
+          "name": "The Champion (Cheering Crowd)",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039004": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039004",
+          "name": "The Challengers (Cheering Crowd)",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039005": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039005",
+          "name": "Jolt of Adrenaline",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039006": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039006",
+          "name": "Surge of Aggression",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039007": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039007",
+          "name": "Surprise Contender",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039008": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039008",
+          "name": "Pump Up the Crowd",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039009": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039009",
+          "name": "Break a Leg",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039010": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039010",
+          "name": "Defend the Title",
+          "quantity": 2
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039011": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039011",
+          "name": "Stage Fright",
+          "quantity": 1
+        }
+      }
+    },
+    "spiral": {
+      "villainCards": {
+        "56b64e85-e416-4ec5-83e2-4bbd16039012": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039012",
+          "name": "Spiral I (Escaped)",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039013": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039013",
+          "name": "Spiral II (Escaped)",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039014": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039014",
+          "name": "Spiral III (Escaped)",
+          "quantity": 1
+        }
+      },
+      "mainSchemeCards": {
+        "56b64e85-e416-4ec5-83e2-4bbd16039015": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039015",
+          "name": "Across the Mojoverse (1B)",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "56b64e85-e416-4ec5-83e2-4bbd16039016": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039016",
+          "name": "The Search for Spiral",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039017": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039017",
+          "name": "Cornered!",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039018": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039018",
+          "name": "Spiral's Swords",
+          "quantity": 2
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039019": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039019",
+          "name": "Erratic Teleportation",
+          "quantity": 2
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039020": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039020",
+          "name": "The Show Must Go On",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039021": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039021",
+          "name": "Well-Armed",
+          "quantity": 1
+        }
+      }
+    },
+    "mojo": {
+      "villainCards": {
+        "56b64e85-e416-4ec5-83e2-4bbd16039022": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039022",
+          "name": "Mojo I",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039023": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039023",
+          "name": "Mojo II",
+          "quantity": 2
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039024": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039024",
+          "name": "Mojo III",
+          "quantity": 3
+        }
+      },
+      "mainSchemeCards": {
+        "56b64e85-e416-4ec5-83e2-4bbd16039025": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039025",
+          "name": "MojoMania (1B)",
+          "quantity": 1
+        }
+      },
+      "encounterCards": {
+        "56b64e85-e416-4ec5-83e2-4bbd16039026": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039026",
+          "name": "Wheel of Genres (Stopped)",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039027": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039027",
+          "name": "Major Domo",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039028": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039028",
+          "name": "Stinger Tail",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039029": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039029",
+          "name": "Supporting Actor",
+          "quantity": 2
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039030": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039030",
+          "name": "Paparazzi",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039031": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039031",
+          "name": "Undercover Mojo",
+          "quantity": 1
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039032": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039032",
+          "name": "Curtain Call",
+          "quantity": 2
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039033": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039033",
+          "name": "Director's Directions",
+          "quantity": 2
+        },
+        "56b64e85-e416-4ec5-83e2-4bbd16039034": {
+          "octgn_id": "56b64e85-e416-4ec5-83e2-4bbd16039034",
+          "name": "Top Billing",
           "quantity": 1
         }
       }

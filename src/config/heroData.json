@@ -1270,5 +1270,69 @@
         "quantity": 3
       }
     ]
+  },
+  "663cb632-e6c8-4e94-8676-a8e0ca035001": {
+    "hero": {
+      "id": "663cb632-e6c8-4e94-8676-a8e0ca035001",
+      "name": "Wolverine"
+    },
+    "obligation": {
+      "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035027",
+      "name": "Past Demons"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035028",
+        "name": "Omega Red",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035029",
+        "name": "The Carbonadium Synthesizer",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035030",
+        "name": "Death Factor",
+        "quantity": 2
+      },
+      {
+        "octgn_id": "663cb632-e6c8-4e94-8676-a8e0ca035031",
+        "name": "Tentacle Strike",
+        "quantity": 1
+      }
+    ]
+  },
+  "775cc394-70e0-4a37-bb3b-5a13b4036001": {
+    "hero": {
+      "id": "775cc394-70e0-4a37-bb3b-5a13b4036001",
+      "name": "Storm"
+    },
+    "obligation": {
+      "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036030",
+      "name": "Claustrophobia"
+    },
+    "nemesisCards": [
+      {
+        "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036031",
+        "name": "Callisto",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036032",
+        "name": "Leader of the Morlocks",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036033",
+        "name": "Switchblade",
+        "quantity": 1
+      },
+      {
+        "octgn_id": "775cc394-70e0-4a37-bb3b-5a13b4036034",
+        "name": "Knife Fight",
+        "quantity": 2
+      }
+    ]
   }
 }
