@@ -43,7 +43,14 @@ fetch("http://localhost:8010/proxy/api/public/packs")
         villainSets[setCode][keyToModify][octgnId] = _.pick(villainCard, ["octgn_id", "name", "quantity"]);
       }
 
-      const modularCards = cardPack.filter((card) => card.card_set_type_name_code === "modular");
+      // Treat the standard and expert sets as "modular"
+      const modularCards = cardPack.filter((card) => {
+        return (
+          card.card_set_type_name_code === "modular" ||
+          card.card_set_type_name_code === "standard" ||
+          card.card_set_type_name_code === "expert"
+        );
+      });
 
       for(const modularCard of modularCards) {
         const setCode = modularCard.card_set_code;
