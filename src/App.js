@@ -116,15 +116,13 @@ const App = () => {
               {/* { TODO:  ONLY SHOWING FIRST CARD FOR NOW } */}
               {
                 boardState?.villainCards?.length > 0 && (
-                  <Draggable>
-                    <div tabIndex="-1" className="cardContainer">
-                      <img
-                        className="card"
-                        src={`/images/${boardState.villainCards[0].octgn_id}.jpg`}
-                        draggable="false"
-                      />
-                    </div>
-                  </Draggable>
+                  <div tabIndex="-1" className="cardContainer">
+                    <img
+                      className="card"
+                      src={`/images/${boardState.villainCards[0].octgn_id}.jpg`}
+                      draggable="false"
+                    />
+                  </div>
                 )
               }
             </div>
@@ -133,15 +131,13 @@ const App = () => {
               {/* { TODO:  ONLY SHOWING FIRST CARD FOR NOW } */}
               {
                 boardState?.villainMainSchemes?.length > 0 && (
-                  <Draggable>
-                    <div tabIndex="-1" className="cardContainer">
-                      <img
-                        className="cardHorizontal"
-                        src={`/images/${boardState.villainMainSchemes[0].octgn_id}.jpg`}
-                        draggable="false"
-                      />
-                    </div>
-                  </Draggable>
+                  <div tabIndex="-1" className="cardContainer">
+                    <img
+                      className="cardHorizontal"
+                      src={`/images/${boardState.villainMainSchemes[0].octgn_id}.jpg`}
+                      draggable="false"
+                    />
+                  </div>
                 )
               }
             </div>
@@ -182,23 +178,21 @@ const App = () => {
               {/* <-- hero card --> */}
               {
                 boardState.hero.card &&
-                  <Draggable>
-                    <div
-                      data-id={boardState.hero.card.id}
-                      data-card-type="player"
-                      data-name={boardState.hero.card.name}
-                      tabIndex="-1"
-                      className="cardContainer"
-                      onKeyPress={handleKeyPress}
-                    >
-                      <img
-                        className="card"
-                        src={`/images/${boardState.hero.card.id}${boardState.hero.alterEgo ? ".b" : ""}.jpg`}
-                        draggable="false"
-                        style={{ transform: boardState.exhausted[boardState.hero.card.id] ? "rotate(90deg)" : "rotate(0)" }}
-                      />
-                    </div>
-                  </Draggable>
+                  <div
+                    data-id={boardState.hero.card.id}
+                    data-card-type="player"
+                    data-name={boardState.hero.card.name}
+                    tabIndex="-1"
+                    className="cardContainer"
+                    onKeyPress={handleKeyPress}
+                  >
+                    <img
+                      className="card"
+                      src={`/images/${boardState.hero.card.id}${boardState.hero.alterEgo ? ".b" : ""}.jpg`}
+                      draggable="false"
+                      style={{ transform: boardState.exhausted[boardState.hero.card.id] ? "rotate(90deg)" : "rotate(0)" }}
+                    />
+                  </div>
               }
             </div>
             <div className="playerHandZone">

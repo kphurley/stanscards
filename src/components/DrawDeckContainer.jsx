@@ -16,20 +16,18 @@ const DrawDeckContainer = ({
       { label }
       {
         deck?.length > 0 && (
-          <Draggable>
-            <div
-              className="cardContainer"
-              data-id={dataId}
-              onKeyPress={keyHandler}
-              tabIndex="-1"
-            >
-              <img
-                className="card"
-                src={cardBackImgSrc}
-                draggable="false"
-              />
-            </div>
-          </Draggable>
+          <div
+            className="cardContainer"
+            data-id={dataId}
+            onKeyPress={keyHandler}
+            tabIndex="-1"
+          >
+            <img
+              className="card"
+              src={cardBackImgSrc}
+              draggable="false"
+            />
+          </div>
         )
       }
     </div>
