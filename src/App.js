@@ -83,7 +83,25 @@ const App = () => {
         <Content className="contentPane">
           <div className="villainRow">
             <div className="expand" />
-            <div className="villainCardZone villainDiscard">Discard</div>
+            <div className="villainCardZone villainDiscard">
+              Discard
+              {
+                boardState.villainDiscard.length > 0 && (
+                  <div
+                    className="cardContainer"
+                    data-id={boardState.villainDiscard[boardState.villainDiscard.length - 1].id}
+                    data-card-type="player"
+                    tabIndex="-1"
+                  >
+                    <img
+                      className="card"
+                      src={`/images/${boardState.villainDiscard[boardState.villainDiscard.length - 1].octgn_id}.jpg`}
+                      draggable="false"
+                    />
+                  </div>
+                )
+              }
+            </div>
             <DrawDeckContainer
               cardBackImgSrc="/images/marvel-encounter-back.png"
               containerClassName="villainCardZone villainDraw"
@@ -142,6 +160,22 @@ const App = () => {
             />
             <div className="playerDiscardZone">
               Player Discard
+              {
+                boardState.playerDiscard.length > 0 && (
+                  <div
+                    className="cardContainer"
+                    data-id={boardState.playerDiscard[boardState.playerDiscard.length - 1].id}
+                    data-card-type="player"
+                    tabIndex="-1"
+                  >
+                    <img
+                      className="card"
+                      src={`/images/${boardState.playerDiscard[boardState.playerDiscard.length - 1].octgn_id}.jpg`}
+                      draggable="false"
+                    />
+                  </div>
+                )
+              }
             </div>
             <div className="playerHeroCardZone">
               Hero Card
@@ -151,6 +185,7 @@ const App = () => {
                   <Draggable>
                     <div
                       data-id={boardState.hero.card.id}
+                      data-card-type="player"
                       data-name={boardState.hero.card.name}
                       tabIndex="-1"
                       className="cardContainer"
@@ -174,6 +209,7 @@ const App = () => {
                   <Draggable key={id}>
                     <div
                       data-id={id}
+                      data-card-type="player"
                       data-name={name}
                       tabIndex="-1"
                       className="cardContainer"
@@ -190,6 +226,27 @@ const App = () => {
                 )
               }
             </div>
+              { 
+                boardState.villainBoard && boardState.villainBoard.map(({ id, name, octgn_id }) =>
+                  <Draggable key={id}>
+                    <div
+                      data-id={id}
+                      data-card-type="villain"
+                      data-name={name}
+                      tabIndex="-1"
+                      className="cardContainer"
+                      onKeyPress={handleKeyPress}
+                    >
+                      <img
+                        className="card"
+                        src={boardState.revealed[id] ? `/images/${octgn_id}.jpg` : "/images/marvel-encounter-back.png"}
+                        draggable="false"
+                        style={{ transform: boardState.exhausted[id] ? "rotate(90deg)" : "rotate(0)" }}
+                      />
+                    </div>
+                  </Draggable>
+                )
+              }
           </div>
         </Content>
       </Container>

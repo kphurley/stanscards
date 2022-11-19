@@ -2,11 +2,18 @@
 export function createKeyHandler(boardState, dispatch) {
   return (event) => {
     const cardId = event.target.getAttribute("data-id");
+    const cardType = event.target.getAttribute("data-card-type");
 
     switch(event.key) {
       case "d":
-        if(cardId === "playerDeck") {
+        if (cardId === "playerDeck") {
           dispatch({ type: "PLAYER_DRAW" });
+        }
+        else if (cardId === "villainDeck") {
+          dispatch({ type: "VILLAIN_DRAW" });
+        }
+        else {
+          dispatch({ type: "DISCARD_CARD", payload: { cardId, cardType }});
         }
         break;
       case "e":
@@ -15,6 +22,9 @@ export function createKeyHandler(boardState, dispatch) {
         break;
       case "f":
         dispatch({ type: "FLIP_HERO", payload: !boardState.hero.alterEgo });
+        break;
+      case "r":
+        dispatch({ type: "REVEAL_CARD", payload: cardId });
         break;
       default:
         break;
