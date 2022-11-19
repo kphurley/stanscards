@@ -7,7 +7,10 @@ import _ from 'lodash';
 import "./styles/app.css";
 import "rsuite/dist/rsuite.min.css"
 
+import DrawDeckContainer from "./components/DrawDeckContainer";
 import StartGameModal from "./components/StartGameModal";
+import TopNavigation from "./components/TopNavigation";
+
 import useBoardState from './hooks/useBoardState';
 import { createKeyHandler } from "./utils/commands";
 import { parseEncounterSetSelectionToCardData, parseOctgnFileIntoPlayerDeck } from "./utils/parsers";
@@ -72,36 +75,24 @@ const App = () => {
     <div className="mainContainer">
       <Container>
         <Header>
-          <Nav>
-            <Nav.Menu title="File">
-              <Nav.Item onClick={() => openFileSelector()}>Load Player Deck</Nav.Item>
-              <Nav.Item onClick={openStartGameModal}>Start Game</Nav.Item>
-            </Nav.Menu>
-          </Nav>
+          <TopNavigation
+            openFileSelector={openFileSelector}
+            openStartGameModal={openStartGameModal}
+          />
         </Header>
         <Content className="contentPane">
           <div className="villainRow">
             <div className="expand" />
             <div className="villainCardZone villainDiscard">Discard</div>
-            <Whisper trigger="contextMenu" speaker={villainDeckContextMenu}>
-              <div className="villainCardZone villainDraw">
-                Draw
-                {/* <-- encounter deck --> */}
-                {
-                  boardState?.villainDeck?.length > 0 && (
-                    <Draggable>
-                      <div tabIndex="-1" className="cardContainer">
-                        <img
-                          className="card"
-                          src="/images/marvel-encounter-back.png"
-                          draggable="false"
-                        />
-                      </div>
-                    </Draggable>
-                  )
-                }
-              </div>
-            </Whisper>
+            <DrawDeckContainer
+              cardBackImgSrc="/images/marvel-encounter-back.png"
+              containerClassName="villainCardZone villainDraw"
+              contextMenu={villainDeckContextMenu}
+              dataId="villainDeck"
+              deck={boardState.villainDeck}
+              keyHandler={handleKeyPress}
+              label="Draw"
+            />
             <div className="villainCardZone villainCard">
               Villain
               {/* { TODO:  ONLY SHOWING FIRST CARD FOR NOW } */}
@@ -140,25 +131,15 @@ const App = () => {
           </div>
 
           <div className="heroRows">
-            <Whisper trigger="contextMenu" speaker={playerDeckContextMenu}>
-              <div className="playerDeckZone">
-                Player Deck
-                {/* <-- player deck --> */}
-                {
-                  boardState?.playerDeck?.length > 0 && (
-                    <Draggable>
-                      <div data-id="playerDeck" tabIndex="-1" className="cardContainer" onKeyPress={handleKeyPress}>
-                        <img
-                          className="card"
-                          src="/images/marvel-player-back.png"
-                          draggable="false"
-                        />
-                      </div>
-                    </Draggable>
-                  )
-                }
-              </div>
-            </Whisper>
+            <DrawDeckContainer
+              cardBackImgSrc="/images/marvel-player-back.png"
+              containerClassName="playerDeckZone"
+              contextMenu={playerDeckContextMenu}
+              dataId="playerDeck"
+              deck={boardState.playerDeck}
+              keyHandler={handleKeyPress}
+              label="Player Deck"
+            />
             <div className="playerDiscardZone">
               Player Discard
             </div>

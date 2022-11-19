@@ -70,6 +70,5 @@ export function parseEncounterSetSelectionToCardData(selection, type) {
 
   cardData.encounterCards = encounterCards;
 
-  console.log(cardData);
   return cardData;
 }
