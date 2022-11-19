@@ -22,7 +22,7 @@ const App = () => {
     // parse filesContent into a deck if there is one, otherwise, clear the content if there's more than one
     if (filesContent.length === 1 && boardState.playerDeck.length === 0) {
       const playerDeck = parseOctgnFileIntoPlayerDeck(filesContent[0]);
-      dispatch({ type: "UPDATE_DECK", payload: playerDeck });
+      dispatch({ type: "UPDATE_PLAYER_AND_VILLAIN_DECKS", payload: playerDeck });
     } else if (filesContent.length > 1) {
       console.error("Multiple files detected, clearing the files content.  Try the upload again.")
       clear();
@@ -36,7 +36,6 @@ const App = () => {
 
   // villain = string key from encounter sets
   // modulars = array of selected modulars
-  // TODO - how to handle standard/expert selection?
   const closeModalAndStartGame = (villain, modulars) => {
     closeStartGameModal();
 
@@ -60,6 +59,14 @@ const App = () => {
       </Nav>
     </Popover>
   )
+
+  const villainDeckContextMenu = (
+    <Popover arrow={false}>
+      <Nav>
+        <Nav.Item onClick={() => dispatch({ type: "SHUFFLE_DECK", payload: "villainDeck" })}>Shuffle</Nav.Item>
+      </Nav>
+    </Popover>
+  )
   
   return (
     <div className="mainContainer">
@@ -76,21 +83,59 @@ const App = () => {
           <div className="villainRow">
             <div className="expand" />
             <div className="villainCardZone villainDiscard">Discard</div>
-            <div className="villainCardZone villainDraw">
-              Draw
-              {/* <-- encounter deck --> */}
-              <Draggable>
-                <div tabIndex="-1" className="cardContainer">
-                  <img
-                    className="card"
-                    src="/images/marvel-encounter-back.png"
-                    draggable="false"
-                  />
-                </div>
-              </Draggable>
+            <Whisper trigger="contextMenu" speaker={villainDeckContextMenu}>
+              <div className="villainCardZone villainDraw">
+                Draw
+                {/* <-- encounter deck --> */}
+                {
+                  boardState?.villainDeck?.length > 0 && (
+                    <Draggable>
+                      <div tabIndex="-1" className="cardContainer">
+                        <img
+                          className="card"
+                          src="/images/marvel-encounter-back.png"
+                          draggable="false"
+                        />
+                      </div>
+                    </Draggable>
+                  )
+                }
+              </div>
+            </Whisper>
+            <div className="villainCardZone villainCard">
+              Villain
+              {/* { TODO:  ONLY SHOWING FIRST CARD FOR NOW } */}
+              {
+                boardState?.villainCards?.length > 0 && (
+                  <Draggable>
+                    <div tabIndex="-1" className="cardContainer">
+                      <img
+                        className="card"
+                        src={`/images/${boardState.villainCards[0].octgn_id}.jpg`}
+                        draggable="false"
+                      />
+                    </div>
+                  </Draggable>
+                )
+              }
             </div>
-            <div className="villainCardZone villainCard">Villain</div>
-            <div className="villainHorizontalCardZone villainMainScheme">Main Scheme</div>
+            <div className="villainHorizontalCardZone villainMainScheme">
+              Main Scheme
+              {/* { TODO:  ONLY SHOWING FIRST CARD FOR NOW } */}
+              {
+                boardState?.villainMainSchemes?.length > 0 && (
+                  <Draggable>
+                    <div tabIndex="-1" className="cardContainer">
+                      <img
+                        className="cardHorizontal"
+                        src={`/images/${boardState.villainMainSchemes[0].octgn_id}.jpg`}
+                        draggable="false"
+                      />
+                    </div>
+                  </Draggable>
+                )
+              }
+            </div>
             <div className="expand" />
           </div>
 
