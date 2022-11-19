@@ -12,6 +12,10 @@
   outline: auto;
 }
 
+.cardHorizontal {
+  max-height: 125px;
+}
+
 .contentPane {
   display: flex;
   flex-direction: column;

@@ -37,7 +37,6 @@ export function parseOctgnFileIntoPlayerDeck(octgnFile) {{
     }
   }
 
-  // Goal:  return an array of cards: { id: uuid, name: string }
   return deckData;
 }}
 

@@ -1,6 +1,8 @@
 import { useReducer } from "react";
 import arrayShuffle from 'array-shuffle';
 
+import heroData from "../config/heroData.json";
+
 // Each of these contains zero or more cards, each card having the following shape:
 // { id: uuid, name: string }
 
@@ -35,9 +37,6 @@ function boardStateReducer(state, action) {
       }
 
       const updatedDeck = [...state.playerDeck];
-
-      //TODO - Do we need a distinction between a player's hand and board?
-      //const updatedHand = [...state.playerHand];
       const updatedBoard = [...state.playerBoard];
 
       const drawnCard = updatedDeck.shift();
@@ -47,20 +46,36 @@ function boardStateReducer(state, action) {
     case "SHUFFLE_DECK":
       const shuffledDeck = arrayShuffle(state[action.payload])
       return { ...state, [action.payload]: shuffledDeck };
-    case "UPDATE_DECK":
+    case "UPDATE_PLAYER_AND_VILLAIN_DECKS":
       const { heroCard, cards } = action.payload
-      return { ...state, hero: { card: heroCard, exhausted: false, alterEgo: true }, playerDeck: cards };
-    case "UPDATE_HERO":
-      const { obligation, nemesisSet } = action.payload;
-      return { ...state, hero: { ...state.hero, obligation, nemesisSet }};
+      const { obligation, nemesisCards } = getEncounterCardsFromHeroCard(heroCard);
+      const tempVillainDeck = [...state.villainDeck];
+      const formattedObligation = {
+        id: obligation.octgn_id,
+        name: obligation.name,
+      }
+      tempVillainDeck.push(formattedObligation);
+
+      return {
+        ...state,
+        hero: { nemesisCards, card: heroCard, exhausted: false, alterEgo: true },
+        playerDeck: cards,
+        villainDeck: tempVillainDeck
+      };
     case "UPDATE_VILLAIN":
       const { villainCards, villainDeck, villainMainSchemes } = action.payload;
-      return { ...state, villainCards, villainDeck, villainMainSchemes};
+      return { ...state, villainCards, villainMainSchemes, villainDeck: [...state.villainDeck, ...villainDeck]};
     case "FLIP_HERO":
       return { ...state, hero: { ...state.hero, alterEgo: action.payload }};
     default:
       return state;
   }
+}
+
+function getEncounterCardsFromHeroCard(heroCard) {
+  const { obligation, nemesisCards } = heroData[heroCard.id];
+
+  return { obligation, nemesisCards };
 }
 
 // Return an array of the form [state, dispatch]
