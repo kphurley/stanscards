@@ -56,9 +56,20 @@ function boardStateReducer(state, action) {
       }
       tempVillainDeck.push(formattedObligation);
 
+      const formattedNemesisCards = []
+      for (const card of nemesisCards) {
+        const quantity = parseInt(card.quantity);
+        if (isNaN(quantity)) { continue; }
+
+        for (let i = 1; i <= quantity; i++) {
+          const { octgn_id, name } = card;
+          formattedNemesisCards.push({ name, octgn_id, id: `${octgn_id}-${i}`});
+        }
+      }
+
       return {
         ...state,
-        hero: { nemesisCards, card: heroCard, exhausted: false, alterEgo: true },
+        hero: { nemesisCards: formattedNemesisCards, card: heroCard, exhausted: false, alterEgo: true },
         playerDeck: cards,
         villainDeck: tempVillainDeck
       };
