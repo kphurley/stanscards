@@ -170,7 +170,7 @@ const App = () => {
               <div className="playerHandZoneText">Player Hand</div>
               {/* <-- cards in play --> */}
               { 
-                boardState.playerBoard && boardState.playerBoard.map(({ id, name }) =>
+                boardState.playerBoard && boardState.playerBoard.map(({ id, name, octgn_id }) =>
                   <Draggable key={id}>
                     <div
                       data-id={id}
@@ -181,7 +181,7 @@ const App = () => {
                     >
                       <img
                         className="card"
-                        src={`/images/${id}.jpg`}
+                        src={`/images/${octgn_id}.jpg`}
                         draggable="false"
                         style={{ transform: boardState.exhausted[id] ? "rotate(90deg)" : "rotate(0)" }}
                       />

@@ -24,7 +24,8 @@ export function parseOctgnFileIntoPlayerDeck(octgnFile) {{
   const deckData = {}
 
   // This assumes the hero is always the first card
-  deckData.heroCard = rawCardData.shift();
+  const { id, name } = rawCardData.shift();
+  deckData.heroCard = { id, name, octgn_id: id };
   deckData.cards = []
   
   for (const card of rawCardData) {
@@ -33,7 +34,7 @@ export function parseOctgnFileIntoPlayerDeck(octgnFile) {{
 
     for (let i = 1; i <= quantity; i++) {
       const { id, name } = card;
-      deckData.cards.push({ id, name });
+      deckData.cards.push({ id: `${id}-${i}`, name, octgn_id: id });
     }
   }
 
@@ -64,7 +65,7 @@ export function parseEncounterSetSelectionToCardData(selection, type) {
 
     for (let i = 1; i <= quantity; i++) {
       const { octgn_id, name } = card;
-      encounterCards.push({ name, id: octgn_id });
+      encounterCards.push({ name, octgn_id, id: `${octgn_id}-${i}` });
     }
   }
 
