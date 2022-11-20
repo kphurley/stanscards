@@ -9,6 +9,7 @@ import "rsuite/dist/rsuite.min.css"
 
 import DrawDeckContainer from "./components/DrawDeckContainer";
 import DeckSearch from "./components/DeckSearch";
+import { DraggableCounter, ScoreboardAndCounters } from './components/ScoreboardAndCounters';
 import StartGameModal from "./components/StartGameModal";
 import TopNavigation from "./components/TopNavigation";
 
@@ -21,6 +22,7 @@ const App = () => {
   const [openFileSelector, { clear, filesContent }] = useFilePicker({ accept: ['.o8d'], multiple: false });
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [activeDeckSearch, setActiveDeckSearch] = useState(null);
+  const [tokens, setTokens] = useState({});
 
   // Hook to handle processing the .o8d file upload
   useEffect(() => {
@@ -84,7 +86,11 @@ const App = () => {
         </Header>
         <Content className="contentPane">
           <div className="villainRow">
-            <div className="expand" />
+            <div className="expand">
+              <ScoreboardAndCounters
+                createToken={(tokenId, tokenType) => setTokens({...tokens, [tokenId]: {type: tokenType, count: 0 }})}
+              />
+            </div>
             <div className="villainCardZone villainDiscard">
               <span className="drawDeckLabelAndIconContainer">
                 <span className="drawDeckLabel">Discard</span>
@@ -251,6 +257,13 @@ const App = () => {
                       />
                     </div>
                   </Draggable>
+                )
+              }
+
+              {/* TODO - Set the token count */}
+              {
+                Object.keys(tokens).map((tokenId) =>
+                  <DraggableCounter count={tokens[tokenId].count} id={tokenId} type={tokens[tokenId].type} />
                 )
               }
           </div>

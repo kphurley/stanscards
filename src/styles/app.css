@@ -22,6 +22,26 @@
   height: calc(100vh - 36px);
 }
 
+.counterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.counterIconContainer {
+  margin: 4px;
+}
+
+.counterLabelContainer {
+  margin: 4px;
+}
+
 .drawDeckLabel {
   flex: 1;
 }
@@ -109,6 +129,14 @@
 
 .react-draggable, .cursor {
   cursor: move;
+}
+
+.scoreboardAndCountersContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
 }
 
 .villainCardZone {
