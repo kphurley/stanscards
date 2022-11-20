@@ -22,6 +22,14 @@
   height: calc(100vh - 36px);
 }
 
+.drawDeckLabel {
+  flex: 1;
+}
+
+.drawDeckLabelAndIconContainer {
+  display: flex;
+}
+
 .expand {
   flex: 1;
 }
@@ -36,6 +44,11 @@
   position: relative;
   height: 100vh;
   width: 100vw;
+}
+
+.menuBurger {
+  margin: 4px;
+  height: 12px;
 }
 
 .maxWidth-400px {
