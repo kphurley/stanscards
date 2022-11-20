@@ -8,6 +8,7 @@ import "./styles/app.css";
 import "rsuite/dist/rsuite.min.css"
 
 import DrawDeckContainer from "./components/DrawDeckContainer";
+import DeckSearch from "./components/DeckSearch";
 import StartGameModal from "./components/StartGameModal";
 import TopNavigation from "./components/TopNavigation";
 
@@ -19,6 +20,7 @@ const App = () => {
   const [boardState, dispatch] = useBoardState();
   const [openFileSelector, { clear, filesContent }] = useFilePicker({ accept: ['.o8d'], multiple: false });
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [activeDeckSearch, setActiveDeckSearch] = useState(null);
 
   // Hook to handle processing the .o8d file upload
   useEffect(() => {
@@ -84,7 +86,10 @@ const App = () => {
           <div className="villainRow">
             <div className="expand" />
             <div className="villainCardZone villainDiscard">
-              Discard
+              <span className="drawDeckLabelAndIconContainer">
+                <span className="drawDeckLabel">Discard</span>
+                <img className="menuBurger" onClick={() => setActiveDeckSearch("villainDiscard")} src="images/icons/menu-burger.png" />
+              </span>
               {
                 boardState.villainDiscard.length > 0 && (
                   <div
@@ -108,8 +113,10 @@ const App = () => {
               contextMenu={villainDeckContextMenu}
               dataId="villainDeck"
               deck={boardState.villainDeck}
+              deckName={"villainDeck"}
               keyHandler={handleKeyPress}
               label="Draw"
+              searchDeck={setActiveDeckSearch}
             />
             <div className="villainCardZone villainCard">
               Villain
@@ -151,11 +158,16 @@ const App = () => {
               contextMenu={playerDeckContextMenu}
               dataId="playerDeck"
               deck={boardState.playerDeck}
+              deckName={"playerDeck"}
               keyHandler={handleKeyPress}
               label="Player Deck"
+              searchDeck={setActiveDeckSearch}
             />
             <div className="playerDiscardZone">
-              Player Discard
+              <span className="drawDeckLabelAndIconContainer">
+                <span className="drawDeckLabel">Player Discard</span>
+                <img className="menuBurger" onClick={() => setActiveDeckSearch("playerDiscard")} src="images/icons/menu-burger.png" />
+              </span>
               {
                 boardState.playerDiscard.length > 0 && (
                   <div
@@ -248,6 +260,11 @@ const App = () => {
         handleCloseAndStartGameWithSelections={closeModalAndStartGame}
         handleClose={closeStartGameModal}
         modalIsOpen={modalIsOpen}
+      />
+      <DeckSearch
+        activeDeck={activeDeckSearch}
+        deckBeingSearched={boardState[activeDeckSearch]}
+        handleClose={() => setActiveDeckSearch(null)}
       />
     </div>
   );
