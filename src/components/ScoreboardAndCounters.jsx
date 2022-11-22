@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Draggable from 'react-draggable';
 import { v4 as uuidv4 } from 'uuid';
 
-const DraggableCounter = ({ count, id, setCount, type }) =>
+const DraggableCounter = ({ count, id, type, keyHandler }) =>
   <Draggable>
-    <div data-id={id} tabIndex="-1" className="draggableCounterContainer">
+    <div data-token-id={id} tabIndex="-1" className="draggableCounterContainer" onKeyPress={keyHandler}>
       <img draggable="false" src={`images/icons/${type}Icon.svg`} />
       <div className="draggableCounterCountText">{count}</div>
     </div>

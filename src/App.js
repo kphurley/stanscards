@@ -4,8 +4,8 @@ import Draggable from 'react-draggable';
 import { useFilePicker } from 'use-file-picker';
 import _ from 'lodash';
 
-import "./styles/app.css";
 import "rsuite/dist/rsuite.min.css"
+import "./styles/app.css";
 
 import DrawDeckContainer from "./components/DrawDeckContainer";
 import DeckSearch from "./components/DeckSearch";
@@ -22,7 +22,6 @@ const App = () => {
   const [openFileSelector, { clear, filesContent }] = useFilePicker({ accept: ['.o8d'], multiple: false });
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [activeDeckSearch, setActiveDeckSearch] = useState(null);
-  const [tokens, setTokens] = useState({});
 
   // Hook to handle processing the .o8d file upload
   useEffect(() => {
@@ -88,7 +87,7 @@ const App = () => {
           <div className="villainRow">
             <div className="expand">
               <ScoreboardAndCounters
-                createToken={(tokenId, tokenType) => setTokens({...tokens, [tokenId]: {type: tokenType, count: 0 }})}
+                createToken={(tokenId, tokenType) => { dispatch({ type: "CREATE_TOKEN", payload: { tokenId, tokenType }})}}
               />
             </div>
             <div className="villainCardZone villainDiscard">
@@ -262,8 +261,14 @@ const App = () => {
 
               {/* TODO - Set the token count */}
               {
-                Object.keys(tokens).map((tokenId) =>
-                  <DraggableCounter count={tokens[tokenId].count} id={tokenId} type={tokens[tokenId].type} />
+                Object.keys(boardState.tokens).map((tokenId) =>
+                  <DraggableCounter
+                    key={tokenId}
+                    count={boardState.tokens[tokenId].count}
+                    id={tokenId}
+                    type={boardState.tokens[tokenId].type}
+                    keyHandler={handleKeyPress}
+                  />
                 )
               }
           </div>

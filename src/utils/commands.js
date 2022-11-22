@@ -3,6 +3,7 @@ export function createKeyHandler(boardState, dispatch) {
   return (event) => {
     const cardId = event.target.getAttribute("data-id");
     const cardType = event.target.getAttribute("data-card-type");
+    const tokenId = event.target.getAttribute("data-token-id");
 
     switch(event.key) {
       case "d":
@@ -11,6 +12,9 @@ export function createKeyHandler(boardState, dispatch) {
         }
         else if (cardId === "villainDeck") {
           dispatch({ type: "VILLAIN_DRAW" });
+        }
+        else if (tokenId) {
+          dispatch({ type: "DELETE_TOKEN", payload: { tokenId } });
         }
         else {
           dispatch({ type: "DISCARD_CARD", payload: { cardId, cardType }});
@@ -25,6 +29,17 @@ export function createKeyHandler(boardState, dispatch) {
         break;
       case "r":
         dispatch({ type: "REVEAL_CARD", payload: cardId });
+        break;
+      case "+":
+      case "=":
+        if (tokenId) {
+          dispatch({ type: "INCREMENT_TOKEN", payload: { tokenId }});
+        }
+        break;
+      case "-":
+        if (tokenId) {
+          dispatch({ type: "DECREMENT_TOKEN", payload: { tokenId }});
+        }
         break;
       default:
         break;
