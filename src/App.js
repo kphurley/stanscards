@@ -125,13 +125,18 @@ const App = () => {
             />
             <div className="villainCardZone villainCard">
               Villain
-              {/* { TODO:  ONLY SHOWING FIRST CARD FOR NOW } */}
               {
                 boardState?.villainCards?.length > 0 && (
-                  <div tabIndex="-1" className="cardContainer">
+                  <div
+                    data-id={boardState.villainCards[boardState.activeVillainStage].id}
+                    data-card-type="villain"
+                    tabIndex="-1"
+                    className="cardContainer"
+                    onKeyPress={handleKeyPress}
+                  >
                     <img
                       className="card"
-                      src={`/images/${boardState.villainCards[0].octgn_id}.jpg`}
+                      src={`/images/${boardState.villainCards[boardState.activeVillainStage].octgn_id}.jpg`}
                       draggable="false"
                     />
                   </div>
@@ -140,13 +145,22 @@ const App = () => {
             </div>
             <div className="villainHorizontalCardZone villainMainScheme">
               Main Scheme
-              {/* { TODO:  ONLY SHOWING FIRST CARD FOR NOW } */}
               {
                 boardState?.villainMainSchemes?.length > 0 && (
-                  <div tabIndex="-1" className="cardContainer">
+                  <div
+                    data-id={boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id}
+                    data-card-type="mainScheme"
+                    tabIndex="-1"
+                    className="cardContainer"
+                    onKeyPress={handleKeyPress}
+                  >
                     <img
                       className="cardHorizontal"
-                      src={`/images/${boardState.villainMainSchemes[0].octgn_id}.jpg`}
+                      src={
+                        boardState.revealed[boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id]
+                        ? `/images/${boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id}.b.jpg`
+                        : `/images/${boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id}.jpg`
+                      }
                       draggable="false"
                     />
                   </div>

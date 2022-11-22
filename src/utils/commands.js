@@ -27,6 +27,22 @@ export function createKeyHandler(boardState, dispatch) {
       case "f":
         dispatch({ type: "FLIP_HERO", payload: !boardState.hero.alterEgo });
         break;
+      case "n":
+        if (cardType === "villain") {
+          dispatch({ type: "NEXT_VILLAIN_STAGE" });
+        }
+        else if (cardType === "mainScheme") {
+          dispatch({ type: "NEXT_MAIN_SCHEME" });
+        }
+        break;
+      case "p":
+        if (cardType === "villain") {
+          dispatch({ type: "PREVIOUS_VILLAIN_STAGE" });
+        }
+        else if (cardType === "mainScheme") {
+          dispatch({ type: "PREVIOUS_MAIN_SCHEME" });
+        }
+        break;
       case "r":
         dispatch({ type: "REVEAL_CARD", payload: cardId });
         break;
