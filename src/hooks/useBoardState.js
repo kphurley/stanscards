@@ -18,10 +18,13 @@ const initialState = {
   // This is a hash for for villain cards.  Revealed means they are face up.
   revealed: {},
 
+  activeMainScheme: 0,
+  activeVillainStage: 0,
+
   playerBoard: [],
   playerDeck: [],
   playerDiscard: [],
-  //playerHand: [],
+
   villainBoard: [],
   villainCards: [],
   villainDeck: [],
@@ -141,6 +144,30 @@ function boardStateReducer(state, action) {
       const updatedTokens = {...state.tokens};
       delete updatedTokens[tokenId];
       return { ...state, tokens: updatedTokens }
+    case "NEXT_MAIN_SCHEME":
+      if (state.activeMainScheme >= state.villainMainSchemes.length - 1) {
+        return state;
+      }
+
+      return { ...state, activeMainScheme: state.activeMainScheme + 1 }
+    case "PREVIOUS_MAIN_SCHEME":
+      if (state.activeMainScheme <= 0) {
+        return state;
+      }
+
+      return { ...state, activeMainScheme: state.activeMainScheme - 1 }
+    case "NEXT_VILLAIN_STAGE":
+      if (state.activeVillainStage >= state.villainCards.length - 1) {
+        return state;
+      }
+
+      return { ...state, activeVillainStage: state.activeVillainStage + 1 }
+    case "PREVIOUS_VILLAIN_STAGE":
+      if (state.activeVillainStage <= 0) {
+        return state;
+      }
+
+      return { ...state, activeVillainStage: state.activeVillainStage - 1 }
     default:
       return state;
   }
