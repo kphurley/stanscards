@@ -27,6 +27,9 @@ const initialState = {
   villainDeck: [],
   villainDiscard: [],
   villainMainSchemes: [],
+
+  // A hash containing all of the tokens currently in play
+  tokens: {},
 }
 
 function boardStateReducer(state, action) {
@@ -36,6 +39,9 @@ function boardStateReducer(state, action) {
   const updatedVillainBoard = [...state.villainBoard];
   const updatedVillainDeck = [...state.villainDeck];
   const updatedVillainDiscard = [...state.villainDiscard];
+
+  const tokenId = action.payload?.tokenId;
+  const tokenType = action.payload?.tokenType;
 
   switch (action.type) {
     case "DISCARD_CARD":
@@ -125,6 +131,16 @@ function boardStateReducer(state, action) {
       updatedVillainBoard.push(drawnVillainCard);
 
       return { ...state, villainDeck: updatedVillainDeck, villainBoard: updatedVillainBoard };
+    case "CREATE_TOKEN":
+      return {...state, tokens: {...state.tokens, [tokenId]: {type: tokenType, count: 0 }}}
+    case "INCREMENT_TOKEN":
+      return { ...state, tokens: {...state.tokens, [tokenId]: { ...state.tokens[tokenId], count: state.tokens[tokenId].count + 1 }}}
+    case "DECREMENT_TOKEN":
+      return { ...state, tokens: {...state.tokens, [tokenId]: { ...state.tokens[tokenId], count: state.tokens[tokenId].count - 1 }}}
+    case "DELETE_TOKEN":
+      const updatedTokens = {...state.tokens};
+      delete updatedTokens[tokenId];
+      return { ...state, tokens: updatedTokens }
     default:
       return state;
   }

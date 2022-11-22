@@ -4,11 +4,12 @@ import Draggable from 'react-draggable';
 import { useFilePicker } from 'use-file-picker';
 import _ from 'lodash';
 
-import "./styles/app.css";
 import "rsuite/dist/rsuite.min.css"
+import "./styles/app.css";
 
 import DrawDeckContainer from "./components/DrawDeckContainer";
 import DeckSearch from "./components/DeckSearch";
+import { DraggableCounter, ScoreboardAndCounters } from './components/ScoreboardAndCounters';
 import StartGameModal from "./components/StartGameModal";
 import TopNavigation from "./components/TopNavigation";
 
@@ -84,7 +85,11 @@ const App = () => {
         </Header>
         <Content className="contentPane">
           <div className="villainRow">
-            <div className="expand" />
+            <div className="expand">
+              <ScoreboardAndCounters
+                createToken={(tokenId, tokenType) => { dispatch({ type: "CREATE_TOKEN", payload: { tokenId, tokenType }})}}
+              />
+            </div>
             <div className="villainCardZone villainDiscard">
               <span className="drawDeckLabelAndIconContainer">
                 <span className="drawDeckLabel">Discard</span>
@@ -251,6 +256,19 @@ const App = () => {
                       />
                     </div>
                   </Draggable>
+                )
+              }
+
+              {/* TODO - Set the token count */}
+              {
+                Object.keys(boardState.tokens).map((tokenId) =>
+                  <DraggableCounter
+                    key={tokenId}
+                    count={boardState.tokens[tokenId].count}
+                    id={tokenId}
+                    type={boardState.tokens[tokenId].type}
+                    keyHandler={handleKeyPress}
+                  />
                 )
               }
           </div>
