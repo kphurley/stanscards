@@ -1,13 +1,16 @@
 import React from "react";
 import { Modal, Nav, Popover, Whisper } from "rsuite";
 
+import CardImage from "./CardImage";
+
 const DeckSearch = ({
   activeDeck,
   deckBeingSearched,
   dispatch,
   handleClose,
+  setMousedOverImageSrc
 }) => {
-  const targetDeck = activeDeck && activeDeck.includes("villain") ? "villainBoard" : "playerBoard";
+  const targetDeck = activeDeck && activeDeck.includes("player") ? "playerBoard" : "villainBoard";
 
   const getContextMenuForCardIndex = (idx) => (
     <Popover arrow={false}>
@@ -39,10 +42,9 @@ const DeckSearch = ({
                 data-id={card.id}
                 tabIndex="-1"
               >
-                <img
-                  className="card"
+                <CardImage
+                  setMousedOver={setMousedOverImageSrc}
                   src={`/images/${card.octgn_id}.jpg`}
-                  draggable="false"
                 />
               </div>
             </Whisper>
