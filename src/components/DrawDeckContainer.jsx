@@ -1,6 +1,8 @@
 import React from 'react';
 import { Whisper } from 'rsuite';
 
+import CardImage from "./CardImage";
+
 const DrawDeckContainer = ({
   cardBackImgSrc,
   containerClassName,
@@ -11,6 +13,7 @@ const DrawDeckContainer = ({
   keyHandler,
   label,
   searchDeck,
+  setMousedOverImageSrc,
 }) =>
   <Whisper trigger="contextMenu" speaker={contextMenu}>
     <div className={containerClassName}>
@@ -26,10 +29,9 @@ const DrawDeckContainer = ({
             onKeyPress={keyHandler}
             tabIndex="-1"
           >
-            <img
-              className="card"
+            <CardImage
+              setMousedOver={setMousedOverImageSrc}
               src={cardBackImgSrc}
-              draggable="false"
             />
           </div>
         )

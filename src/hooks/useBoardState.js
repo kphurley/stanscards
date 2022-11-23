@@ -21,6 +21,8 @@ const initialState = {
   activeMainScheme: 0,
   activeVillainStage: 0,
 
+  nemesisCards: [],
+
   playerBoard: [],
   playerDeck: [],
   playerDiscard: [],
@@ -125,7 +127,8 @@ function boardStateReducer(state, action) {
 
       return {
         ...state,
-        hero: { nemesisCards: formattedNemesisCards, card: heroCard, exhausted: false, alterEgo: true },
+        hero: { card: heroCard, exhausted: false, alterEgo: true },
+        nemesisCards: formattedNemesisCards,
         playerDeck: cards,
         villainDeck: tempVillainDeck
       };

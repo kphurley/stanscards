@@ -7,6 +7,7 @@ import _ from 'lodash';
 import "rsuite/dist/rsuite.min.css"
 import "./styles/app.css";
 
+import CardImage from "./components/CardImage";
 import DrawDeckContainer from "./components/DrawDeckContainer";
 import DeckSearch from "./components/DeckSearch";
 import { DraggableCounter, ScoreboardAndCounters } from './components/ScoreboardAndCounters';
@@ -22,6 +23,7 @@ const App = () => {
   const [openFileSelector, { clear, filesContent }] = useFilePicker({ accept: ['.o8d'], multiple: false });
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [activeDeckSearch, setActiveDeckSearch] = useState(null);
+  const [mousedOverImageSrc, setMousedOverImageSrc] = useState(null);
 
   // Hook to handle processing the .o8d file upload
   useEffect(() => {
@@ -81,6 +83,7 @@ const App = () => {
           <TopNavigation
             openFileSelector={openFileSelector}
             openStartGameModal={openStartGameModal}
+            searchNemesisCards={() => setActiveDeckSearch("nemesisCards")}
           />
         </Header>
         <Content className="contentPane">
@@ -104,10 +107,9 @@ const App = () => {
                     data-card-type="player"
                     tabIndex="-1"
                   >
-                    <img
-                      className="card"
+                    <CardImage
+                      setMousedOver={setMousedOverImageSrc}
                       src={`/images/${boardState.villainDiscard[boardState.villainDiscard.length - 1].octgn_id}.jpg`}
-                      draggable="false"
                     />
                   </div>
                 )
@@ -135,10 +137,9 @@ const App = () => {
                     className="cardContainer"
                     onKeyPress={handleKeyPress}
                   >
-                    <img
-                      className="card"
+                    <CardImage
+                      setMousedOver={setMousedOverImageSrc}
                       src={`/images/${boardState.villainCards[boardState.activeVillainStage].octgn_id}.jpg`}
-                      draggable="false"
                     />
                   </div>
                 )
@@ -155,14 +156,14 @@ const App = () => {
                     className="cardContainer"
                     onKeyPress={handleKeyPress}
                   >
-                    <img
+                    <CardImage
                       className="cardHorizontal"
+                      setMousedOver={setMousedOverImageSrc}
                       src={
                         boardState.revealed[boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id]
                         ? `/images/${boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id}.b.jpg`
                         : `/images/${boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id}.jpg`
                       }
-                      draggable="false"
                     />
                   </div>
                 )
@@ -196,10 +197,9 @@ const App = () => {
                     data-card-type="player"
                     tabIndex="-1"
                   >
-                    <img
-                      className="card"
+                    <CardImage
+                      setMousedOver={setMousedOverImageSrc}
                       src={`/images/${boardState.playerDiscard[boardState.playerDiscard.length - 1].octgn_id}.jpg`}
-                      draggable="false"
                     />
                   </div>
                 )
@@ -218,10 +218,9 @@ const App = () => {
                     className="cardContainer"
                     onKeyPress={handleKeyPress}
                   >
-                    <img
-                      className="card"
+                    <CardImage
+                      setMousedOver={setMousedOverImageSrc}
                       src={`/images/${boardState.hero.card.id}${boardState.hero.alterEgo ? ".b" : ""}.jpg`}
-                      draggable="false"
                       style={{ transform: boardState.exhausted[boardState.hero.card.id] ? "rotate(90deg)" : "rotate(0)" }}
                     />
                   </div>
@@ -241,10 +240,9 @@ const App = () => {
                       className="cardContainer"
                       onKeyPress={handleKeyPress}
                     >
-                      <img
-                        className="card"
+                      <CardImage
+                        setMousedOver={setMousedOverImageSrc}
                         src={`/images/${octgn_id}.jpg`}
-                        draggable="false"
                         style={{ transform: boardState.exhausted[id] ? "rotate(90deg)" : "rotate(0)" }}
                       />
                     </div>
@@ -263,10 +261,9 @@ const App = () => {
                       className="cardContainer"
                       onKeyPress={handleKeyPress}
                     >
-                      <img
-                        className="card"
+                      <CardImage
+                        setMousedOver={setMousedOverImageSrc}
                         src={boardState.revealed[id] ? `/images/${octgn_id}.jpg` : "/images/marvel-encounter-back.png"}
-                        draggable="false"
                         style={{ transform: boardState.exhausted[id] ? "rotate(90deg)" : "rotate(0)" }}
                       />
                     </div>
@@ -300,6 +297,7 @@ const App = () => {
         dispatch={dispatch}
         handleClose={() => setActiveDeckSearch(null)}
       />
+      <img className="zoomedInImage" src={mousedOverImageSrc} />
     </div>
   );
 }
