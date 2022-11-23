@@ -136,6 +136,8 @@ function boardStateReducer(state, action) {
       return { ...state, villainDeck: updatedVillainDeck, villainBoard: updatedVillainBoard };
     case "CREATE_TOKEN":
       return {...state, tokens: {...state.tokens, [tokenId]: {type: tokenType, count: 0 }}}
+    case "CREATE_STATUS_TOKEN":
+      return {...state, tokens: {...state.tokens, [tokenId]: {type: tokenType }}}
     case "INCREMENT_TOKEN":
       return { ...state, tokens: {...state.tokens, [tokenId]: { ...state.tokens[tokenId], count: state.tokens[tokenId].count + 1 }}}
     case "DECREMENT_TOKEN":

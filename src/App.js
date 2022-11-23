@@ -88,6 +88,7 @@ const App = () => {
             <div className="expand">
               <ScoreboardAndCounters
                 createToken={(tokenId, tokenType) => { dispatch({ type: "CREATE_TOKEN", payload: { tokenId, tokenType }})}}
+                createStatusToken={(tokenId, tokenType) => { dispatch({ type: "CREATE_STATUS_TOKEN", payload: { tokenId, tokenType }})}}
               />
             </div>
             <div className="villainCardZone villainDiscard">
