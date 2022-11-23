@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { Container, Content, Header, Nav, Popover, Whisper } from 'rsuite';
+import { Container, Content, Header, Nav, Popover } from 'rsuite';
 import Draggable from 'react-draggable';
 import { useFilePicker } from 'use-file-picker';
 import _ from 'lodash';
@@ -297,6 +297,7 @@ const App = () => {
       <DeckSearch
         activeDeck={activeDeckSearch}
         deckBeingSearched={boardState[activeDeckSearch]}
+        dispatch={dispatch}
         handleClose={() => setActiveDeckSearch(null)}
       />
     </div>

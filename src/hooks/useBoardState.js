@@ -78,6 +78,13 @@ function boardStateReducer(state, action) {
       return { ...state, exhausted: { ...state.exhausted, [action.payload]: true }};
     case "FLIP_HERO":
       return { ...state, hero: { ...state.hero, alterEgo: action.payload }};
+    case "MOVE_CARD":
+      const { idx, from, to } = action.payload;
+      const updatedFromDeck = [...state[from]];
+      const [toMove] = updatedFromDeck.splice(idx, 1);
+      const updatedToDeck = [...state[to], toMove];
+
+      return { ...state, [from]: updatedFromDeck, [to]: updatedToDeck };
     case "PLAYER_DRAW":
       if (state.playerDeck.length === 0) {
         return state;
