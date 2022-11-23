@@ -22,6 +22,10 @@ body {
   max-height: 125px;
 }
 
+.cardInSearchContainer {
+  margin: 4px;
+}
+
 .contentPane {
   display: flex;
   flex-direction: column;
