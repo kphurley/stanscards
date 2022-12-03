@@ -58,6 +58,12 @@ body {
 
 .draggableCounterContainer {
   position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+.draggableCounterContainer:focus > .draggableCounter {
+  outline: auto;
 }
 
 .draggableCounterCountText {

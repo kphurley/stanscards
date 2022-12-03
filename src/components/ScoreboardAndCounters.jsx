@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 const DraggableCounter = ({ count, id, type, keyHandler }) =>
   <Draggable>
     <div data-token-id={id} tabIndex="-1" className="draggableCounterContainer" onKeyPress={keyHandler}>
-      <img draggable="false" src={`images/icons/${type}Icon.svg`} />
+      <img className="draggableCounter" draggable="false" src={`images/icons/${type}Icon.svg`} />
       { count >= 0 && <div className="draggableCounterCountText">{count}</div> }
     </div>
   </Draggable>
