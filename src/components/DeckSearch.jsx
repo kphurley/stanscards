@@ -1,5 +1,5 @@
 import React from "react";
-import { Modal, Nav, Popover, Whisper } from "rsuite";
+import { Button, Modal, Nav, Popover, Whisper } from "rsuite";
 
 import CardImage from "./CardImage";
 
@@ -51,7 +51,16 @@ const DeckSearch = ({
           )
         }
       </Modal.Body>
-      <Modal.Footer>    
+      <Modal.Footer> 
+        <Button onClick={() => dispatch({ type: "MOVE_ALL_CARDS", payload: { from: activeDeck, to: "villainDeck" }})} appearance="subtle">
+          Shuffle Cards Into Encounter Deck
+        </Button>
+        <Button onClick={() => dispatch({ type: "MOVE_ALL_CARDS", payload: { from: activeDeck, to: "playerDeck" }})} appearance="subtle">
+          Shuffle Cards Into Player Deck
+        </Button>   
+        <Button onClick={handleClose} appearance="primary">
+          Close
+        </Button>
       </Modal.Footer>
     </Modal>
   )
