@@ -48,6 +48,10 @@ function boardStateReducer(state, action) {
   const tokenId = action.payload?.tokenId;
   const tokenType = action.payload?.tokenType;
 
+  let idx, from, to;
+  let updatedFromDeck;
+  let updatedToDeck;
+
   switch (action.type) {
     case "DISCARD_CARD":
       if (action.payload?.cardType === "player") {
@@ -81,12 +85,17 @@ function boardStateReducer(state, action) {
     case "FLIP_HERO":
       return { ...state, hero: { ...state.hero, alterEgo: action.payload }};
     case "MOVE_CARD":
-      const { idx, from, to } = action.payload;
-      const updatedFromDeck = [...state[from]];
+      ({ idx, from, to } = action.payload);
+      updatedFromDeck = [...state[from]];
       const [toMove] = updatedFromDeck.splice(idx, 1);
-      const updatedToDeck = [...state[to], toMove];
+      updatedToDeck = [...state[to], toMove];
 
       return { ...state, [from]: updatedFromDeck, [to]: updatedToDeck };
+    case "MOVE_ALL_CARDS":
+      ({ from, to } = action.payload);
+      updatedToDeck = [...state[to], ...state[from]];
+
+      return { ...state, [from]: [], [to]: updatedToDeck };
     case "PLAYER_DRAW":
       if (state.playerDeck.length === 0) {
         return state;
