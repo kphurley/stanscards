@@ -3,7 +3,7 @@ Ever wanted to play Marvel Champions solo in your browser?  That's what this pro
 It's basically in an alpha state though.  You can and will run into wonky behavior.  I probably
 won't spend too much more time on this as I'm moving onto other things, so feel free to fork
 this and improve it.  If you do make a masterpiece though from my work, throwing me a credit
-(or even a coffee via my patreon) would be rad.
+(or even a coffee via [my patreon](https://www.patreon.com/kphurley)) would be rad.
 
 ## I don't care about all of this tech crap, I just want to play Marvel Champions in my browser
 Live link forthcoming.
@@ -34,7 +34,7 @@ Speaking of tokens:
 Keeping track of hero/villain health:
 Use the provided - and + buttons on the screen
 
-Hopefully that covers it.  The app is a little rough, but it definitely is usable.  
+Hopefully that covers it.  The app is a little rough, but it definitely is usable.  []
 
 ### Any automations for this like in Tabletop Sim?
 Nope, sorry.  I wanted this to feel like I was playing with the real cards.  Plus I don't have the time to maintain this as it is.  Feel free to fork this project and implement that yourself!
