@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="60"
+   viewBox="0 0 26.458333 15.875"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   sodipodi:docname="confusedIcon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.0257464"
+     inkscape:cx="27.458608"
+     inkscape:cy="36.909941"
+     inkscape:window-width="1599"
+     inkscape:window-height="1047"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs2">
+    <rect
+       x="-37.606355"
+       y="-35.6166"
+       width="67.850619"
+       height="17.907788"
+       id="rect6564" />
+    <rect
+       x="13.530329"
+       y="20.892419"
+       width="70.636275"
+       height="17.111886"
+       id="rect6414" />
+    <linearGradient
+       id="linearGradient6034"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#9300ff;stop-opacity:1;"
+         offset="0"
+         id="stop6032" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6034"
+       id="linearGradient6036"
+       x1="0.33207482"
+       y1="7.9758052"
+       x2="26.148652"
+       y2="7.9758052"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#ffb9ff;fill-opacity:1;stroke:url(#linearGradient6036);stroke-width:1.126;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect2240"
+       width="24.690777"
+       height="14.372243"
+       x="0.89497483"
+       y="0.7896837"
+       rx="1"
+       ry="1" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.103944;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6946"
+       width="20.34325"
+       height="5.4971962"
+       x="3.0424154"
+       y="5.0955935"
+       rx="1.0036856"
+       ry="0.67804515" />
+  </g>
+  <text
+     xml:space="preserve"
+     transform="matrix(0.29744948,0,0,0.39079334,14.44949,22.132749)"
+     id="text6562"
+     style="font-size:12px;line-height:0;white-space:pre;shape-inside:url(#rect6564);fill:#ffb9ff;fill-opacity:1;stroke:#000000;stroke-width:0.47622;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"><tspan
+       x="-37.605469"
+       y="-32.169224"
+       id="tspan7061"><tspan
+         style="font-weight:bold;font-family:Arial;-inkscape-font-specification:'Arial Bold'"
+         id="tspan7059">CONFUSED</tspan></tspan></text>
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.426;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="rect7004"
+     width="25.743689"
+     height="15.319864"
+     x="0.36851907"
+     y="0.31587347"
+     rx="1"
+     ry="1" />
+  <rect
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.379813;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+     id="rect7004-6"
+     width="23.7367"
+     height="13.207582"
+     x="1.3720138"
+     y="1.3720145"
+     rx="0.92203957"
+     ry="0.86212146" />
+</svg>
