@@ -44,7 +44,7 @@ const DeckSearch = ({
               >
                 <CardImage
                   setMousedOver={setMousedOverImageSrc}
-                  src={`/images/${card.octgn_id}.jpg`}
+                  src={`./images/${card.octgn_id}.jpg`}
                 />
               </div>
             </Whisper>

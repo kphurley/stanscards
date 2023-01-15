@@ -109,14 +109,14 @@ const App = () => {
                   >
                     <CardImage
                       setMousedOver={setMousedOverImageSrc}
-                      src={`/images/${boardState.villainDiscard[boardState.villainDiscard.length - 1].octgn_id}.jpg`}
+                      src={`./images/${boardState.villainDiscard[boardState.villainDiscard.length - 1].octgn_id}.jpg`}
                     />
                   </div>
                 )
               }
             </div>
             <DrawDeckContainer
-              cardBackImgSrc="/images/marvel-encounter-back.png"
+              cardBackImgSrc="./images/marvel-encounter-back.png"
               containerClassName="villainCardZone villainDraw"
               contextMenu={villainDeckContextMenu}
               dataId="villainDeck"
@@ -139,7 +139,7 @@ const App = () => {
                   >
                     <CardImage
                       setMousedOver={setMousedOverImageSrc}
-                      src={`/images/${boardState.villainCards[boardState.activeVillainStage].octgn_id}.jpg`}
+                      src={`./images/${boardState.villainCards[boardState.activeVillainStage].octgn_id}.jpg`}
                     />
                   </div>
                 )
@@ -161,8 +161,8 @@ const App = () => {
                       setMousedOver={setMousedOverImageSrc}
                       src={
                         boardState.revealed[boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id]
-                        ? `/images/${boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id}.b.jpg`
-                        : `/images/${boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id}.jpg`
+                        ? `./images/${boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id}.b.jpg`
+                        : `./images/${boardState.villainMainSchemes[boardState.activeMainScheme].octgn_id}.jpg`
                       }
                     />
                   </div>
@@ -174,7 +174,7 @@ const App = () => {
 
           <div className="heroRows">
             <DrawDeckContainer
-              cardBackImgSrc="/images/marvel-player-back.png"
+              cardBackImgSrc="./images/marvel-player-back.png"
               containerClassName="playerDeckZone"
               contextMenu={playerDeckContextMenu}
               dataId="playerDeck"
@@ -199,7 +199,7 @@ const App = () => {
                   >
                     <CardImage
                       setMousedOver={setMousedOverImageSrc}
-                      src={`/images/${boardState.playerDiscard[boardState.playerDiscard.length - 1].octgn_id}.jpg`}
+                      src={`./images/${boardState.playerDiscard[boardState.playerDiscard.length - 1].octgn_id}.jpg`}
                     />
                   </div>
                 )
@@ -220,7 +220,7 @@ const App = () => {
                   >
                     <CardImage
                       setMousedOver={setMousedOverImageSrc}
-                      src={`/images/${boardState.hero.card.id}${boardState.hero.alterEgo ? ".b" : ""}.jpg`}
+                      src={`./images/${boardState.hero.card.id}${boardState.hero.alterEgo ? ".b" : ""}.jpg`}
                       style={{ transform: boardState.exhausted[boardState.hero.card.id] ? "rotate(90deg)" : "rotate(0)" }}
                     />
                   </div>
@@ -242,7 +242,7 @@ const App = () => {
                     >
                       <CardImage
                         setMousedOver={setMousedOverImageSrc}
-                        src={`/images/${octgn_id}.jpg`}
+                        src={`./images/${octgn_id}.jpg`}
                         style={{ transform: boardState.exhausted[id] ? "rotate(90deg)" : "rotate(0)" }}
                       />
                     </div>
@@ -263,7 +263,7 @@ const App = () => {
                     >
                       <CardImage
                         setMousedOver={setMousedOverImageSrc}
-                        src={boardState.revealed[id] ? `/images/${octgn_id}.jpg` : "/images/marvel-encounter-back.png"}
+                        src={boardState.revealed[id] ? `./images/${octgn_id}.jpg` : "./images/marvel-encounter-back.png"}
                         style={{ transform: boardState.exhausted[id] ? "rotate(90deg)" : "rotate(0)" }}
                       />
                     </div>
