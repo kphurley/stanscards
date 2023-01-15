@@ -17,7 +17,7 @@ const StartGameModal = ({
     mainSchemeOctgnId = Object.keys(encounterData.villainSets[selectedVillain].mainSchemeCards)[0]
   }
 
-  const mainSchemeImgSrc = selectedVillain && `/images/${mainSchemeOctgnId}.jpg`;
+  const mainSchemeImgSrc = selectedVillain && `./images/${mainSchemeOctgnId}.jpg`;
 
   const mapSetToPickerData = (setCollection) => {
     return Object.keys(setCollection).map((setKey) => {
