@@ -6,7 +6,7 @@ this and improve it.  If you do make a masterpiece though from my work, throwing
 (or even a coffee via [my patreon](https://www.patreon.com/kphurley)) would be rad.
 
 ## I don't care about all of this tech crap, I just want to play Marvel Champions in my browser
-Live link forthcoming.
+[Click here](https://kphurley.github.io/stanscards/)
 
 ### How to play
 First, you need to load decks.  The game recognizes MarvelDB decks exported in OCTGN (.o8d) format, so start there. Then, use the file menu to browse for the .o8d file on your local system and upload it, which will then parse your deck and load it into the app.
