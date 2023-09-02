@@ -17,14 +17,12 @@ A lot of the game can be played just by clicking on stuff and dragging cards aro
 
 There are a few other hotkeys needed to make things work smoothly:
 
-E - "Exhaust" a card, usable on player cards
-F - "Flips" a card - usable on the Hero
-N - Go to the "Next" villain or main scheme card, usable only while the Villain or Main Scheme card is selected
-P - Go to the "Previous" villain card, usable only while the Villain or Main Scheme card is selected
-R - "Reveal" a card - usable only on encounter or Main Scheme cards
-D - "Discard" a card, usable on any in-play card, will go to the discard pile
-  - "Draw" a card, this happens when a face-down deck is selected
-  - "Delete" a token, when it is selected
+- E: "Exhaust" a card, usable on player cards
+- F: "Flips" a card - usable on the Hero
+- N: Go to the "Next" villain or main scheme card, usable only while the Villain or Main Scheme card is selected
+- P: Go to the "Previous" villain card, usable only while the Villain or Main Scheme card is selected
+- R: "Reveal" a card - usable only on encounter or Main Scheme cards
+- D: "Discard" a card, usable on any in-play card, will go to the discard pile, "Draw" a card, this happens when a face-down deck is selected, "Delete" a token, when it is selected
 
 Speaking of tokens:
 
@@ -34,7 +32,7 @@ Speaking of tokens:
 Keeping track of hero/villain health:
 Use the provided - and + buttons on the screen
 
-Hopefully that covers it.  The app is a little rough, but it definitely is usable.  []
+Hopefully that covers it.  The app is a little rough, but it definitely is usable.
 
 ### Any automations for this like in Tabletop Sim?
 Nope, sorry.  I wanted this to feel like I was playing with the real cards.  Plus I don't have the time to maintain this as it is.  Feel free to fork this project and implement that yourself!
